@@ -19,6 +19,8 @@ Define class sessions and structure by breaking down the course into logical mod
 I am creating a 5-module course called "Teaching and Learning with AI" for higher education faculty. Propose a structure with a title and description for each module, progressing from foundations to application and reflection.
 ```
 
+**Sample illustration:** Flowchart or timeline of the 5 modules showing increasing complexity
+
 ## 2.2 Design and Create a Single Class Session (Objectives, Contents, Materials)
 **Task:**
 Design the elements of a session: objectives, contents, and materials.
@@ -72,6 +74,8 @@ Design a 90-minute session for the course "Teaching and Learning with AI". The t
 
 > **Note:** After generating your content from your sources, you can use it to create the slides using Power Point, Gamma.app, Copilot, or Claude.ai.
 
+**Sample illustration:** Class session storyboard: Welcome → Demo → Activity → Discussion → Reflection
+
 ## 3. Create Learning Activities
 
 **Task:**
@@ -81,6 +85,8 @@ Develop participatory activities involving real use of generative AI for teachin
 ```
 You are a faculty developer facilitating an AI training session on teaching and learning with AI. Suggest three active learning activities that help participants understand how generative AI can support the teaching and learning processes. Include instructions and necessary tools.
 ```
+
+**Sample illustration:** Activity icons (e.g., pair-share, AI roleplay, guided prompt lab) linked to learning goals
 
 ## 4. Select and Prepare Learning Materials
 
@@ -94,6 +100,8 @@ Suggest a list of materials and resources to support a session on using generati
 ### Select and Validate Content and Sources
 From all the materials generated in the previous items, identify and validate those that can be used as part of your teaching component. 
 > **Note:** The GenAI models should be used as assistants to support you in the process of planning, designing, and creating your course, but you must ensure everything is accurate and ready to be presented in class.
+
+**Sample illustration:** Visual toolkit of PDFs, URLs, AI screenshots
 
 ## 5. Integrate Discussion and Reflection Elements
 
@@ -109,6 +117,8 @@ Examples of reflective questions:
 Now generate 3 more reflection or discussion questions that promote critical thinking about AI in the classroom.
 ```
 
+**Sample illustration:** Prompt card layout: front = question; back = AI teaching insight
+
 ## 6. Create AI-Powered Class Summary Generator
 
 **Task:**
@@ -119,3 +129,4 @@ Use LLMs to create a prompt to summarize the lesson automatically using AI.
 Write a prompt I can give to an LLM at the end of each class to generate a 1-paragraph summary of key takeaways based on notes or transcripts from a session on [SESSION TOPIC].
 ```
 
+**Sample illustration:** Before/after comparison of raw transcript → polished AI-generated summary
