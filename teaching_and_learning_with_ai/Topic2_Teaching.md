@@ -72,7 +72,7 @@ Based on these, generate a draft of an AI use policy for a course on teaching wi
 ### 1.6 Create the Course Syllabus
 **Task:**
 Based on a pre-specified syllabus format, let the AI model create a syllabus for our course.
-> Note that the prompt below may contain sections that were previously prompted, e.g. Learning Objectives, and AI Use Policies. 
+> Note that the prompt below may contain sections that were previously prompted, e.g. Learning Objectives, and AI Use Policies. You can also attach your previous syllabus or the structure of your desired syllabus and prompt the model to use it as template.
 
 *Instructional Prompt*
 ```
