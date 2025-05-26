@@ -10,6 +10,19 @@
 - Choose educational technologies and AI-enhanced tools  
 - Consider learner profiles and diversity (prior knowledge, needs, access)  
 
+## Hands-on
+
+### Define Course Goals and Learning Outcomes
+**Task:**
+Clarify what learners should be able to know, do, or value by the end of the course.
+
+**Instructional + Role-Based Prompt**
+```
+I am a higher-education teacher designing a course titled "Teaching and Learning with AI". The target audience is higher education faculty and students. Suggest 3–5 clear learning outcomes using Bloom’s taxonomy across different cognitive levels. Focus on skills related to using generative AI for teaching, learning, and assessment.
+```
+
+![Blooms_Taxonomy](./Data/Blooms_Taxonomy.png)
+
 ---
 
 ## 2. Class Design and Development
