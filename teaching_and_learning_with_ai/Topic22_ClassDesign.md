@@ -62,6 +62,10 @@ Use a generative model like Perplexity, NotebookLM, or SciSpace, to analyze some
 *Step 1:* Create a new Space in Perplexity, Notebook in NotebookLM, or Library/Notebook in SciSpace and title it "AI for Assessment and Feedback". <br>
 *Step 2:* Upload your sources of reference (see files below) into the LLM. 
 
+Paper 1: Artificial intelligence for assessment and feedback to enhance student success in higher education (./Data/AIforAssessmentandFeedback.pdf) <br>
+Paper 2: Feedback sources in essay writing: peer-generated or AI-generated feedback? (./Data/Feedbacksourcesinessaywriting.pdf) <br>
+Paper 3: Assessing student perceptions and use of instructor versus AI‐generated feedback (./Data/Assessingstudentperceptions.pdf) <br>
+
 ---
 
 ## 3. Create Active Learning Activities
