@@ -40,6 +40,13 @@ You are an educator teaching a session on AI in education. Generate a real-world
 Leverage academic generative AI tools to present, demonstrate, simulate or interct with course content in diverse formats.
 
 The paper titled _Feedback sources in essay writing: peer-generated or AI-generated feedback?_ investigates the **quality of feedback provided by ChatGPT compared to peer feedback** on graduate students' argumentative essays. The findings revealed that **peer feedback was generally of higher quality**, particularly in identifying specific issues within the essays, while **ChatGPT provided more descriptive feedback**.  The researchers found **no significant overall correlation between essay quality and feedback quality** from either source, suggesting a potential **complementary role for both ChatGPT and peers** in the feedback process, which could help reduce teacher workload.
+[Paper_Feedback_in_Essay_Writing](./Data/Feedbacksourcesinessaywriting.pdf) <br>
+
+### Exploring Possibilities
+*Zero-Shot Prompt*
+```
+List five ways to use generative AI tools for content delivery in a teaching session. Include one example each for text, visual, code, and slide generation.
+```
 
 ### Tool 1: SciSpace
 **Task 1:** Using function **Chat with PDF** upload the paper about feedback in essay writing and start by asking the pre-defined general questions to the paper. Then evolve to some questions you may have around the topic. <br>
@@ -61,13 +68,6 @@ The paper titled _Feedback sources in essay writing: peer-generated or AI-genera
 
 **Task 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. <br>
 [Paper_History_of_AI](./Data/HistoryofAI.pdf) <br>
-
-*Tool 2: NotebookLM (Creating FAQs)*
-
-*Zero-Shot Prompt*
-```
-List five ways to use generative AI tools for content delivery in a teaching session. Include one example each for text, visual, code, and slide generation.
-```
 
 **Sample illustration:** Tool palette showing AI tools mapped to content types (text, image, code, slides).
 
