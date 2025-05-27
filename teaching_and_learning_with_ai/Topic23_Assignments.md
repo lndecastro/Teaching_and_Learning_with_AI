@@ -24,44 +24,39 @@ Based on the following learning outcome from a course on "Teaching and Learning 
 suggest one formative and one summative assessment that align with this outcome.
 ```
 
-### Illustration:
-Split diagram showing formative vs. summative assessments, examples for each.
+**Sample illustration:** Split diagram showing formative vs. summative assessments, examples for each.
 
----
+## 3.2 Create Authentic Tasks (Quizzes, Exams, Case Studies, Real-World Problems, AI-Assisted Projects)
 
-## 🧪 2. Create Authentic Tasks (Quizzes, Exams, Case Studies, Real-World Problems, AI-Assisted Projects)
+**Task:** 
+Design assignments that reflect real-world work or AI-enhanced practices in education.
 
-### 📌 Task:
-Design assignments that reflect real-world faculty work or AI-enhanced practices in education.
-
-### 🧠 Prompt (🔹Role-Based Prompt):
+*Role-Based Prompt*
 ```
-You are an instructional designer creating a real-world, authentic task for a faculty development course on AI. Create an assignment where faculty must design a teaching activity using generative AI and include a rationale for how AI enhances learning.
+You are an instructional designer creating a real-world, authentic task for a faculty up-skill course on the use of GenAI in education. Create an assignment where faculty must design a teaching activity using generative AI and include a rationale for how AI enhances learning.
 ```
 
-### 🧠 Prompt (🔹Zero-Shot Prompt):
+*Zero-Shot Prompt*
 ```
-Give three examples of authentic, real-world assignments for a course on teaching with AI. Include one quiz, one AI-supported case study, and one project-based task.
+Give three examples of authentic, real-world assignments for a course on teaching with AI. Include one quiz with 5 questions, one AI-supported case study, and one project-based task. For all of them, provide correct answers.
 ```
 
-### 🖼 Illustration:
-Infographic showing assignment types with AI-enhancement icons (quiz, case, project).
+**Sample illustration:** Infographic showing assignment types with AI-enhancement icons (quiz, case, project).
 
----
+## 3.3 Create Rubrics to Define Performance Expectations
 
-## 📏 3. Create Rubrics to Define Performance Expectations
-
-### 📌 Task:
+**Task:**
 Use GenAI to draft clear rubrics to ensure transparency and consistency in grading.
 
-### 🧠 Prompt (🔹Instructional Prompt):
+*Instructional Prompt*
 ```
 Create a rubric for the following assignment: 
 "Design a lesson plan that incorporates generative AI tools to enhance student learning." 
-Use three criteria: Pedagogical soundness, Effective AI integration, and Clarity of design.
+Use three criteria: Pedagogical soundness, Effective AI integration, and Clarity of design. For each criteria you must add ratings and points.
+Assume the ratings follow a Likert Scale from 1 (lowest) to 5 (highest), and the total points per assignment is 10.
 ```
 
-### 🧠 Prompt (🔹Few-Shot Prompt):
+*Few-Shot Prompt*
 ```
 Example of rubric criteria for evaluating a faculty AI teaching activity:
 1. Alignment with learning outcomes
@@ -71,29 +66,21 @@ Example of rubric criteria for evaluating a faculty AI teaching activity:
 Now generate a full 3-level rubric (Excellent, Satisfactory, Needs Improvement) based on these.
 ```
 
-### 🖼 Illustration:
-Rubric grid with sample criteria and rating scales.
+**Sample illustration:** Rubric grid with sample criteria and rating scales.
 
----
+## 3.4 Ensure Accessibility and Academic Integrity
 
-## 🔐 4. Ensure Accessibility and Academic Integrity
-
-### 📌 Task:
+**Task:**
 Use GenAI to review or generate assessments with accessibility in mind and minimize integrity issues.
 
-### 🧠 Prompt (🔹Role-Based Prompt):
+*Role-Based Prompt for accessibility*
 ```
 You are an educator designing an inclusive assignment using generative AI. What principles should guide your design to ensure accessibility (e.g., for neurodiverse or multilingual learners)? Include examples of modifications.
 ```
 
-### 🧠 Prompt (🔹Instructional Prompt):
+*Instructional Prompt for integrity*
 ```
 Suggest five ways to promote academic integrity in AI-assisted assignments. For each, include a strategy to monitor or mitigate misuse of generative tools.
 ```
 
-### 🖼 Illustration:
-Checklist diagram with “Accessibility” and “Integrity” columns side-by-side.
-
----
-
-
+**Sample illustration:** Checklist diagram with “Accessibility” and “Integrity” columns side-by-side.
