@@ -4,6 +4,12 @@ _*Enacting the instructional plan with flexibility and engagement*_
 
 This phase focuses on delivering instruction dynamically and responsively while integrating generative AI tools to enhance engagement, learning and personalization.
 
+- Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
+- Use storytelling, examples, demonstrations, and Socratic questioning  
+- Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
+- Monitor engagement and comprehension in real time  
+- Adapt pacing and methods responsively  
+
 ## 4.1 Facilitate Active, Student-Centered Learning
 
 **Task:** 
@@ -32,6 +38,21 @@ You are an educator teaching a session on AI in education. Generate a real-world
 
 **Task:**
 Leverage generative AI tools to present, demonstrate, or simulate course content in diverse formats.
+
+### Tool 1: SciSpace (Creating a narrative out of text - slides)
+Using function "PDF to Video" in SciSpace, upload one of the the slide decks generated in _Topic 2.2 Class Design_ and let SciSpace generate a video presentation of your content. As soon as the video presentation is ready, play it to see what was created.
+
+### Tool 2: NotebookLM
+The paper titled _Feedback sources in essay writing: peer-generated or AI-generated feedback?_ investigates the **quality of feedback provided by ChatGPT compared to peer feedback** on graduate students' argumentative essays. The findings revealed that **peer feedback was generally of higher quality**, particularly in identifying specific issues within the essays, while **ChatGPT provided more descriptive feedback**.  The researchers found **no significant overall correlation between essay quality and feedback quality** from either source, suggesting a potential **complementary role for both ChatGPT and peers** in the feedback process, which could help reduce teacher workload.
+
+**Task 1:** Using button **FAQ** generate a list of questions related with the paper. <br>
+**Task 2:** Using button **Audio Overview** create a podcast out of the paper. After created, use the button **Interactive mode** to join the conversation and ask some of the questions created in **Task 1**. <br>
+**Task 3:** Using button **Mind Map** create a mind map out of the paper. Navigate through the mind map and discuss how it helps to organize and structure the contents of the paper. <br>
+**Task 4:** Using button **Study guide** create some questions and answers related with the subject matter of the paper, and a glossary of terms. <br>
+**Task 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. <br>
+[Paper_History_of_AI](./Data/HistoryofAI.pdf) <br>
+
+*Tool 2: NotebookLM (Creating FAQs)*
 
 *Zero-Shot Prompt*
 ```
