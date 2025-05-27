@@ -8,8 +8,6 @@
 - Integrate discussion and reflect elements 
 - Create AI-Powered Class Summary Generator 
 
-# Hands-on
-
 ## 2.1 Break Down Content Into Modules or Units
 **Task:**
 Define class sessions and structure by breaking down the course into logical modules or class units.
