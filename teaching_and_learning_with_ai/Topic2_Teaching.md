@@ -50,7 +50,8 @@
 - Offer guidance on assignments and study strategies  
 - Monitor Student Success 
 - Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
-- Encourage peer collaboration and support networks  
+- Encourage peer collaboration and support networks
+- Introduce AI Tutors 
 
 ## 6. Assessment and Feedback
 *Measuring learning and guiding improvement*
