@@ -37,10 +37,10 @@ You are an educator teaching a session on AI in education. Generate a real-world
 ## 4.3 Employ Technology and AI Tools for Content Delivery
 
 **Task:**
-Leverage academic generative AI tools to present, demonstrate, simulate or interct with course content in diverse formats.
+Leverage academic generative AI tools to present, demonstrate, simulate or interact with course content in diverse formats.
 
 The paper titled _Feedback sources in essay writing: peer-generated or AI-generated feedback?_ investigates the **quality of feedback provided by ChatGPT compared to peer feedback** on graduate students' argumentative essays. The findings revealed that **peer feedback was generally of higher quality**, particularly in identifying specific issues within the essays, while **ChatGPT provided more descriptive feedback**.  The researchers found **no significant overall correlation between essay quality and feedback quality** from either source, suggesting a potential **complementary role for both ChatGPT and peers** in the feedback process, which could help reduce teacher workload.
-[Paper_Feedback_in_Essay_Writing](./Data/Feedbacksourcesinessaywriting.pdf) <br>
+Download the paper here: [Paper_Feedback_in_Essay_Writing](./Data/Feedbacksourcesinessaywriting.pdf) <br>
 
 ### Exploring Possibilities
 *Zero-Shot Prompt*
@@ -66,34 +66,35 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 
 **Task 4:** Using button **Study guide** create some questions and answers related with the subject matter of the paper, and a glossary of terms. <br>
 
-**Task 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. <br>
+**Task 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. Analyze the timeline created for consistency and have a look at the cast of characters generated. <br>
 [Paper_History_of_AI](./Data/HistoryofAI.pdf) <br>
 
 **Sample illustration:** Tool palette showing AI tools mapped to content types (text, image, code, slides).
 
 ---
 
-## 👀 4. Monitor Engagement and Comprehension in Real Time
+## 4.4 Monitor Engagement and Comprehension in Real Time
 
-### 📌 Task:
+**Task:**
 Track student participation, attention, and understanding with the help of AI tools and quick feedback loops.
 
-### 🧠 Prompt (🔹Chain-of-Thought Prompt):
+*Chain-of-Thought Prompt*
 ```
 How can generative AI assist instructors in monitoring student comprehension during a live class? Describe a step-by-step strategy using real-time tools or AI-supported questioning techniques.
 ```
 
-### 🖼 Illustration:
-Live feedback loop with icons: Teach → Ask AI-generated poll → Visualize → Adapt.
+> In groups discuss which of the strategies you are going to use and why.
+
+**Sample illustration:** Live feedback loop with icons: Teach → Ask AI-generated poll → Visualize → Adapt.
 
 ---
 
-## ⏩ 5. Adapt Pacing and Methods Responsively
+## 4.5 Adapt Pacing and Methods Responsively
 
-### 📌 Task:
+**Task:**
 Use AI feedback and intuition to adjust the delivery in real time or between sessions.
 
-### 🧠 Prompt (🔹Few-Shot Prompt):
+*Few-Shot Prompt*
 ```
 Examples of how instructors adapt teaching pace:
 1. Slowing down to explain misunderstood content
@@ -102,7 +103,6 @@ Examples of how instructors adapt teaching pace:
 Now generate an AI-assisted strategy for adapting pace during a session using generative AI tools or analytics.
 ```
 
-### 🖼 Illustration:
-Flowchart with “Observe → Analyze with AI → Adjust” model for pacing.
+**Sample illustration** Flowchart with “Observe → Analyze with AI → Adjust” model for pacing.
 
 ---
