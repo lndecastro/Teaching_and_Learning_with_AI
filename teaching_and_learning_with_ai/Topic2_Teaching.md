@@ -48,7 +48,7 @@
 
 - Provide office hours and timely responses to inquiries  
 - Offer guidance on assignments and study strategies  
-- Identify struggling students early and intervene  
+- Monitor Student Success 
 - Create a climate of psychological safety and inclusiveness  
 - Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
 - Encourage peer collaboration and support networks  
