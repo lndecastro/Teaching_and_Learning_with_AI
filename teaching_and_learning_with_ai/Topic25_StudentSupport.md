@@ -57,7 +57,7 @@ I want to design a table to collect student information in a course. The goal is
 4. Explain how this score can be used to monitor or support students throughout the course.
 ```
 
-*Instructional Prompt: Guiding the LLM with Your Desired Table*
+*Instructional Prompt: Guiding the LLM with Your Desired Score Matrix*
 ```
 # Prompt to Design a Student Success Score Matrix
 
@@ -128,38 +128,55 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 
 **Sample illustration** Early alert system diagram with AI dashboard and action paths.
 
----
+## 5.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
 
-## 📚 5.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
-
-### 📌 Task:
+**Task:**
 Curate and generate personalized learning resources using GenAI.
 
-### 🧠 Prompt (🔹Instructional Prompt):
+*Instructional Prompt*
 ```
-Create a custom study guide using generative AI for learners struggling with the ethical use of AI in education. Include summaries, definitions, discussion questions, and one quiz.
+Create a custom study guide using generative AI for learners struggling with [the ethical use of AI in education]. Include summaries, definitions, discussion questions, and one quiz.
 ```
 
-### 🖼 Illustration:
-Sample study guide layout with AI-generated components.
+**Sample illustration** Sample study guide layout with AI-generated components.
 
----
+## 5.5 Encourage Peer Collaboration and Support Networks
 
-## 🤗 6. Encourage Peer Collaboration and Support Networks
-
-### 📌 Task:
+**Task:**
 Design AI-assisted prompts and activities that build peer learning environments.
 
-### 🧠 Prompt (🔹Few-Shot Prompt):
+**Task 1: Initiating Collaboration & Group Formation**
+Help students find common ground, form groups, and define initial collaborative tasks.
+
+*Role-Based Prompt*
 ```
-Examples of peer-support strategies:
-1. Weekly study groups
-2. Peer feedback rounds
-
-Now generate an AI-supported version of these strategies that helps form and manage peer groups using generative tools.
+Act as a matchmaker. Given the following student responses about their biggest challenges in [Course Topic] and their areas of interest, suggest 3-5 potential peer learning groups. For each group, briefly explain the common thread that connects them and suggest an initial discussion topic.
+Student 1: [Input: 'Struggles with [Course Topic], interested in [Topic].']
+Student 2: [Input: 'Finds [Course Topic] confusing, good at explaining [Topic].']
+Student 3: [Input: 'Wants to apply [Course Topic] to real-world cases, enjoys problem-solving.']
 ```
 
-### 🖼 Illustration:
-Collaboration map showing peers, prompts, and AI facilitation layers.
+**Task 2: Collaborative Icebreaker & Goal Setting**
+Help students to feel comfortable with one another, the instructor, and the learning environment.
 
----
+*Instructional Prompt*
+```
+Generate an icebreaker activity for a new peer learning group in [Course Name]. The activity should encourage members to share a personal learning goal for the upcoming module and one strength they bring to the group. After the icebreaker, provide 3 guiding questions for them to collaboratively define their group's learning objectives for the week.
+```
+**Task 3: Scenario-Based Team Formation**
+Help students to build teams under a specific context (scenario).
+
+*Instructional Prompt*
+```
+You are designing a collaborative project for [Course Name] focusing on [Specific Topic]. Create 3-4 diverse roles within a team (e.g., 'Researcher,' 'Synthesizer,' 'Presenter,' 'Critique Editor'). For each role, describe the primary responsibilities and the type of skills that would be best suited for it. Then, generate a short 'team charter' template that groups can fill out to define their internal roles and communication norms.
+```
+
+**Task 4: Fostering Support Networks & Reflection**
+Encourage students to offer and seek help, reflect on the benefits of collaboration, and build a sense of community.
+
+*Role-Based Prompt*
+```
+Imagine you are a student struggling with [Specific Skill/Concept]. Write 3 different ways to ask for help from a peer or a peer learning group, varying the level of detail or formality. Ensure the prompts are empathetic and clear about the challenge.
+```
+
+**Sample illustration** Collaboration map showing peers, prompts, and AI facilitation layers.
