@@ -43,7 +43,7 @@ Provide five examples of how generative AI can help faculty learners in a course
 **Task:**
 Use engagement data or AI-generated insights to detect patterns that indicate a need for support.
 
-*Chain-of-Thought Prompt 1: Tasking the LLM with the Table Design*
+*Chain-of-Thought Prompt: Tasking the LLM with the Table Design*
 ```
 I want to design a table to collect student information in a course. The goal is to use the data to calculate a "Student Success Score." 
 
@@ -57,7 +57,7 @@ I want to design a table to collect student information in a course. The goal is
 4. Explain how this score can be used to monitor or support students throughout the course.
 ```
 
-*Chain-of-Thought Prompt 1: Guiding the LLM with Your Desired Table*
+*Instructional Prompt: Guiding the LLM with Your Desired Table*
 ```
 # Prompt to Design a Student Success Score Matrix
 
@@ -103,7 +103,7 @@ Modify weights or add/remove components as needed.]
 - The Success Score should range from 0 to 100, with higher scores indicating greater likelihood of success.
 - Include a brief explanation of how to interpret the score (e.g., “Scores above 80 indicate strong performance, 60-80 suggest moderate success with room for improvement, below 60 indicate a need for intervention”).
 
-## Output Format
+## Output 
 [Generate the final table and equation in a clear format, e.g.:
 **Student Success Score Matrix**
 
@@ -120,28 +120,17 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 - 60-80: Moderate success, room for improvement  
 - Below 60: Needs intervention  
 ]
+
+**Output file and graphs**
+- Save the generated table in an xlsx spreadsheet file.
+- Generate a bar graph for each student with the values in each criteria normalized in the 0-100 interval. The success score bar should have different colors for each of the three interpretations.
 ```
 
 **Sample illustration** Early alert system diagram with AI dashboard and action paths.
 
 ---
 
-## 🛡 4. Create a Climate of Psychological Safety and Inclusiveness
-
-### 📌 Task:
-Use AI to generate language and design interactions that foster trust, inclusivity, and a safe learning environment.
-
-### 🧠 Prompt (🔹Role-Based Prompt):
-```
-You are an inclusive educator designing onboarding materials for a course on AI in teaching. Use generative AI to write a welcoming message and set expectations that promote a climate of respect and curiosity.
-```
-
-### 🖼 Illustration:
-AI-generated inclusive welcome messages annotated with best practices.
-
----
-
-## 📚 5. Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
+## 📚 5.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
 
 ### 📌 Task:
 Curate and generate personalized learning resources using GenAI.
