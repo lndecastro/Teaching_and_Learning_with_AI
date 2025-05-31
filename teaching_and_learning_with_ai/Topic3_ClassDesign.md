@@ -1,12 +1,14 @@
 # 3. Class Design and Development
 *Designing individual class sessions that align with course goals and engage participants with AI-enhanced learning experiences.*
 
+This phase is about structuring the learning experience for clarity, engagement, and progression. It involves breaking down content into modules or units, designing individual class sessions with defined objectives, contents, and materials, creating learning strategies, selecting and preparing learning materials, and integrating discussion and reflection elements. AI can be used here to help design session elements, find relevant scientific literature, generate content from sources, and create learning activities and materials. The following topics will be covered:
+
 - Break down content into modules or units  
 - Design and create each class session (objectives, contents, materials)  
 - Create learning strategies 
 - Select and prepare learning materials 
 - Integrate discussion and reflect elements 
-- Create AI-Powered Class Summary Generator 
+- Create an AI-Powered Class Summary Generator 
 
 ## 3.1 Break Down Content Into Modules or Units
 **Task:**
@@ -117,7 +119,7 @@ Now generate 3 more reflection or discussion questions that promote critical thi
 
 **Sample illustration:** Prompt card layout: front = question; back = AI teaching insight
 
-## 3.6 Create AI-Powered Class Summary Generator
+## 3.6 Create an AI-Powered Class Summary Generator
 
 **Task:**
 Use LLMs to create a prompt to summarize the lesson automatically using AI.
