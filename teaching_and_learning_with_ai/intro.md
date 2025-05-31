@@ -89,3 +89,14 @@ Gamma is an AI-powered content creation platform for building presentations, doc
 ### AI Studio
 Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
 
+### SciSpace
+SciSpace is an AI research assistant tailored for academic reading, comprehension, and exploration of scientific literature. It allows users to upload PDFs of scholarly articles and interact with them through a chat-based interface that explains complex concepts, defines technical terms, and summarizes content section-by-section. SciSpace is particularly strong in STEM fields and integrates citation tracing, question generation, and concept mapping. It is ideal for literature review, paper comprehension, and academic study.
+Access SciSpace here: [https://www.typeset.io]
+
+### CoGrader.com
+CoGrader.com is an AI-powered grading assistant designed to streamline the evaluation of student work, especially in assignments requiring written or rubric-based feedback. Educators can upload student responses along with custom rubrics, and CoGrader generates consistent, criterion-based scores and feedback. It supports batch processing of submissions and exports results in spreadsheet-friendly formats. CoGrader is ideal for scaling assessment in large classes while maintaining feedback quality.
+Access CoGrader here: [https://www.cograder.com]
+
+### EssayGrader.ai
+EssayGrader.ai is an AI tool focused on evaluating academic writing and generating detailed, rubric-aligned feedback. Users can paste essays or upload files, define assessment criteria, and receive structured evaluations across areas such as organization, argument quality, grammar, and originality. EssayGrader.ai aims to support formative feedback and can assist in both summative grading and student revision. It emphasizes clarity, consistency, and transparency in AI-assisted writing assessment.
+Access EssayGrader.ai here: [https://www.essaygrader.ai]
