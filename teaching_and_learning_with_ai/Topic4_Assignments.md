@@ -2,6 +2,8 @@
 # 4. Preparation of Assignments and Exams
 *This phase involves designing AI-assisted assessment strategies that align with learning goals while promoting authenticity, clarity, and integrity*
 
+This phase involves designing AI-assisted assessment strategies that align with learning goals while promoting authenticity, clarity, and integrity. Key tasks include designing formative and summative assessments, creating authentic tasks like case studies or AI-assisted projects, developing clear rubrics to define performance expectations, and ensuring accessibility and academic integrity. AI can assist in differentiating assessment types, designing real-world tasks, and drafting rubrics. The main topics to be covered here are:
+
 - Design formative and summative assessments aligned with the learning outcomes  
 - Create authentic tasks (e.g., Quiz, exams, case studies, real-world problems, AI-assisted projects)
 - Create rubrics to define performance expectations  
