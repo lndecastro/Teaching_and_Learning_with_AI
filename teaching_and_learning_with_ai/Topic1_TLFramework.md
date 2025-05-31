@@ -8,7 +8,7 @@
 
 ![TL_Process_Framework](./Data/TL_Process_Framework.png)
 
-### Pedagogical-Didactic Planning
+### A. Pedagogical-Didactic Planning
 *Strategic and intentional groundwork for teaching*
 
 - Define course goals and learning outcomes  
@@ -18,7 +18,7 @@
 - Align with institutional and ethical guidelines
 - Create the course Syllabus
 
-### Class Design and Development
+### B. Class Design and Development
 *Structuring the learning experience for clarity, engagement, and progression*
 
 - Break down content into modules or units  
@@ -28,7 +28,7 @@
 - Integrate discussion and reflect elements 
 - Create AI-Powered Class Summary Generator
   
-### Preparation of Assignments and Exams
+### C. Preparation of Assignments and Exams
 *Creating opportunities for practice, application, and evaluation*
 
 - Design formative and summative assessments aligned with learning outcomes  
@@ -38,7 +38,7 @@
 - Ensure accessibility and academic integrity  
 - Use AI to draft, refine, or personalize assignments and quizzes  
 
-### Teaching the Classes (Class Delivery)
+### D. Teaching the Classes (Class Delivery)
 *Enacting the instructional plan with flexibility and engagement*
 
 - Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
@@ -47,7 +47,7 @@
 - Monitor engagement and comprehension in real time  
 - Adapt pacing and methods responsively  
 
-### Student Support
+### E. Student Support
 *Promoting academic success and well-being*
 
 - Provide office hours and timely responses to inquiries  
@@ -57,7 +57,7 @@
 - Encourage peer collaboration and support networks
 - Introduce AI Tutors 
 
-### Assessment and Feedback
+### F. Assessment and Feedback
 *Measuring learning and guiding improvement*
 
 - Conduct assessments (projects, exams, portfolios, presentations)  
@@ -66,7 +66,7 @@
 - Incorporate AI for feedback generation, plagiarism detection, or automated grading (as appropriate)  
 - Analyze data to identify learning gaps and misconceptions  
 
-### Reflection and Improvement
+### G. Reflection and Improvement
 *Closing the loop through critical self-analysis and iteration*
 
 - Reflect on teaching effectiveness using student feedback, learning data, and peer observations  
