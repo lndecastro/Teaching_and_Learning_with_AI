@@ -180,3 +180,10 @@ Imagine you are a student struggling with [Specific Skill/Concept]. Write 3 diff
 ```
 
 **Sample illustration** Collaboration map showing peers, prompts, and AI facilitation layers.
+
+## 5.6 Introduce AI Tutors
+
+**Task:**
+Design AI-assisted prompts and activities that build peer learning environments.
+
+
