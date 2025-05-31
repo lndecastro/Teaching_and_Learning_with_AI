@@ -1,10 +1,10 @@
 
-# 5. Student Support  
+# 6. Student Support  
 _Promoting academic success and well-being_
 
 This phase focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention.
 
-## 5.1 Provide Office Hours and Timely Responses to Inquiries
+## 6.1 Provide Office Hours and Timely Responses to Inquiries
 
 **Task:** 
 In addition to your office hours, use generative AI to supplement your availability and provide consistent, supportive responses to common student queries (FAQ).
@@ -26,7 +26,7 @@ Create a *Notebook* with your course material and use button **FAQ** to generate
 
 **Sample illustration** Inbox of AI-generated response examples, labeled by type.
 
-## 5.2 Offer Guidance on Assignments and Study Strategies
+## 6.2 Offer Guidance on Assignments and Study Strategies
 
 **Task**
 Use AI to offer personalized academic coaching or scaffolded support on deliverables.
@@ -38,7 +38,7 @@ Provide five examples of how generative AI can help faculty learners in a course
 
 **Sample illustration** Flowchart: Assignment → AI Feedback → Strategy Suggestion → Revision
 
-## 5.3 Monitor Student Success
+## 6.3 Monitor Student Success
 
 **Task:**
 Use engagement data or AI-generated insights to detect patterns that indicate a need for support.
@@ -129,7 +129,7 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 
 **Sample illustration** Early alert system diagram with AI dashboard and action paths.
 
-## 5.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
+## 6.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
 
 **Task:**
 Curate and generate personalized learning resources using GenAI.
@@ -141,7 +141,7 @@ Create a custom study guide using generative AI for learners struggling with [th
 
 **Sample illustration** Sample study guide layout with AI-generated components.
 
-## 5.5 Encourage Peer Collaboration and Support Networks
+## 6.5 Encourage Peer Collaboration and Support Networks
 
 **Task:**
 Design AI-assisted prompts and activities that build peer learning environments.
@@ -182,7 +182,7 @@ Imagine you are a student struggling with [Specific Skill/Concept]. Write 3 diff
 
 **Sample illustration** Collaboration map showing peers, prompts, and AI facilitation layers.
 
-## 5.6 Introduce AI Tutors
+## 6.6 Introduce AI Tutors
 
 **Task:**
 Explore the use of AI assistants in dynamic, real-world contexts using **Google AI Studio** with the **Stream function** enabled. The focus is on teaching AI to interact with **your environment** through a **background camera** or **screen capture**. This powerful setup brings AI into your personal or digital workspace, enhancing observation, navigation, and learning experience.
