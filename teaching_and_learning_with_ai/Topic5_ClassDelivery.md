@@ -49,24 +49,24 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 ```
 
 ### Tool 1: SciSpace
-**Task 1:** Using function **Chat with PDF** upload the paper about feedback in essay writing and start by asking the pre-defined general questions to the paper. Then evolve to some questions you may have around the topic. <br>
+**Use Case 1:** Using function **Chat with PDF** upload the paper about feedback in essay writing and start by asking the pre-defined general questions to the paper. Then evolve to some questions you may have around the topic. <br>
 
-**Task 2:** Using function "PDF to Video" in SciSpace, upload one of the the slide decks generated in _Topic 2.2 Class Design_ and let SciSpace generate a video presentation of your content. As soon as the video presentation is ready, play it to see what was created. <br> 
+**Use Case 2:** Using function "PDF to Video" in SciSpace, upload one of the the slide decks generated in _Topic 2.2 Class Design_ and let SciSpace generate a video presentation of your content. As soon as the video presentation is ready, play it to see what was created. <br> 
 
-**Task 3:** Now test functions **Find Topics**, **Citation generator**, and **Extract data**.
+**Use Case 3:** Now test functions **Find Topics**, **Citation generator**, and **Extract data**.
 
-**Task 4:** Use function **Paraphraser** to write clear and original content out of the paper under study.
+**Use Case 4:** Use function **Paraphraser** to write clear and original content out of the paper under study.
 
 ### Tool 2: NotebookLM
-**Task 1:** Using button **FAQ** generate a list of questions related with the paper. <br>
+**Use Case 1:** Using button **FAQ** generate a list of questions related with the paper. <br>
 
-**Task 2:** Using button **Audio Overview** create a podcast out of the paper. After created, use the button **Interactive mode** to join the conversation and ask some of the questions created in **Task 1**. <br>
+**Use Case 2:** Using button **Audio Overview** create a podcast out of the paper. After created, use the button **Interactive mode** to join the conversation and ask some of the questions created in **Task 1**. <br>
 
-**Task 3:** Using button **Mind Map** create a mind map out of the paper. Navigate through the mind map and discuss how it helps to organize and structure the contents of the paper. <br>
+**Use Case 3:** Using button **Mind Map** create a mind map out of the paper. Navigate through the mind map and discuss how it helps to organize and structure the contents of the paper. <br>
 
-**Task 4:** Using button **Study guide** create some questions and answers related with the subject matter of the paper, and a glossary of terms. <br>
+**Use Case 4:** Using button **Study guide** create some questions and answers related with the subject matter of the paper, and a glossary of terms. <br>
 
-**Task 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. Analyze the timeline created for consistency and have a look at the cast of characters generated. <br>
+**Use Case 5:** Upload the paper below that summarizes the history of Artificial Intelligence and create a timeline using button **Timeline**. Analyze the timeline created for consistency and have a look at the cast of characters generated. <br>
 [Paper_History_of_AI](./Data/HistoryofAI.pdf) <br>
 
 **Sample illustration:** Tool palette showing AI tools mapped to content types (text, image, code, slides).
