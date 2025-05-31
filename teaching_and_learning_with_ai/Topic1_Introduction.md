@@ -1,4 +1,4 @@
-# 1. Introduction to Teaching and Learning with AI and Prompt Engineering
+# 1. Teaching and Learning Framework and Prompt Engineering
 
 ...
 
