@@ -127,6 +127,8 @@ Highlight teaching strategies that worked well and areas that need improvement.
 
 **Sample illustration:** Summary dashboard: strengths, challenges, and visualized student sentiment.
 
+## Thank you!
+Thank you for your engagement throughout this training. We encourage you to experiment, reflect, and share your insights as you move forward in teaching and learning with AI.
 
 
 
