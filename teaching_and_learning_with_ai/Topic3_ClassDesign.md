@@ -1,4 +1,4 @@
-# 2. Class Design and Development
+# 3. Class Design and Development
 *Designing individual class sessions that align with course goals and engage participants with AI-enhanced learning experiences.*
 
 - Break down content into modules or units  
@@ -8,7 +8,7 @@
 - Integrate discussion and reflect elements 
 - Create AI-Powered Class Summary Generator 
 
-## 2.1 Break Down Content Into Modules or Units
+## 3.1 Break Down Content Into Modules or Units
 **Task:**
 Define class sessions and structure by breaking down the course into logical modules or class units.
 
@@ -19,7 +19,7 @@ I am creating a 5-module course called "Teaching and Learning with AI" for highe
 
 **Sample illustration:** Flowchart or timeline of the 5 modules showing increasing complexity
 
-## 2.2 Design and Create a Single Class Session (Objectives, Contents, Materials)
+## 3.2 Design and Create a Single Class Session (Objectives, Contents, Materials)
 **Task:**
 Design the elements of a session: objectives, contents, and materials.
 
@@ -74,7 +74,7 @@ Design a 90-minute session for the course "Teaching and Learning with AI". The t
 
 **Sample illustration:** Class session storyboard: Welcome → Demo → Activity → Discussion → Reflection
 
-## 3. Create Learning Activities
+## 3.3 Create Learning Activities
 
 **Task:**
 Develop participatory activities involving real use of generative AI for teaching and learning.
@@ -86,7 +86,7 @@ You are a faculty developer facilitating an AI training session on teaching and 
 
 **Sample illustration:** Activity icons (e.g., pair-share, AI roleplay, guided prompt lab) linked to learning goals
 
-## 4. Select and Prepare Learning Materials
+## 3.4 Select and Prepare Learning Materials
 
 ### Search for and Generate New Learning Materials
 
@@ -101,7 +101,7 @@ From all the materials generated in the previous items, identify and validate th
 
 **Sample illustration:** Visual toolkit of PDFs, URLs, AI screenshots
 
-## 5. Integrate Discussion and Reflection Elements
+## 3.5 Integrate Discussion and Reflection Elements
 
 **Task:**
 Encourage dialogue and deeper thinking about AI in education.
@@ -117,7 +117,7 @@ Now generate 3 more reflection or discussion questions that promote critical thi
 
 **Sample illustration:** Prompt card layout: front = question; back = AI teaching insight
 
-## 6. Create AI-Powered Class Summary Generator
+## 3.6 Create AI-Powered Class Summary Generator
 
 **Task:**
 Use LLMs to create a prompt to summarize the lesson automatically using AI.
