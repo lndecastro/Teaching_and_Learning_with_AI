@@ -1,5 +1,5 @@
 
-# 4. Teaching the Class (Class Delivery)  
+# 5. Teaching the Class (Class Delivery)  
 _*Enacting the instructional plan with flexibility and engagement*_
 
 This phase focuses on delivering instruction dynamically and responsively while integrating generative AI tools to enhance engagement, learning and personalization.
@@ -10,7 +10,7 @@ This phase focuses on delivering instruction dynamically and responsively while 
 - Monitor engagement and comprehension in real time  
 - Adapt pacing and methods responsively  
 
-## 4.1 Facilitate Active, Student-Centered Learning
+## 5.1 Facilitate Active, Student-Centered Learning
 
 **Task:** 
 Create interactive learning experiences where students engage through collaboration, problem-solving, and reflection.
@@ -22,7 +22,7 @@ Suggest three active learning strategies that leverage generative AI for a cours
 
 **Sample illustration:** Diagram comparing passive vs. active learning with AI use cases (e.g., “AI as a peer in group discussion”).
 
-## 4.2 Use Storytelling, Examples, Demonstrations, and Socratic Questioning
+## 5.2 Use Storytelling, Examples, Demonstrations, and Socratic Questioning
 
 **Task:**
 Deliver compelling instruction using narrative, examples, and critical questioning with AI support.
@@ -34,7 +34,7 @@ You are an educator teaching a session on AI in education. Generate a real-world
 
 **Sample illustration:** Storyboard of a mini-case and AI-enhanced dialogue with questions.
 
-## 4.3 Employ Technology and AI Tools for Content Delivery
+## 5.3 Employ Technology and AI Tools for Content Delivery
 
 **Task:**
 Leverage academic generative AI tools to present, demonstrate, simulate or interact with course content in diverse formats.
@@ -73,7 +73,7 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 
 ---
 
-## 4.4 Monitor Engagement and Comprehension in Real Time
+## 5.4 Monitor Engagement and Comprehension in Real Time
 
 **Task:**
 Track student participation, attention, and understanding with the help of AI tools and quick feedback loops.
@@ -89,7 +89,7 @@ How can generative AI assist instructors in monitoring student comprehension dur
 
 ---
 
-## 4.5 Adapt Pacing and Methods Responsively
+## 5.5 Adapt Pacing and Methods Responsively
 
 **Task:**
 Use AI feedback and intuition to adjust the delivery in real time or between sessions.
