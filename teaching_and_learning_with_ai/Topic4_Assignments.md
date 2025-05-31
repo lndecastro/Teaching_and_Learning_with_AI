@@ -1,5 +1,5 @@
 
-# 3. Preparation of Assignments and Exams
+# 4. Preparation of Assignments and Exams
 *This phase involves designing AI-assisted assessment strategies that align with learning goals while promoting authenticity, clarity, and integrity*
 
 - Design formative and summative assessments aligned with the learning outcomes  
@@ -7,7 +7,7 @@
 - Create rubrics to define performance expectations  
 - Ensure accessibility and academic integrity  
 
-## 3.1 Design Formative and Summative Assessments Aligned with Learning Outcomes
+## 4.1 Design Formative and Summative Assessments Aligned with Learning Outcomes
 
 **Task:**
 Create assessments that track progress (formative) and evaluate mastery (summative) based on previously defined course outcomes.
@@ -26,7 +26,7 @@ suggest one formative and one summative assessment that align with this outcome.
 
 **Sample illustration:** Split diagram showing formative vs. summative assessments, examples for each.
 
-## 3.2 Create Authentic Tasks (Quizzes, Exams, Case Studies, Real-World Problems, AI-Assisted Projects)
+## 4.2 Create Authentic Tasks (Quizzes, Exams, Case Studies, Real-World Problems, AI-Assisted Projects)
 
 **Task:** 
 Design assignments that reflect real-world work or AI-enhanced practices in education.
@@ -43,7 +43,7 @@ Give three examples of authentic, real-world assignments for a course on teachin
 
 **Sample illustration:** Infographic showing assignment types with AI-enhancement icons (quiz, case, project).
 
-## 3.3 Create Rubrics to Define Performance Expectations
+## 4.3 Create Rubrics to Define Performance Expectations
 
 **Task:**
 Use GenAI to draft clear rubrics to ensure transparency and consistency in grading.
@@ -68,7 +68,7 @@ Now generate a full 3-level rubric (Excellent, Satisfactory, Needs Improvement) 
 
 **Sample illustration:** Rubric grid with sample criteria and rating scales.
 
-## 3.4 Ensure Accessibility and Academic Integrity
+## 4.4 Ensure Accessibility and Academic Integrity
 
 **Task:**
 Use GenAI to review or generate assessments with accessibility in mind and minimize integrity issues.
