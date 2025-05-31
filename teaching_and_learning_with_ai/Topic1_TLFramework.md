@@ -60,11 +60,10 @@
 ### F. Assessment and Feedback
 *Measuring learning and guiding improvement*
 
-- Conduct assessments (projects, exams, portfolios, presentations)  
-- Provide timely, specific, and constructive feedback  
-- Use self- and peer-assessment tools  
-- Incorporate AI for feedback generation, plagiarism detection, or automated grading (as appropriate)  
-- Analyze data to identify learning gaps and misconceptions  
+- Conduct Assessments Using Existing Assignment Types  
+- Generate Rubric-Based, Constructive Feedback  
+- Use AI-Assisted Self- and Peer-Assessment  
+- Use AI for Feedback, Grading, and Originality Verification 
 
 ### G. Reflection and Improvement
 *Closing the loop through critical self-analysis and iteration*
