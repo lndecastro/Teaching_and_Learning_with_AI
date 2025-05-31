@@ -2,7 +2,13 @@
 # 6. Student Support  
 _Promoting academic success and well-being_
 
-This phase focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention.
+This phase focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention. This includes using AI to supplement office hours with FAQs, offering guidance on assignments and study strategies, monitoring student success through data, providing AI-curated resources like study guides, encouraging peer collaboration, and exploring the use of AI tutors. This stage includes:
+
+- Provide Office Hours and Timely Responses to Inquiries
+- Offer Guidance on Assignments and Study Strategies
+- Monitor Student Success
+- Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
+- Encourage Peer Collaboration and Support Networks
 
 ## 6.1 Provide Office Hours and Timely Responses to Inquiries
 
