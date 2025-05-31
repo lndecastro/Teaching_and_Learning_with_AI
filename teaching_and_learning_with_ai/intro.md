@@ -1,6 +1,6 @@
 # Welcome to the "Teaching and Learning with AI" Workshop
 
-....
+This training focuses on integrating generative AI into the teaching and learning process. It covers a comprehensive framework for teaching and learning with AI, moving from strategic planning through delivery, assessment, support, and reflection. A key component is prompt engineering, the practice of crafting effective inputs for AI models. The training emphasizes strategic communication with AI systems to produce accurate, relevant, and useful outputs for educational purposes.
 
 ## 1. About the Instructor and Teaching Assistants
 
@@ -16,30 +16,25 @@ Florida Gulf Coast University
 
 ## 2. What You Will Learn
 
-Participants will explore AI tools across the following domains:
+You will learn how to incorporate AI into various stages of the teaching process, including planning, class design, preparing assignments and exams, class delivery, student support, assessment, and reflection. A significant portion of the training is dedicated to understanding and applying prompt engineering techniques to guide AI models effectively. You will learn about different types of tools, prompts, how to structure them, and how to improve AI outputs through iteration. 
 
-**1. ...**  
-  Learn the fundamentals of prompt engineering, including how to structure effective prompts and how to apply different prompt types to guide AI tools toward more accurate and useful results.
+## 3. Learning Objectives
 
-**2. ...**  
-  Learn how to summarize texts, extract key insights, and generate professional-quality documents using tools like ChatGPT, Claude.ai, and Perplexity AI.
+By the end of this training, participants should be able to:
 
-**3. ...**  
-  Generate high-quality visuals, SmartArt, and concept diagrams from text or bullet lists with tools like ChatGPT-4o, Meta.ai, and Napkin.ai.
+- **Understand the comprehensive framework** for integrating generative AI into the teaching and learning process, recognizing its application across strategic planning, design, delivery, support, assessment, and reflection phases.
+- **Understand the purpose and scope of prompt engineering** as a fundamental skill for effective AI interaction.
+- **Effectively craft and iterate on prompts** for various educational tasks to guide large language models towards producing accurate, relevant, and useful outputs.
+- **Apply different prompt design patterns** (e.g., Instructional, Role-Based, Chain-of-Thought, Zero-Shot, Few-Shot) strategically based on the desired AI output and task complexity.
+- **Leverage generative AI tools and techniques** to assist in pedagogical-didactic planning, including defining learning outcomes, identifying audience and context, selecting pedagogical approaches, choosing educational technologies, aligning with guidelines, and drafting course syllabi.
+- **Design and develop class sessions and course materials** by breaking down content into modules, structuring sessions, finding relevant literature, generating content from sources, and creating learning activities with AI support.
+- **Prepare assignments and exams** by designing formative and summative assessments, creating authentic tasks (quizzes, case studies, projects), developing clear rubrics, and considering accessibility and academic integrity, utilizing AI as an assistant.
+- **Integrate generative AI tools and strategies into class delivery** to facilitate active and student-centered learning, employ various content delivery methods, monitor engagement and comprehension, and adapt instruction responsively.
+- **Enhance student support structures** by using AI to supplement office hours and respond to inquiries, offer guidance on assignments and study strategies, monitor student success, provide AI-curated resources, encourage peer collaboration, and explore the introduction of AI tutors.
+- **Apply AI tools and techniques to assessment and feedback processes**, including conducting assessments with AI support, generating rubric-based constructive feedback, facilitating AI-assisted self- and peer-assessment, and exploring AI for grading and originality verification.
+- **Utilize generative AI for reflection and continuous improvement** of teaching practices, including identifying effective elements, revising materials and strategies, staying engaged with research, sharing experiences, and analyzing student feedback and data.
 
-**4. ...**  
-  Automatically generate engaging, professional slides from existing text or documents using Gamma.app and Microsoft Copilot.
-
-**5. ...**  
-  Streamline your inbox with smart summaries, auto-replies, and personalized responses using AI tools.
-
-**6. ...**  
-  Use tools like Otter.ai and Fireflies.ai to transcribe meetings, extract action items, and share summarized notes with your team.
-
-**7. ...**  
-  Use tools like aistudio.google.com to help you navigate through various tools and environments, working as a personal voice-assistant capable of interacting with the physical and digital worlds.
-
-## 3. Structure and Approach
+## 4. Structure and Approach
 
 Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:
 
@@ -48,9 +43,7 @@ Each session is structured around a short introduction, hands-on activity, and a
 - Share findings and discuss best practices
 - Develop your own AI-enhanced components
 
-At the end of the workshop, participants will complete a final project applying AI tools to a task relevant to their field or organization.
-
-## 4. GenAI Tools to be Studied
+## 5. GenAI Tools to be Studied
 
 ### ChatGPT
 ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
