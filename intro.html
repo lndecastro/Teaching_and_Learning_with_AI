@@ -1,0 +1,666 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to the “Teaching and Learning with AI” Workshop &#8212; Teaching and Learning with AI</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Teaching and Learning Framework and Prompt Engineering" href="Topic1_TLFramework.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="Teaching and Learning with AI - Home"/>
+    <script>document.write(`<img src="_static/dendritic_logo.png" class="logo__image only-dark" alt="Teaching and Learning with AI - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Welcome to the “Teaching and Learning with AI” Workshop
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Topic1_TLFramework.html">Topic 1: Teaching and Learning with AI Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic2_PedagogicalPlanning.html">Topic 2: Pedagogical Planning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic3_ClassDesign.html">Topic 3: Class Design and Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic4_Assignments.html">Topic 4: Preparation of Assignments and Exams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic5_ClassDelivery.html">Topic 5: Teaching the Class (Class Delivery)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic6_StudentSupport.html">Topic 6: Student Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic7_AssessmentFeedback.html">Topic 7: Assessment and Feedback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Topic8_ReflectionImprovement.html">Topic 8: Reflection and Improvement</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/Teaching_and_Learning_with_AI" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/Teaching_and_Learning_with_AI/edit/main/docs/intro.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/intro.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Welcome to the “Teaching and Learning with AI” Workshop</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-and-teaching-assistants">1. About the Instructor and Teaching Assistants</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-learn">2. What You Will Learn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">3. Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-and-approach">4. Structure and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#genai-tools-to-be-studied">5. GenAI Tools to be Studied</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt">ChatGPT</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#claude-ai">Claude.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perplexity">Perplexity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grok">Grok</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-ai">Meta AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot">Copilot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gemini">Gemini</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebooklm">NotebookLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#napkin">Napkin</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma">Gamma</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-studio">AI Studio</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scispace">SciSpace</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cograder-com">CoGrader.com</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#essaygrader-ai">EssayGrader.ai</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-the-teaching-and-learning-with-ai-workshop">
+<h1>Welcome to the “Teaching and Learning with AI” Workshop<a class="headerlink" href="#welcome-to-the-teaching-and-learning-with-ai-workshop" title="Link to this heading">#</a></h1>
+<p>This training focuses on integrating generative AI into the teaching and learning process. It covers a comprehensive framework for teaching and learning with AI, moving from strategic planning through delivery, assessment, support, and reflection. A key component is prompt engineering, the practice of crafting effective inputs for AI models. The training emphasizes strategic communication with AI systems to produce accurate, relevant, and useful outputs for educational purposes.</p>
+<section id="about-the-instructor-and-teaching-assistants">
+<h2>1. About the Instructor and Teaching Assistants<a class="headerlink" href="#about-the-instructor-and-teaching-assistants" title="Link to this heading">#</a></h2>
+<p>Dr. Leandro Nunes de Castro (AI and Data Science Professor &amp; Dendritic Program Director) <br>
+Jeremy Martin (BS Software Engineering) <br>
+John Peller (BS Software Engineering) <br>
+Marcelo Amorim (BS Software Engineering) <br>
+Timothy Meinert (BS Software Engineering)</p>
+<p>Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <br>
+U.A. Whitaker College of Engineering<br>
+Florida Gulf Coast University</p>
+</section>
+<section id="what-you-will-learn">
+<h2>2. What You Will Learn<a class="headerlink" href="#what-you-will-learn" title="Link to this heading">#</a></h2>
+<p>You will learn how to incorporate AI into various stages of the teaching process, including planning, class design, preparing assignments and exams, class delivery, student support, assessment, and reflection. A significant portion of the training is dedicated to understanding and applying prompt engineering techniques to guide AI models effectively. You will learn about different types of tools, prompts, how to structure them, and how to improve AI outputs through iteration.</p>
+<p>A Global Student Survey that includes GenAI: <br>
+<a class="reference external" href="https://claude.ai/public/artifacts/d8a00935-e738-481f-8102-2ee89ec12fa6">https://claude.ai/public/artifacts/d8a00935-e738-481f-8102-2ee89ec12fa6</a></p>
+</section>
+<section id="learning-objectives">
+<h2>3. Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<p>By the end of this training, participants should be able to:</p>
+<ul class="simple">
+<li><p><strong>Understand the comprehensive framework</strong> for integrating generative AI into the teaching and learning process, recognizing its application across strategic planning, design, delivery, support, assessment, and reflection phases.</p></li>
+<li><p><strong>Understand the purpose and scope of prompt engineering</strong> as a fundamental skill for effective AI interaction.</p></li>
+<li><p><strong>Effectively craft and iterate on prompts</strong> for various educational tasks to guide large language models towards producing accurate, relevant, and useful outputs.</p></li>
+<li><p><strong>Apply different prompt design patterns</strong> (e.g., Instructional, Role-Based, Chain-of-Thought, Zero-Shot, Few-Shot) strategically based on the desired AI output and task complexity.</p></li>
+<li><p><strong>Leverage generative AI tools and techniques</strong> to assist in pedagogical-didactic planning, including defining learning outcomes, identifying audience and context, selecting pedagogical approaches, choosing educational technologies, aligning with guidelines, and drafting course syllabi.</p></li>
+<li><p><strong>Design and develop class sessions and course materials</strong> by breaking down content into modules, structuring sessions, finding relevant literature, generating content from sources, and creating learning activities with AI support.</p></li>
+<li><p><strong>Prepare assignments and exams</strong> by designing formative and summative assessments, creating authentic tasks (quizzes, case studies, projects), developing clear rubrics, and considering accessibility and academic integrity, utilizing AI as an assistant.</p></li>
+<li><p><strong>Integrate generative AI tools and strategies into class delivery</strong> to facilitate active and student-centered learning, employ various content delivery methods, monitor engagement and comprehension, and adapt instruction responsively.</p></li>
+<li><p><strong>Enhance student support structures</strong> by using AI to supplement office hours and respond to inquiries, offer guidance on assignments and study strategies, monitor student success, provide AI-curated resources, encourage peer collaboration, and explore the introduction of AI tutors.</p></li>
+<li><p><strong>Apply AI tools and techniques to assessment and feedback processes</strong>, including conducting assessments with AI support, generating rubric-based constructive feedback, facilitating AI-assisted self- and peer-assessment, and exploring AI for grading and originality verification.</p></li>
+<li><p><strong>Utilize generative AI for reflection and continuous improvement</strong> of teaching practices, including identifying effective elements, revising materials and strategies, staying engaged with research, sharing experiences, and analyzing student feedback and data.</p></li>
+</ul>
+</section>
+<section id="structure-and-approach">
+<h2>4. Structure and Approach<a class="headerlink" href="#structure-and-approach" title="Link to this heading">#</a></h2>
+<p>Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:</p>
+<ul class="simple">
+<li><p>Experiment with AI prompts tailored to your professional context</p></li>
+<li><p>Compare outputs across different tools</p></li>
+<li><p>Share findings and discuss best practices</p></li>
+<li><p>Develop your own AI-enhanced components</p></li>
+</ul>
+</section>
+<section id="genai-tools-to-be-studied">
+<h2>5. GenAI Tools to be Studied<a class="headerlink" href="#genai-tools-to-be-studied" title="Link to this heading">#</a></h2>
+<section id="chatgpt">
+<h3>ChatGPT<a class="headerlink" href="#chatgpt" title="Link to this heading">#</a></h3>
+<p>ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
+Access ChatGPT here: [<a class="reference external" href="https://chat.openai.com/">https://chat.openai.com/</a>]</p>
+</section>
+<section id="claude-ai">
+<h3><a class="reference external" href="http://Claude.ai">Claude.ai</a><a class="headerlink" href="#claude-ai" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://Claude.ai">Claude.ai</a> is an AI assistant with strong natural language processing capabilities and expanding tools for data analysis. It supports data uploads and can process data using JavaScript within its Analysis Tool. <a class="reference external" href="http://Claude.ai">Claude.ai</a> can perform complex calculations, data manipulation, and create visualizations through its Analysis Tool and Artifacts feature. It primarily analyzes uploaded data and does not rely on real-time web browsing.
+Access <a class="reference external" href="http://Claude.ai">Claude.ai</a> here: [<a class="reference external" href="https://claude.ai/">https://claude.ai/</a>]</p>
+</section>
+<section id="perplexity">
+<h3>Perplexity<a class="headerlink" href="#perplexity" title="Link to this heading">#</a></h3>
+<p>Perplexity is a research-focused AI platform emphasizing data-driven insights and real-time web search integration. It allows file uploads for analysis and uses coding capabilities within its Deep Research mode to identify patterns, trends, and anomalies. Perplexity integrates web search for broader context and is particularly strong in providing current data and research-backed answers.
+Access Perplexity here: [<a class="reference external" href="https://www.perplexity.ai">https://www.perplexity.ai</a>]</p>
+</section>
+<section id="grok">
+<h3>Grok<a class="headerlink" href="#grok" title="Link to this heading">#</a></h3>
+<p>Grok is a conversational AI developed by Elon Musk’s xAI, designed to provide witty, insightful, and real-time responses. Integrated with X (formerly Twitter), Grok emphasizes reasoning and humor, offering a more personality-driven interaction style. It supports real-time data access and is positioned as a competitor to ChatGPT and Gemini. Access Grok here: [<a class="reference external" href="https://x.ai">https://x.ai</a>]</p>
+</section>
+<section id="meta-ai">
+<h3>Meta AI<a class="headerlink" href="#meta-ai" title="Link to this heading">#</a></h3>
+<p>Meta AI is Meta’s suite of generative AI tools embedded across Facebook, Instagram, WhatsApp, and Messenger. It offers multimodal capabilities including text, image, and video generation, and supports real-time chat, creative content generation, and productivity tasks. Meta AI is powered by the Llama 4 model and is accessible via Meta’s apps and a standalone assistant. Access Meta AI here: [<a class="reference external" href="https://www.meta.ai">https://www.meta.ai</a>]</p>
+</section>
+<section id="copilot">
+<h3>Copilot<a class="headerlink" href="#copilot" title="Link to this heading">#</a></h3>
+<p>Copilot is Microsoft’s AI assistant integrated across tools like Word, Excel, PowerPoint, Outlook, and Teams. It leverages large language models to help users draft content, analyze data, summarize meetings, and automate workflows. In Excel, it can generate formulas, create charts, and explain data trends. In Word and PowerPoint, it assists with writing, editing, and designing presentations. Copilot is deeply embedded in Microsoft 365, enhancing productivity through natural language commands. Access Copilot here: [<a class="reference external" href="https://copilot.microsoft.com">https://copilot.microsoft.com</a>]</p>
+</section>
+<section id="gemini">
+<h3>Gemini<a class="headerlink" href="#gemini" title="Link to this heading">#</a></h3>
+<p>Gemini is Google’s family of multimodal AI models integrated into Google Workspace and available via the Gemini web app. It assists users in drafting, summarizing, brainstorming, analyzing documents, and generating code. Within Docs, Gmail, and Sheets, Gemini enhances productivity by offering smart suggestions, data insights, and content generation. It also supports image understanding and code interpretation through its advanced model versions. Access Gemini here: [<a class="reference external" href="https://gemini.google.com">https://gemini.google.com</a>]</p>
+</section>
+<section id="notebooklm">
+<h3>NotebookLM<a class="headerlink" href="#notebooklm" title="Link to this heading">#</a></h3>
+<p>NotebookLM is a personalized AI research assistant from Google designed to help users work with their own documents. It can summarize large texts, generate FAQs, suggest outlines, timelines, and even podcast scripts. Unlike general-purpose chatbots, NotebookLM focuses on grounded responses based solely on the sources provided by the user, making it ideal for academic, legal, and research-based tasks.
+Access NotebookLM here: [<a class="reference external" href="https://notebooklm.google">https://notebooklm.google</a>]</p>
+</section>
+<section id="napkin">
+<h3>Napkin<a class="headerlink" href="#napkin" title="Link to this heading">#</a></h3>
+<p>Napkin is a visual storytelling AI tool that transforms plain text into professional diagrams, infographics, and flowcharts. It is ideal for business presentations, educational content, and social media visuals. Users can customize visuals with icons, connectors, and themes, and export them in formats like PNG, PDF, and SVG. Access Napkin here: [<a class="reference external" href="https://www.napkin.ai">https://www.napkin.ai</a>]</p>
+</section>
+<section id="gamma">
+<h3>Gamma<a class="headerlink" href="#gamma" title="Link to this heading">#</a></h3>
+<p>Gamma is an AI-powered content creation platform for building presentations, documents, and websites. It uses natural language prompts to generate scrollable, interactive content with modern design. Gamma is ideal for pitch decks, proposals, and educational materials, and supports real-time collaboration and publishing. Access Gamma here: [<a class="reference external" href="https://gamma.app">https://gamma.app</a>]</p>
+</section>
+<section id="ai-studio">
+<h3>AI Studio<a class="headerlink" href="#ai-studio" title="Link to this heading">#</a></h3>
+<p>Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [<a class="reference external" href="https://aistudio.google.com">https://aistudio.google.com</a>]</p>
+</section>
+<section id="scispace">
+<h3>SciSpace<a class="headerlink" href="#scispace" title="Link to this heading">#</a></h3>
+<p>SciSpace is an AI research assistant tailored for academic reading, comprehension, and exploration of scientific literature. It allows users to upload PDFs of scholarly articles and interact with them through a chat-based interface that explains complex concepts, defines technical terms, and summarizes content section-by-section. SciSpace is particularly strong in STEM fields and integrates citation tracing, question generation, and concept mapping. It is ideal for literature review, paper comprehension, and academic study.
+Access SciSpace here: [<a class="reference external" href="https://www.typeset.io">https://www.typeset.io</a>]</p>
+</section>
+<section id="cograder-com">
+<h3><a class="reference external" href="http://CoGrader.com">CoGrader.com</a><a class="headerlink" href="#cograder-com" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://CoGrader.com">CoGrader.com</a> is an AI-powered grading assistant designed to streamline the evaluation of student work, especially in assignments requiring written or rubric-based feedback. Educators can upload student responses along with custom rubrics, and CoGrader generates consistent, criterion-based scores and feedback. It supports batch processing of submissions and exports results in spreadsheet-friendly formats. CoGrader is ideal for scaling assessment in large classes while maintaining feedback quality.
+Access CoGrader here: [<a class="reference external" href="https://www.cograder.com">https://www.cograder.com</a>]</p>
+</section>
+<section id="essaygrader-ai">
+<h3><a class="reference external" href="http://EssayGrader.ai">EssayGrader.ai</a><a class="headerlink" href="#essaygrader-ai" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="http://EssayGrader.ai">EssayGrader.ai</a> is an AI tool focused on evaluating academic writing and generating detailed, rubric-aligned feedback. Users can paste essays or upload files, define assessment criteria, and receive structured evaluations across areas such as organization, argument quality, grammar, and originality. <a class="reference external" href="http://EssayGrader.ai">EssayGrader.ai</a> aims to support formative feedback and can assist in both summative grading and student revision. It emphasizes clarity, consistency, and transparency in AI-assisted writing assessment.
+Access <a class="reference external" href="http://EssayGrader.ai">EssayGrader.ai</a> here: [<a class="reference external" href="https://www.essaygrader.ai">https://www.essaygrader.ai</a>]</p>
+</section>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="Topic1_TLFramework.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">1. Teaching and Learning Framework and Prompt Engineering</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-instructor-and-teaching-assistants">1. About the Instructor and Teaching Assistants</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-you-will-learn">2. What You Will Learn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">3. Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-and-approach">4. Structure and Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#genai-tools-to-be-studied">5. GenAI Tools to be Studied</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt">ChatGPT</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#claude-ai">Claude.ai</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perplexity">Perplexity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grok">Grok</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-ai">Meta AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot">Copilot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gemini">Gemini</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebooklm">NotebookLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#napkin">Napkin</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gamma">Gamma</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-studio">AI Studio</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scispace">SciSpace</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cograder-com">CoGrader.com</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#essaygrader-ai">EssayGrader.ai</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr. Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
