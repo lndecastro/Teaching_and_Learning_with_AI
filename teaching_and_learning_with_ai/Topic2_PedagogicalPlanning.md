@@ -1,4 +1,4 @@
-# 1. Pedagogical-Didactic Planning
+# 2. Pedagogical-Didactic Planning
 *Strategic and intentional groundwork for teaching*
 
 - Define course goals and learning outcomes  
@@ -10,7 +10,7 @@
 
 # Hands-on
 
-## 1.1 Define Course Goals and Learning Outcomes
+## 2.1 Define Course Goals and Learning Outcomes
 **Task:**
 Clarify what learners should be able to know, do, or value by the end of the course.
 
@@ -27,7 +27,7 @@ Teaching and Learning with AI. Create a diagram of Bloom’s Taxonomy pyramid wi
 
 ![Blooms_Taxonomy](./Data/Blooms_Taxonomy.png)
 
-## 1.2 Identify Audience and Context
+## 2.2 Identify Audience and Context
 **Task:**
 Profile the expected learners (background, skills, attitudes) and delivery context (online, in-person, hybrid).
 
@@ -36,7 +36,7 @@ Profile the expected learners (background, skills, attitudes) and delivery conte
 You are an instructional designer creating faculty development programs. Describe the learner profile for a course on "Teaching and Learning with AI" aimed at university instructors from various disciplines. Include background knowledge, teaching experience, tech comfort, and possible challenges.
 ```
 
-## 1.3 Select Pedagogical Approach(es)
+## 2.3 Select Pedagogical Approach(es)
 **Task:**
 Decide how learning will happen: lecture, problem-based learning, flipped classroom, co-creation, etc. Choose teaching methods aligned with learning goals and context.
 
@@ -45,7 +45,7 @@ Decide how learning will happen: lecture, problem-based learning, flipped classr
 Given that the course aims to teach faculty how to use generative AI in teaching and learning, what are three suitable pedagogical models (e.g., flipped classroom, problem-based learning)? For each, explain how it supports the learning goals, and how AI could enhance the model.
 ```
 
-## 1.4 Choose Tools and Technologies
+## 2.4 Choose Tools and Technologies
 **Task:**
 Identify generative AI tools and explain their educational uses.
 
@@ -54,7 +54,7 @@ Identify generative AI tools and explain their educational uses.
 List 5 generative AI tools suitable for a course on teaching with AI. For each tool, describe its main use in teaching or learning, and mention one risk or limitation.
 ```
 
-## 1.5 Align with Institutional and Ethical Guidelines
+## 2.5 Align with Institutional and Ethical Guidelines
 **Task:**
 Draft ethical and policy-aligned foundations for AI use.
 
@@ -70,7 +70,7 @@ Below are examples of AI use policies in education:
 Based on these, generate a draft of an AI use policy for a course on teaching with AI that incorporates transparency, accountability, and fairness. The "AI Use Policies" must contain: an introductory paragraph that explain what is AI and contextualize it for the course; a description of what is acceptable and unacceptable in terms of AI use for the course; citation requirements and procedures; list of prompts used; a summary table of all uses of AI in the course.
 ```
 
-## 1.6 Create the Course Syllabus
+## 2.6 Create the Course Syllabus
 **Task:**
 Based on a pre-specified syllabus format, let the AI model create a syllabus for our course.
 > Note that the prompt below may contain sections that were previously prompted, e.g. Learning Objectives, and AI Use Policies. You can also attach your previous syllabus or the structure of your desired syllabus and prompt the model to use it as template.
