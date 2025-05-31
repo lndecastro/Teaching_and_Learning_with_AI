@@ -8,8 +8,6 @@
 - Align with institutional and ethical guidelines
 - Create the course Syllabus
 
-# Hands-on
-
 ## 2.1 Define Course Goals and Learning Outcomes
 **Task:**
 Clarify what learners should be able to know, do, or value by the end of the course.
