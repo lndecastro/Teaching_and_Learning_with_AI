@@ -18,6 +18,9 @@ Florida Gulf Coast University
 
 You will learn how to incorporate AI into various stages of the teaching process, including planning, class design, preparing assignments and exams, class delivery, student support, assessment, and reflection. A significant portion of the training is dedicated to understanding and applying prompt engineering techniques to guide AI models effectively. You will learn about different types of tools, prompts, how to structure them, and how to improve AI outputs through iteration. 
 
+A Global Student Survey that includes GenAI: <br>
+https://claude.ai/public/artifacts/d8a00935-e738-481f-8102-2ee89ec12fa6
+
 ## 3. Learning Objectives
 
 By the end of this training, participants should be able to:
