@@ -2,7 +2,7 @@
 # 5. Teaching the Class (Class Delivery)  
 _*Enacting the instructional plan with flexibility and engagement*_
 
-This phase focuses on delivering instruction dynamically and responsively while integrating generative AI tools to enhance engagement, learning and personalization.
+This phase is about enacting the instructional plan with flexibility and engagement. It focuses on delivering instruction dynamically and responsively while integrating generative AI tools to enhance engagement, learning, and personalization. Strategies covered include facilitating active, student-centered learning, using storytelling and examples, employing technology and AI tools for content delivery, monitoring engagement and comprehension in real time, and adapting pacing and methods responsively. The topics in this session include:
 
 - Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
 - Use storytelling, examples, demonstrations, and Socratic questioning  
