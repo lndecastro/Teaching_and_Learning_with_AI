@@ -1,10 +1,8 @@
 # 1. Teaching and Learning Framework and Prompt Engineering
 
-...
-
+This introductory section lays the groundwork for integrating AI into education by presenting a comprehensive teaching and learning process framework. It also introduces the fundamental concepts of prompt engineering, explaining what it is, why it matters, and its core components. Understanding this practice of crafting effective inputs for AI is crucial for guiding large language models to produce accurate, relevant, and useful outputs. This section also includes basic exercises to help you deconstruct and compare different prompt types.
 
 ## 1.1 Teaching and Learning Process Framework
-
 
 ![TL_Process_Framework](./Data/TL_Process_Framework.png)
 
