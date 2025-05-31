@@ -2,20 +2,80 @@
 
 ...
 
-## 1.2 Welcome and Workshop Overview
 
-- Brief introduction to the workshop’s purpose and goals
-- Overview of the structure: hands-on, use-case driven, prompt-based learning
-- Icebreaker: "How are you currently using AI?"
+## 1.1 Teaching and Learning Process Framework
 
 
+![TL_Process_Framework](./Data/TL_Process_Framework.png)
 
-## 1.3 What AI Can Do for You
+### Pedagogical-Didactic Planning
+*Strategic and intentional groundwork for teaching*
 
-- Use cases of AI in daily work (writing, summarizing, emailing, analyzing, visualizing, automating)
-- Examples in the context of teaching and learning
+- Define course goals and learning outcomes  
+- Identify audience and context 
+- Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
+- Choose educational technologies and AI-enhanced tools  
+- Align with institutional and ethical guidelines
+- Create the course Syllabus
 
-## 1.4 Prompt Engineering Basics
+### Class Design and Development
+*Structuring the learning experience for clarity, engagement, and progression*
+
+- Break down content into modules or units  
+- Design and create each class session (objectives, contents, materials)  
+- Create learning strategies 
+- Select and prepare learning materials 
+- Integrate discussion and reflect elements 
+- Create AI-Powered Class Summary Generator
+  
+### Preparation of Assignments and Exams
+*Creating opportunities for practice, application, and evaluation*
+
+- Design formative and summative assessments aligned with learning outcomes  
+- Use rubrics to define performance expectations  
+- Create authentic tasks (e.g., case studies, real-world problems, AI-assisted projects)  
+- Balance low- and high-stakes activities  
+- Ensure accessibility and academic integrity  
+- Use AI to draft, refine, or personalize assignments and quizzes  
+
+### Teaching the Classes (Class Delivery)
+*Enacting the instructional plan with flexibility and engagement*
+
+- Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
+- Use storytelling, examples, demonstrations, and Socratic questioning  
+- Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
+- Monitor engagement and comprehension in real time  
+- Adapt pacing and methods responsively  
+
+### Student Support
+*Promoting academic success and well-being*
+
+- Provide office hours and timely responses to inquiries  
+- Offer guidance on assignments and study strategies  
+- Monitor Student Success 
+- Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
+- Encourage peer collaboration and support networks
+- Introduce AI Tutors 
+
+### Assessment and Feedback
+*Measuring learning and guiding improvement*
+
+- Conduct assessments (projects, exams, portfolios, presentations)  
+- Provide timely, specific, and constructive feedback  
+- Use self- and peer-assessment tools  
+- Incorporate AI for feedback generation, plagiarism detection, or automated grading (as appropriate)  
+- Analyze data to identify learning gaps and misconceptions  
+
+### Reflection and Improvement
+*Closing the loop through critical self-analysis and iteration*
+
+- Reflect on teaching effectiveness using student feedback, learning data, and peer observations  
+- Identify what worked, what didn’t, and why  
+- Revise materials, strategies, and assessments for future iterations  
+- Stay engaged with research and innovations in pedagogy and educational technology  
+- Share experiences with colleagues to foster a culture of reflective teaching  
+
+## 1.2 Prompt Engineering Basics
 
 ### Learning Objectives
 - Understand the purpose and scope of prompt engineering.
@@ -202,15 +262,15 @@ Five criteria to judge the effectiveness of a prompt-output pair:
 - Clarify that the model should say **“I don't know”** if unsure.
 - Specify that the answer should be based **only on the uploaded file** or context.
 
-## 1.5 Ethical Considerations
+## 1.3 Ethical Considerations
 
 - Responsible use: data privacy, bias, hallucinations, transparency
 - Examples of misuse and how to avoid them
 - When *not* to use AI or when to rely on human judgment
 
-## 1.6 Wrap-Up Reflection
+## 1.4 Wrap-Up Reflection
 
-- What did you learn about AI tools that surprised you?
+- What did you learn about the teaching and learning framework that surprised you?
 - Which AI tasks are you most comfortable with?
 - What task in your work would you most like to streamline with AI?
 - What did you learn about prompt engineering?
