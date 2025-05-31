@@ -2,7 +2,13 @@
 # 8. Reflection and Improvement  
 _Closing the loop through critical self-analysis and iteration_
 
-This final step consolidates all previous efforts by leveraging generative AI to evaluate, reflect on, and iteratively improve the teaching and learning process. It promotes a mindset of continuous enhancement and shared growth in AI-integrated pedagogy.
+This final leverages generative AI to evaluate, reflect on, and iteratively improve the teaching and learning process. Key activities include identifying what worked and did not work based on data, revising materials and strategies for future iterations, staying engaged with research and innovations in AI pedagogy, sharing experiences with colleagues, and reflecting on teaching effectiveness using feedback and data. The topics covered in this session are:
+
+- Identify What Worked, What Didn’t, and Why
+- Revise Materials, Strategies, and Assessments for Future Iterations
+- Stay Engaged with Research and Innovations
+- Share Experiences to Foster Reflective Practice
+- Reflect on Teaching Effectiveness Using Feedback and Data
 
 ## 8.1 Identify What Worked, What Didn’t, and Why
 
