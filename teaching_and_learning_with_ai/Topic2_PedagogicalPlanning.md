@@ -1,6 +1,8 @@
 # 2. Pedagogical-Didactic Planning
 *Strategic and intentional groundwork for teaching*
 
+This topic focuses on the strategic and intentional groundwork for teaching. It involves defining course goals and learning outcomes, identifying the audience and context, selecting appropriate pedagogical approaches, choosing educational technologies and AI-enhanced tools, aligning with institutional and ethical guidelines, and creating the course syllabus. You will explore how generative AI can assist with tasks like drafting learning outcomes using frameworks such as Bloom's Taxonomy and generating draft policies. The following topics will be covered here:
+
 - Define course goals and learning outcomes  
 - Identify audience and context 
 - Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
