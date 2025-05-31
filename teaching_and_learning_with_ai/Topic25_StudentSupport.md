@@ -7,10 +7,10 @@ This phase focuses on using generative AI to enhance the support structures avai
 ## 5.1 Provide Office Hours and Timely Responses to Inquiries
 
 **Task:** 
-In addition to your office hours, use generative AI to supplement your availability and provide consistent, supportive responses to common student queries.
+In addition to your office hours, use generative AI to supplement your availability and provide consistent, supportive responses to common student queries (FAQ).
 
 ### Tool 1: General LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
-Upload your course material and prompt the LLMs to generate the FAQ.
+Upload your course material and prompt the LLMs to generate an FAQ.
 
 *Instructional Prompt*
 ```
@@ -19,7 +19,7 @@ Ensure each FAQ includes a clear question and a concise, informative answer, and
 ```
 
 ### Tool 2: Perplexity
-Create a *Space* with your course material and prompt the LLMs to generate the FAQ. Use the same *instructional prompt* presented above.
+Create a *Space* with your course material and prompt the LLMs to generate an FAQ. Use the same *instructional prompt* presented above.
 
 ### Tool 3: NotebookLM
 Create a *Notebook* with your course material and use button **FAQ** to generate the FAQ. 
@@ -55,9 +55,10 @@ I want to design a table to collect student information in a course. The goal is
 
 3. Propose a formula to compute a success score from these variables (e.g., weighted average or custom equation).
 4. Explain how this score can be used to monitor or support students throughout the course.
+5. Save this matrix as a table in XLSX, CSV, or Google Spreadsheet format.
 ```
 
-*Instructional Prompt: Guiding the LLM with Your Desired Score Matrix*
+*Instructional Prompt: Guiding the LLM with a Pre-Specified Score Matrix*
 ```
 # Prompt to Design a Student Success Score Matrix
 
@@ -82,7 +83,7 @@ Add or modify data points as needed.]
 Ensure the table includes a column for the Success Score, which will be calculated.]
 
 ## Success Score Equation
-[Define the equation to calculate the Success Score. Here’s an example equation with weights assigned to each data point:
+[Define the equation to calculate the Success Score. Here is an example equation with weights assigned to each data point:
 Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (0.3 * Quiz Average Score) + (0.1 * Normalized Discussion Participation) + (0.1 * Normalized Time Spent on LMS)
 
 - **Weights Explanation**:
@@ -122,7 +123,7 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 ]
 
 **Output file and graphs**
-- Save the generated table in an xlsx spreadsheet file.
+- Save the generated table in an xlsx or csv spreadsheet file.
 - Generate a bar graph for each student with the values in each criteria normalized in the 0-100 interval. The success score bar should have different colors for each of the three interpretations.
 ```
 
@@ -145,7 +146,7 @@ Create a custom study guide using generative AI for learners struggling with [th
 **Task:**
 Design AI-assisted prompts and activities that build peer learning environments.
 
-**Task 1: Initiating Collaboration & Group Formation**
+**Use Case 1: Initiating Collaboration & Group Formation**
 Help students find common ground, form groups, and define initial collaborative tasks.
 
 *Role-Based Prompt*
@@ -156,14 +157,14 @@ Student 2: [Input: 'Finds [Course Topic] confusing, good at explaining [Topic].'
 Student 3: [Input: 'Wants to apply [Course Topic] to real-world cases, enjoys problem-solving.']
 ```
 
-**Task 2: Collaborative Icebreaker & Goal Setting**
+**Use Case 2: Collaborative Icebreaker & Goal Setting**
 Help students to feel comfortable with one another, the instructor, and the learning environment.
 
 *Instructional Prompt*
 ```
 Generate an icebreaker activity for a new peer learning group in [Course Name]. The activity should encourage members to share a personal learning goal for the upcoming module and one strength they bring to the group. After the icebreaker, provide 3 guiding questions for them to collaboratively define their group's learning objectives for the week.
 ```
-**Task 3: Scenario-Based Team Formation**
+**Use Case 3: Scenario-Based Team Formation**
 Help students to build teams under a specific context (scenario).
 
 *Instructional Prompt*
@@ -171,7 +172,7 @@ Help students to build teams under a specific context (scenario).
 You are designing a collaborative project for [Course Name] focusing on [Specific Topic]. Create 3-4 diverse roles within a team (e.g., 'Researcher,' 'Synthesizer,' 'Presenter,' 'Critique Editor'). For each role, describe the primary responsibilities and the type of skills that would be best suited for it. Then, generate a short 'team charter' template that groups can fill out to define their internal roles and communication norms.
 ```
 
-**Task 4: Fostering Support Networks & Reflection**
+**Use Case 4: Fostering Support Networks & Reflection**
 Encourage students to offer and seek help, reflect on the benefits of collaboration, and build a sense of community.
 
 *Role-Based Prompt*
@@ -184,6 +185,54 @@ Imagine you are a student struggling with [Specific Skill/Concept]. Write 3 diff
 ## 5.6 Introduce AI Tutors
 
 **Task:**
-Design AI-assisted prompts and activities that build peer learning environments.
+Explore the use of AI assistants in dynamic, real-world contexts using **Google AI Studio** with the **Stream function** enabled. The focus is on teaching AI to interact with **your environment** through a **background camera** or **screen capture**. This powerful setup brings AI into your personal or digital workspace, enhancing observation, navigation, and learning experience.
+
+### Tools & Setup
+
+- **Platform**: Google AI Studio
+- **Key Feature**: Stream
+- **Capabilities Used**:
+  - Background Camera
+  - Screen Capture
+  - Real-Time AI Interaction
+
+> Ensure the **Stream** function is enabled and permissions for camera and screen sharing are granted.
+
+**Use Case 1:** Interacting with the Physical Environment
+
+*Scenario*: The participant activates their **background camera** and points it toward their environment (e.g., desk, classroom, lab, objects).
+
+*Instructional + Role-Based Interaction (**Voice Prompt**)*
+```
+Observe my environment and describe what you see. Focus on identifying objects and their likely purpose or function. Then suggest one or two ideas for organizing or improving this workspace for productivity.
+```
+
+*Alternative **Voice Prompt** (Educational Context):*
+```
+Act as a tutor. I am pointing my camera at an object. Explain what you are seeing.
+[SELECT THE OBJECT OR CONTEXT]
+```
+
+**What students learn**:
+- How to direct the AI’s visual attention
+- How to formulate prompts to extract meaningful insights from real-time observations
+
+**Use Case 2:** Navigating the Digital Workspace
+
+*Scenario*: The participant shares their **screen** (e.g., browser, application, workspace, spreadsheet), and the AI assistant provides support.
+
+*Chain-of-Thought + Instructional **Voice Prompt***
+```
+Watch my screen as I navigate my email inbox. Help me:
+1. Identify unread messages and group them by priority
+2. Draft responses to the top three messages
+3. Create a task list based on action items in the emails
+```
+
+*Instructional **Voice Prompt***
+```
+I am going to open a website I am unfamiliar with. As I explore, please explain what each section seems to do, and guide me to locate the help center and pricing information.
+```
+
 
 
