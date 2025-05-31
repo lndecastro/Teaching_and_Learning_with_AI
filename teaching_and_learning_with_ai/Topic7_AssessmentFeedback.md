@@ -252,16 +252,3 @@ Cograder.com and EssayGrader.ai are AI tools designed to grade essays and help t
 **Use Case 8:** Using function *AI Detector* input the text or upload the PDF file with the content to be checked for originality.
 
 **Sample illustration:** Infographic of tools and risks (AI grading vs. human review).
-
-## 7.5 Analyze Performance Data for Gaps and Misconceptions
-
-**Task:**
-Use GenAI to analyze results from quizzes, case studies, and projects to surface instructional needs.
-
-### 🧠 Prompt (🔹Chain-of-Thought Prompt):
-```
-Describe a process where you input quiz and project results into a generative AI tool. Ask the tool to identify performance trends and misconceptions across students. Summarize this data to prepare a follow-up review session.
-```
-
-### 🖼 Illustration:
-Dashboard mockup showing: Score trends, AI-identified gaps, Suggested interventions.
