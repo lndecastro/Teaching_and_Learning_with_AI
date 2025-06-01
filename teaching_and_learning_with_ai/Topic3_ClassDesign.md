@@ -60,11 +60,13 @@ AI for assessment and feedback.
 
 ### D. Generating Content from Given External Sources
 **Task:**
-Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze some pre-selected sources of reference and create content from them. Use the papers available below as your source material if needed. <br>
+Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze some pre-selected sources of reference and create content from them. Use the papers available below as your source material if needed or some of the papers you saved from your previous search. <br>
 
 *Step 1:* Create a new Space in Perplexity, Notebook in NotebookLM, or Library/Notebook in SciSpace and title it "AI for Assessment and Feedback". <br>
-*Step 2:* Upload your sources of reference (see files below) into the LLM. 
-*Step 3 - Chain-of-Thought Prompt:*
+*Step 2:* Upload your sources of reference (see files below) into the LLM. <br>
+*Step 3:* Prompt the LLM. <br>
+
+*Chain-of-Thought Prompt:*
 ```
 Design a 90-minute session for the course "Teaching and Learning with AI". The topic is "AI for Assessment and Feedback". Include session objectives, sequence of activities with time estimates, main contents, and how generative AI will be used in the session.
 ```
