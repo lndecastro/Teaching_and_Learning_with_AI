@@ -29,7 +29,7 @@ Word Cloud: [https://www.menti.com/albnhdfn6ovk] or Join at menti.com with code 
 - Create learning strategies 
 - Select and prepare learning materials 
 - Integrate discussion and reflect elements 
-- Create AI-Powered Class Summary 
+- Create AI-Powered Class Summary Generator
   
 ### C. Preparation of Assignments and Exams
 *Creating opportunities for practice, application, and evaluation*
