@@ -1,6 +1,6 @@
 # Welcome to the "Teaching and Learning with AI" Workshop
 
-This training focuses on integrating generative AI into the teaching and learning process. It covers a comprehensive framework for teaching and learning with AI, moving from strategic planning through delivery, assessment, support, and reflection. A key component is prompt engineering, the practice of crafting effective inputs for AI models. The training emphasizes strategic communication with AI systems to produce accurate, relevant, and useful outputs for educational purposes.
+This training focuses on integrating generative AI into the Teaching and Learning (TaL) process. It covers a comprehensive framework for TaL with AI, moving from strategic planning through delivery, assessment, support, and reflection. A key component is prompt engineering, the practice of crafting effective inputs for AI models. The training emphasizes strategic communication with AI systems to produce accurate, relevant, and useful outputs for educational purposes.
 
 ## 1. About the Instructor and Teaching Assistants
 
