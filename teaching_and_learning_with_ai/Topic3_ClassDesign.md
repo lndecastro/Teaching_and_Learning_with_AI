@@ -68,13 +68,13 @@ Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze 
 
 *Chain-of-Thought Prompt:*
 ```
-Design a 90-minute session for the course "Teaching and Learning with AI". The topic is "AI for Assessment and Feedback". Include session objectives, sequence of activities with time estimates, main contents, and how generative AI will be used in the session.
+Using the attached material, design a 90-minute session for the course "Teaching and Learning with AI". The topic is "AI for Assessment and Feedback". Include session objectives, sequence of activities with time estimates, main contents, and how generative AI will be used in the session.
 ```
 [Paper_1:](./Data/AIforAssessmentandFeedback.pdf) Artificial intelligence for assessment and feedback to enhance student success in higher education <br>
 [Paper_2:](./Data/Feedbacksourcesinessaywriting.pdf) Feedback sources in essay writing: peer-generated or AI-generated feedback? <br>
 [Paper_3:](./Data/Assessingstudentperceptions.pdf) Assessing student perceptions and use of instructor versus AI‐generated feedback <br>
 
-> **Note:** After generating your content from your sources, you can use it to create the slides using Power Point, Gamma.app, Copilot, or Claude.ai.
+> **Note:** After generating your content from your sources, you can use it to create the slides using Power Point, Gamma.app, Copilot, Claude.ai, or any other slide creator.
 
 **Sample illustration:** Class session storyboard: Welcome → Demo → Activity → Discussion → Reflection
 
