@@ -16,7 +16,7 @@ Define class sessions and structure by breaking down the course into logical mod
 
 *Instructional Prompt*
 ```
-I am creating a 5-module course called "Teaching and Learning with AI" for higher education faculty. Propose a structure with a title and description for each module, progressing from foundations to application and reflection.
+I am creating a 7-module course called "Teaching and Learning with AI" for higher education faculty. Propose a structure with a title and description for each module, progressing from foundations to application and reflection.
 ```
 
 **Sample illustration:** Flowchart or timeline of the 5 modules showing increasing complexity
