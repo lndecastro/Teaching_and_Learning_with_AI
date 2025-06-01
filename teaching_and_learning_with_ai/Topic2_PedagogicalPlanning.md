@@ -43,7 +43,7 @@ Decide how learning will happen: lecture, problem-based learning, flipped classr
 
 *Chain-of-Thought Prompt*
 ```
-Given that the course aims to teach faculty how to use generative AI in teaching and learning, what are three suitable pedagogical models (e.g., flipped classroom, problem-based learning)? For each, explain how it supports the learning goals, and how AI could enhance the model.
+Given that the course aims to teach faculty how to use generative AI in teaching and learning, what are three most suitable pedagogical models (e.g., flipped classroom, problem-based learning)? For each, explain how it supports the learning goals, and how AI could enhance the model.
 ```
 
 ## 2.4 Choose Tools and Technologies
@@ -68,7 +68,8 @@ Below are examples of AI use policies in education:
 3. AI cannot be used to complete an entire assignment for you.
 4. AI cannot be used to re-word their ideas and present them as your own without giving them credit.
 
-Based on these, generate a draft of an AI use policy for a course on teaching with AI that incorporates transparency, accountability, and fairness. The "AI Use Policies" must contain: an introductory paragraph that explain what is AI and contextualize it for the course; a description of what is acceptable and unacceptable in terms of AI use for the course; citation requirements and procedures; list of prompts used; a summary table of all uses of AI in the course.
+Based on these, generate a draft of an AI use policy for a course on teaching with AI that incorporates transparency, accountability, and fairness.
+The "AI Use Policies" must contain: an introductory paragraph that explain what is AI and contextualize it for the course; a description of what is acceptable and unacceptable in terms of AI use for the course; citation requirements and procedures; list of prompts used; a summary table of all uses of AI in the course.
 ```
 
 ## 2.6 Create the Course Syllabus
@@ -80,7 +81,9 @@ Based on a pre-specified syllabus format, let the AI model create a syllabus for
 ```
 # Syllabus Generator Prompt
 
-Please provide the following details to generate a syllabus for your course. Use the structure and style of the provided example syllabus, including sections for course information, professor information, course description, course program, bibliography, student learning outcomes, instructional method, evaluation and grade assignments, assignments, final exam, attendance policy, student contact information, notes, core syllabus policies, and a tentative weekly schedule. Fill in the placeholders with the relevant information for your course.
+Please provide the following details to generate a syllabus for your course.
+Use the structure and style of the provided example syllabus, including sections for course information, professor information, course description, course program, bibliography, student learning outcomes, instructional method, evaluation and grade assignments, assignments, final exam, attendance policy, student contact information, notes, core syllabus policies, and a tentative weekly schedule.
+Fill in the placeholders with the relevant information for your course.
 
 ## Course Information
 - Course Number: [Enter course number]
