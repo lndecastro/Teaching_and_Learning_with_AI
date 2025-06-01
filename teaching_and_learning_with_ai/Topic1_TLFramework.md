@@ -74,20 +74,20 @@ This introductory section lays the groundwork for integrating AI into education 
 
 ## 1.2 Prompt Engineering Basics
 
-### Learning Objectives
+### A. Learning Objectives
 - Understand the purpose and scope of prompt engineering.
 - Identify the components that make up an effective prompt.
 - Identify and apply different types of prompt design patterns.
 - Compare how prompt structures influence AI outputs.
 - Practice prompt improvement through iteration.
 
-### What is Prompt Engineering?
+### B. What is Prompt Engineering?
 
 Prompt engineering is the practice of crafting effective inputs (prompts) for large language models (LLMs) to produce accurate, relevant, and useful outputs.
 
 Unlike traditional programming, where you write rigid code, prompt engineering is about **communicating naturally** with an AI system — and doing so **strategically**.
 
-### Anatomy of a Prompt
+### C. Anatomy of a Prompt
 
 A good prompt typically includes:
 
@@ -100,13 +100,13 @@ A good prompt typically includes:
 4. **Output Format** (optional): Desired structure or style.
    - _e.g., "Respond in JSON format with sentiment and category."_
 
-### Why Prompt Engineering Matters
+### D. Why Prompt Engineering Matters
 
 - It **boosts model performance** without changing the model itself.
 - It helps tailor responses to specific **tasks and audiences**.
 - It allows you to guide the model toward **more reliable, interpretable results**.
 
-### Example Prompt
+**Example Prompt**
 ```
 You are a scientific editor. Summarize the text below into 3 bullet points for a general audience.
 
@@ -114,7 +114,7 @@ Text:
 Prompt engineering is the practice of crafting effective inputs (prompts) to guide generative AI models like ChatGPT, Claude, or Gemini toward producing accurate, relevant, and useful outputs. It involves understanding how AI interprets language and strategically structuring prompts to achieve specific goals, whether it is summarizing text, generating code, analyzing data, or creating content. Good prompt engineering can significantly enhance the quality of AI responses, making it a critical skill for maximizing productivity and creativity with AI tools.
 ```
 
-### Exercise 1: Deconstruct This Prompt
+**Exercise 1: Deconstruct This Prompt**
 
 Given the prompt below, identify its components:
 ```
@@ -124,33 +124,33 @@ Message:
 I was evicted without notice on June 3rd even though I paid rent until July...
 ```
 
-### Why Prompt Patterns Matter
+### E. Why Prompt Patterns Matter
 
 Prompt patterns are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
 
-### Common Prompt Types
+### F. Common Prompt Types
 
-1. **Instructional Prompts**
+**1. Instructional Prompts**
 Directly ask the model to perform a task, e.g.:
 ```
 "Summarize the following article in three sentences."
 ```
-2. **Role-Based Prompts**
+**2. Role-Based Prompts**
 Assign the model a specific identity or role to guide tone and knowledge.
 ```
 You are a career coach. Give me advice on how to negotiate a salary raise.
 ```
-3. **Chain-of-Thought Prompts**
+**3. Chain-of-Thought Prompts**
 Encourage step-by-step reasoning or breakdown of complex tasks.
 ```
 What is the square root of 144? Explain the steps before giving the answer.
 ```
-4. **Zero-Shot Prompts**
+**4. Zero-Shot Prompts**
 Provide only the instruction and input — no examples.
 ```
 Translate the following sentence into Portuguese: "How are you?"
 ```
-5. **Few-Shot Prompts**
+**5. Few-Shot Prompts**
 Include examples of input/output pairs to guide the model.
 ```
 Translate the following:
@@ -158,7 +158,7 @@ English: Good morning → Portuguese: Bom dia
 English: Thank you → Portuguese: Obrigado
 English: I’m hungry → Portuguese:
 ```
-### Prompt Comparison
+### G. Prompt Comparison
 
 | Pattern           | Use Case                               | Example Role/Task                              |
 |------------------|----------------------------------------|------------------------------------------------|
@@ -168,13 +168,13 @@ English: I’m hungry → Portuguese:
 | Zero-Shot         | Fast and generic tasks                  | “Translate to Spanish…”                       |
 | Few-Shot          | Custom structure or format              | “English → French examples…”                  |
 
-### Exercise 2: Prompt Comparison Activity
+**Exercise 2: Prompt Comparison Activity**
 
 Use the following task and try prompting it in three different styles.
 
 **Task**: Recommend three books for someone interested in artificial intelligence.
 
-### Why Iteration Matters
+### H. Why Iteration Matters
 
 Prompting is often **not a one-shot process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
 
@@ -184,7 +184,7 @@ Iteration helps you:
 - Adjust tone or output format
 - Explore different framing approaches
 
-### The Iterative Prompting Process
+### I. The Iterative Prompting Process
 
 1. **Draft the initial prompt**  
    _Write a basic version of your request._
@@ -198,7 +198,7 @@ Iteration helps you:
 4. **Test again**  
    _Compare outputs, note improvements, and repeat if needed._
 
-### Exercise 3: Prompt Iteration and Debugging Examples
+**Exercise 3: Prompt Iteration and Debugging Examples**
 
 **Poor Prompt:**
 ```
@@ -213,7 +213,7 @@ Explain climate change in simple terms for a high school student, using 3 key po
 Explain climate change in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
 ```
 
-### Exercise 4: Prompt Experiment Classwork
+**Exercise 4: Prompt Experiment Classwork**
 
 ```
 You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
@@ -233,7 +233,7 @@ Step 3 – Prediction:
 Based on findings, advise whether Contoso should continue, adjust, or halt this Discount Band.
 ```
 
-### Tips for Troubleshooting and Improving Prompts
+### J. Tips for Troubleshooting and Improving Prompts
 
 - If output is **too generic**: Add specific instructions or examples.
 - If output **hallucinates**: Ask the model to “only use provided information.”
@@ -242,7 +242,7 @@ Based on findings, advise whether Contoso should continue, adjust, or halt this 
 
 **Hallucination** is when a model confidently outputs incorrect or invented information.
   
-### Assessing Prompt Quality
+### K. Assessing Prompt Quality
 
 Five criteria to judge the effectiveness of a prompt-output pair:
 
@@ -254,7 +254,7 @@ Five criteria to judge the effectiveness of a prompt-output pair:
 | **Factual Accuracy** | Are the claims and data points correct and verifiable?                 |
 | **Format**        | Does the output follow the requested format or style?                      |
 
-**Techniques to Reduce or Identify Hallucinations**
+### L. Techniques to Reduce or Identify Hallucinations
 - Ask the model to **cite its sources** or say "Only use the provided text/file."
 - Clarify that the model should say **“I don't know”** if unsure.
 - Specify that the answer should be based **only on the uploaded file** or context.
