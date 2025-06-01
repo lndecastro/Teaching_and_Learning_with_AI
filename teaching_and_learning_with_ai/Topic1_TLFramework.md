@@ -29,7 +29,7 @@ This introductory section lays the groundwork for integrating AI into education 
 ### C. Preparation of Assignments and Exams
 *Creating opportunities for practice, application, and evaluation*
 
-- Design formative and summative assessments aligned with learning outcomes  
+- Design formative and summative assessments aligned with learning objectives  
 - Use rubrics to define performance expectations  
 - Create authentic tasks (e.g., case studies, real-world problems, AI-assisted projects)  
 - Balance low- and high-stakes activities  
