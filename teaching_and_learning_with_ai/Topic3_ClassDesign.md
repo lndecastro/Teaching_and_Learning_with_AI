@@ -56,7 +56,7 @@ Search the scientific literature for content related with the class subject. Use
 ```
 AI for assessment and feedback.
 ```
-> **Note:** Save some of the papers retrieved as a literature review material.
+> **Note:** The tools generate a brief summary of the topic with academic citations. Save some of the papers retrieved as a literature review material.
 
 ### D. Generating Content from Given External Sources
 **Task:**
