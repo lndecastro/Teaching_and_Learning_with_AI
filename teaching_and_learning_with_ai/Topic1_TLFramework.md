@@ -24,7 +24,7 @@ This introductory section lays the groundwork for integrating AI into education 
 - Create learning strategies 
 - Select and prepare learning materials 
 - Integrate discussion and reflect elements 
-- Create AI-Powered Class Summary Generator
+- Create AI-Powered Class Summary 
   
 ### C. Preparation of Assignments and Exams
 *Creating opportunities for practice, application, and evaluation*
