@@ -88,7 +88,7 @@ Google AI Studio is a development platform for building with Gemini, Google’s 
 
 ### SciSpace
 SciSpace is an AI research assistant tailored for academic reading, comprehension, and exploration of scientific literature. It allows users to upload PDFs of scholarly articles and interact with them through a chat-based interface that explains complex concepts, defines technical terms, and summarizes content section-by-section. SciSpace is particularly strong in STEM fields and integrates citation tracing, question generation, and concept mapping. It is ideal for literature review, paper comprehension, and academic study.
-Access SciSpace here: [https://www.typeset.io]
+Access SciSpace here: [https://scispace.com/]
 
 ### CoGrader.com
 CoGrader.com is an AI-powered grading assistant designed to streamline the evaluation of student work, especially in assignments requiring written or rubric-based feedback. Educators can upload student responses along with custom rubrics, and CoGrader generates consistent, criterion-based scores and feedback. It supports batch processing of submissions and exports results in spreadsheet-friendly formats. CoGrader is ideal for scaling assessment in large classes while maintaining feedback quality.
