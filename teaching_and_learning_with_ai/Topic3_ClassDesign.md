@@ -3,12 +3,12 @@
 
 This phase is about structuring the learning experience for clarity, engagement, and progression. It involves breaking down content into modules or units, designing individual class sessions with defined objectives, contents, and materials, creating learning strategies, selecting and preparing learning materials, and integrating discussion and reflection elements. AI can be used here to help design session elements, find relevant scientific literature, generate content from sources, and create learning activities and materials. The following topics will be covered:
 
-- Break down content into modules or units  
-- Design and create each class session (objectives, contents, materials)  
-- Create learning strategies 
-- Select and prepare learning materials 
-- Integrate discussion and reflect elements 
-- Create an AI-Powered Class Summary Generator 
+1. Break down content into modules or units  
+2. Design and create each class session (objectives, contents, materials)  
+3. Create learning strategies 
+4. Select and prepare learning materials 
+5. Integrate discussion and reflect elements 
+6. Create an AI-Powered Class Summary Generator 
 
 ## 3.1 Break Down Content Into Modules or Units
 **Task:**
