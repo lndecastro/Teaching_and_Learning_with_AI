@@ -3,12 +3,12 @@
 
 This topic focuses on the strategic and intentional groundwork for teaching. It involves defining course goals and learning outcomes, identifying the audience and context, selecting appropriate pedagogical approaches, choosing educational technologies and AI-enhanced tools, aligning with institutional and ethical guidelines, and creating the course syllabus. You will explore how generative AI can assist with tasks like drafting learning outcomes using frameworks such as Bloom's Taxonomy and generating draft policies. The following topics will be covered here:
 
-- Define course goals and learning outcomes  
-- Identify audience and context 
-- Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
-- Choose educational technologies and AI-enhanced tools  
-- Align with institutional and ethical guidelines
-- Create the course Syllabus
+1. Define course goals and learning outcomes  
+2. Identify audience and context 
+3. Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
+4. Choose educational technologies and AI-enhanced tools  
+5. Align with institutional and ethical guidelines
+6. Create the course Syllabus
 
 ## 2.1 Define Course Goals and Learning Outcomes
 **Task:**
