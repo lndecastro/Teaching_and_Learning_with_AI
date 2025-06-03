@@ -111,7 +111,7 @@ From all the materials generated in the previous items, identify and validate th
 ## 3.5 Integrate Discussion and Reflection Elements
 
 **Task:**
-Encourage dialogue and deeper thinking about AI in education.
+Use GenAI to generate discussion questions or reflection points that encourage dialogue and deeper thinking about AI in education.
 
 *Few-Shot Prompt*
 ```
