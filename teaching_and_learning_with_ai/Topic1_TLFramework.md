@@ -220,6 +220,9 @@ Explain climate change in simple terms for a high school student. Use 3 bullet p
 
 **Exercise 4: Prompt Experiment Classwork**
 
+*Microsoft Financial Sample Excel Workbook* <br>
+[Spreadsheet download](./Data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
+
 ```
 You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
 Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’.
