@@ -60,7 +60,7 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 ### Tool 2: NotebookLM
 **Use Case 1:** Using button **FAQ** generate a list of questions related with the paper. <br>
 
-**Use Case 2:** Using button **Audio Overview** create a podcast out of the paper. After created, use the button **Interactive mode** to join the conversation and ask some of the questions created in **Task 1**. <br>
+**Use Case 2:** Using button **Audio Overview** create a podcast out of the paper. After created, use the button **Interactive mode** to join the conversation and ask some of the questions created in **Use Case 1**. <br>
 
 **Use Case 3:** Using button **Mind Map** create a mind map out of the paper. Navigate through the mind map and discuss how it helps to organize and structure the contents of the paper. <br>
 
