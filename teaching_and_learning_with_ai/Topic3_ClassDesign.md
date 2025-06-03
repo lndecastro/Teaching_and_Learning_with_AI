@@ -92,14 +92,17 @@ You are a faculty developer facilitating an AI training session on teaching and 
 
 ## 3.4 Select and Prepare Learning Materials
 
-### Search for and Generate New Learning Materials
+**Task 1:** 
+Use GenAI to search for and generate new learning materials.
 
 *Zero-Shot Prompt*
 ```
 Suggest a list of materials and resources to support a session on using generative AI for teaching, focusing on the topic "AI for Assessment and Feedback". Include at least one reading, one hands-on tool, and one illustrative example of AI-generated content.
 ```
 
-### Select and Validate Content and Sources
+**Task 2:** 
+Select and validate content and sources.
+
 From all the materials generated in the previous items, identify and validate those that can be used as part of your teaching component. 
 > **Note:** The GenAI models should be used as assistants to support you in the process of planning, designing, and creating your course, but you must ensure everything is accurate and ready to be presented in class.
 
