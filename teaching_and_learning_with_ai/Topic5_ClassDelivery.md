@@ -4,11 +4,11 @@ _*Enacting the instructional plan with flexibility and engagement*_
 
 This phase is about enacting the instructional plan with flexibility and engagement. It focuses on delivering instruction dynamically and responsively while integrating generative AI tools to enhance engagement, learning, and personalization. Strategies covered include facilitating active, student-centered learning, using storytelling and examples, employing technology and AI tools for content delivery, monitoring engagement and comprehension in real time, and adapting pacing and methods responsively. The topics in this session include:
 
-- Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
-- Use storytelling, examples, demonstrations, and Socratic questioning  
-- Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
-- Monitor engagement and comprehension in real time  
-- Adapt pacing and methods responsively  
+1. Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
+2. Use storytelling, examples, demonstrations, and Socratic questioning  
+3. Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
+4. Monitor engagement and comprehension in real time  
+5. Adapt pacing and methods responsively  
 
 ## 5.1 Facilitate Active, Student-Centered Learning
 
