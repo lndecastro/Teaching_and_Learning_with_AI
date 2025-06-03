@@ -14,7 +14,18 @@ Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <
 U.A. Whitaker College of Engineering<br>
 Florida Gulf Coast University
 
-## 2. What You Will Learn
+## 2. Disclaimer
+This training is intended to demonstrate the capabilities of generative AI tools in educational contexts. It is not an endorsement of using AI-generated content without human expertise, oversight, or academic judgment, nor is it a prescriptive guide for its use. Faculty remain fully responsible for:
+- Curating and validating instructional content
+- Disclosing when and how AI tools are used
+- Ensuring the ethical, responsible, and context-appropriate integration of AI into teaching and learning
+
+Academic content must always be aligned with the subject matter, learning objectives, institutional context and policies, and professional standards. While AI can assist in content creation and instructional design (AI-assisted), it should not replace the critical role of educators (not AI-driven).
+
+For current FGCU policies on generative AI, please refer to:
+🔗 https://www.fgcu.edu/about/leadership/officeoftheprovost/generative-ai
+
+## 3. What You Will Learn
 
 You will learn how to incorporate AI into various stages of the teaching process, including planning, class design, preparing assignments and exams, class delivery, student support, assessment, and reflection. A significant portion of the training is dedicated to understanding and applying prompt engineering techniques to guide AI models effectively. You will learn about different types of tools, prompts, how to structure them, and how to improve AI outputs through iteration. 
 
@@ -22,15 +33,12 @@ To start this discussion, let us have a look at Chegg's 2025 global student surv
 A Global Student Survey that includes GenAI: <br>
 https://claude.ai/public/artifacts/d8a00935-e738-481f-8102-2ee89ec12fa6
 
-## 3. Learning Objectives
+## 4. Learning Objectives
 
 By the end of this training, participants should be able to:
 
 - **Understand the comprehensive framework** for integrating generative AI into the teaching and learning process, recognizing its application across strategic planning, design, delivery, support, assessment, and reflection phases.
-- **Understand the purpose and scope of prompt engineering** as a fundamental skill for effective AI interaction.
-- **Effectively craft and iterate on prompts** for various educational tasks to guide large language models towards producing accurate, relevant, and useful outputs.
-- **Apply different prompt design patterns** (e.g., Instructional, Role-Based, Chain-of-Thought, Zero-Shot, Few-Shot) strategically based on the desired AI output and task complexity.
-- **Leverage generative AI tools and techniques** to assist in pedagogical-didactic planning, including defining learning outcomes, identifying audience and context, selecting pedagogical approaches, choosing educational technologies, aligning with guidelines, and drafting course syllabi.
+- **Develop and apply effective prompt engineering strategies** to enhance teaching and learning with generative AI, crafting purposeful prompts, selecting appropriate design patterns, and leveraging AI tools to support pedagogical planning, content generation, and instructional decision-making.
 - **Design and develop class sessions and course materials** by breaking down content into modules, structuring sessions, finding relevant literature, generating content from sources, and creating learning activities with AI support.
 - **Prepare assignments and exams** by designing formative and summative assessments, creating authentic tasks (quizzes, case studies, projects), developing clear rubrics, and considering accessibility and academic integrity, utilizing AI as an assistant.
 - **Integrate generative AI tools and strategies into class delivery** to facilitate active and student-centered learning, employ various content delivery methods, monitor engagement and comprehension, and adapt instruction responsively.
@@ -38,7 +46,7 @@ By the end of this training, participants should be able to:
 - **Apply AI tools and techniques to assessment and feedback processes**, including conducting assessments with AI support, generating rubric-based constructive feedback, facilitating AI-assisted self- and peer-assessment, and exploring AI for grading and originality verification.
 - **Utilize generative AI for reflection and continuous improvement** of teaching practices, including identifying effective elements, revising materials and strategies, staying engaged with research, sharing experiences, and analyzing student feedback and data.
 
-## 4. Structure and Approach
+## 5. Structure and Approach
 
 Each session is structured around a short introduction, hands-on activity, and a reflection period. You will be encouraged to:
 
@@ -47,7 +55,7 @@ Each session is structured around a short introduction, hands-on activity, and a
 - Share findings and discuss best practices
 - Develop your own AI-enhanced components
 
-## 5. GenAI Tools to be Studied
+## 6. GenAI Tools to be Studied
 
 ### ChatGPT
 ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
