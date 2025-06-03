@@ -14,68 +14,68 @@ Word Cloud: [https://www.menti.com/albnhdfn6ovk] or Join at menti.com with code 
 ### A. Pedagogical-Didactic Planning
 *Strategic and intentional groundwork for teaching*
 
-- Define course goals and learning outcomes  
-- Identify audience and context 
-- Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
-- Choose educational technologies and AI-enhanced tools  
-- Align with institutional and ethical guidelines
-- Create the course Syllabus
+1. Define course goals and learning outcomes  
+2. Identify audience and context 
+3. Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
+4. Choose educational technologies and AI-enhanced tools  
+5. Align with institutional and ethical guidelines
+6. Create the course Syllabus
 
 ### B. Class Design and Development
 *Structuring the learning experience for clarity, engagement, and progression*
 
-- Break down content into modules or units  
-- Design and create each class session (objectives, contents, materials)  
-- Create learning strategies 
-- Select and prepare learning materials 
-- Integrate discussion and reflect elements 
-- Create AI-Powered Class Summary Generator
+1. Break down content into modules or units  
+2. Design and create each class session (objectives, contents, materials)  
+3. Create learning strategies 
+4. Select and prepare learning materials 
+5. Integrate discussion and reflect elements 
+6. Create AI-Powered Class Summary Generator
   
 ### C. Preparation of Assignments and Exams
 *Creating opportunities for practice, application, and evaluation*
 
-- Design formative and summative assessments aligned with learning objectives  
-- Use rubrics to define performance expectations  
-- Create authentic tasks (e.g., case studies, real-world problems, AI-assisted projects)  
-- Balance low- and high-stakes activities  
-- Ensure accessibility and academic integrity  
-- Use AI to draft, refine, or personalize assignments and quizzes  
+1. Design formative and summative assessments aligned with learning objectives  
+2. Use rubrics to define performance expectations  
+3. Create authentic tasks (e.g., case studies, real-world problems, AI-assisted projects)  
+4. Balance low- and high-stakes activities  
+5. Ensure accessibility and academic integrity  
+6. Use AI to draft, refine, or personalize assignments and quizzes  
 
 ### D. Teaching the Classes (Class Delivery)
 *Enacting the instructional plan with flexibility and engagement*
 
-- Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
-- Use storytelling, examples, demonstrations, and Socratic questioning  
-- Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
-- Monitor engagement and comprehension in real time  
-- Adapt pacing and methods responsively  
+1. Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
+2. Use storytelling, examples, demonstrations, and Socratic questioning  
+3. Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
+4. Monitor engagement and comprehension in real time  
+5. Adapt pacing and methods responsively  
 
 ### E. Student Support
 *Promoting academic success and well-being*
 
-- Provide office hours and timely responses to inquiries  
-- Offer guidance on assignments and study strategies  
-- Monitor Student Success 
-- Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
-- Encourage peer collaboration and support networks
-- Introduce AI Tutors 
+1. Provide office hours and timely responses to inquiries  
+2. Offer guidance on assignments and study strategies  
+3. Monitor Student Success 
+4. Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
+5. Encourage peer collaboration and support networks
+6. Introduce AI Tutors 
 
 ### F. Assessment and Feedback
 *Measuring learning and guiding improvement*
 
-- Conduct Assessments Using Existing Assignment Types  
-- Generate Rubric-Based, Constructive Feedback  
-- Use AI-Assisted Self- and Peer-Assessment  
-- Use AI for Feedback, Grading, and Originality Verification 
+1. Conduct Assessments Using Existing Assignment Types  
+2. Generate Rubric-Based, Constructive Feedback  
+3. Use AI-Assisted Self- and Peer-Assessment  
+4. Use AI for Feedback, Grading, and Originality Verification 
 
 ### G. Reflection and Improvement
 *Closing the loop through critical self-analysis and iteration*
 
-- Reflect on teaching effectiveness using student feedback, learning data, and peer observations  
-- Identify what worked, what didn’t, and why  
-- Revise materials, strategies, and assessments for future iterations  
-- Stay engaged with research and innovations in pedagogy and educational technology  
-- Share experiences with colleagues to foster a culture of reflective teaching  
+1. Reflect on teaching effectiveness using student feedback, learning data, and peer observations  
+2. Identify what worked, what didn’t, and why  
+3. Revise materials, strategies, and assessments for future iterations  
+4. Stay engaged with research and innovations in pedagogy and educational technology  
+5. Share experiences with colleagues to foster a culture of reflective teaching  
 
 ## 1.2 Prompt Engineering Basics
 
