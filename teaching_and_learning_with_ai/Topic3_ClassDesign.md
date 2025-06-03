@@ -50,7 +50,7 @@ Design a 90-minute session for the course "Teaching and Learning with AI". The t
 
 ### C. Finding Current Scientific Literature
 **Task:**
-Search the scientific literature for content related with the class subject. Use **SciSpace.com** menu *Literature Review*, or **Perplexity.ai** menu *Academic* (https://www.perplexity.ai/academic), to perform your search and analyze the content retrieved.
+Search the scientific literature for content related with the class subject. Use **SciSpace.com** menu *Literature Review* (https://scispace.com/search), or **Perplexity.ai** menu *Academic* (https://www.perplexity.ai/academic), to perform your search and analyze the content retrieved.
 
 *Zero-Shot Prompt*
 ```
