@@ -81,7 +81,7 @@ Using the attached material, design a 90-minute session for the course "Teaching
 ## 3.3 Create Learning Activities
 
 **Task:**
-Develop participatory activities involving real use of generative AI for teaching and learning.
+Use GenAI to develop participatory activities involving real use of generative AI for teaching and learning.
 
 *Role-Based Prompt*
 ```
