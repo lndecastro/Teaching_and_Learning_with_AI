@@ -57,18 +57,23 @@ List 5 generative AI tools suitable for a course on teaching with AI. For each t
 
 ## 2.5 Align with Institutional and Ethical Guidelines
 **Task:**
-Draft ethical and policy-aligned foundations for AI use.
+Draft ethical and policy-aligned foundations for AI use by the students. The general FGCU AI use policies are available at the link below: 
+https://www.fgcu.edu/about/leadership/officeoftheprovost/generative-ai
+
+The following files contain the general FGCU policies for GenAI use. Download them and use as the institutional policies for GenAI use. <br>
+[Student_Code_of_Conduct](./Data/Regulation4002_Student_Code_of_Conduct.pdf) <br>
+[General_FGCU_GenAI_Policies](./Data/GenerativeAIandFGCUTeachingandLearning.pdf) <br>
+[Core_Syllabus_Policies_Statements](./Data/CoreSyllabusPolicyStatements.pdf) <br>
 
 *Few-Shot Prompt*
 ```
-Below are examples of AI use policies in education:
+Below are examples of AI use policies for learning:
 
-1. AI may assist with feedback but must be transparent to students.
-2. AI must not be used to generate grades or evaluations without human review.
-3. AI cannot be used to complete an entire assignment for you.
-4. AI cannot be used to re-word their ideas and present them as your own without giving them credit.
+1. Submitting the work of another person or entity as your own is not permitted. “Entity” includes Generative AI tools such as ChatGPT.
+2. Receiving assistance that has not been authorized by the course instructor is not permitted. This includes assistance from Generative AI tools.
+3. Students should not use of sources that go beyond those authorized by the instructor. This includes using Generative AI tools as a source.
 
-Based on these, generate a draft of an AI use policy for a course on teaching with AI that incorporates transparency, accountability, and fairness.
+Based on these and the attached files with the university policies, generate a draft of an AI use policy for a course on [Course Name/Info] that incorporates transparency, accountability, and fairness.
 The "AI Use Policies" must contain: an introductory paragraph that explain what is AI and contextualize it for the course; a description of what is acceptable and unacceptable in terms of AI use for the course; citation requirements and procedures; list of prompts used; a summary table of all uses of AI in the course.
 ```
 
