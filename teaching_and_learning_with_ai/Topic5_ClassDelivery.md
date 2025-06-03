@@ -71,12 +71,10 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 
 **Sample illustration:** Tool palette showing AI tools mapped to content types (text, image, code, slides).
 
----
-
 ## 5.4 Monitor Engagement and Comprehension in Real Time
 
 **Task:**
-Track student participation, attention, and understanding with the help of AI tools and quick feedback loops.
+Use GenAI to find ways to track student participation, attention, and understanding with the help of AI tools and quick feedback loops.
 
 *Chain-of-Thought Prompt*
 ```
