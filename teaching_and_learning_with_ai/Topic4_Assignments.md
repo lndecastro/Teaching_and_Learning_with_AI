@@ -4,10 +4,10 @@
 
 This phase involves designing AI-assisted assessment strategies that align with learning goals while promoting authenticity, clarity, and integrity. Key tasks include designing formative and summative assessments, creating authentic tasks like case studies or AI-assisted projects, developing clear rubrics to define performance expectations, and ensuring accessibility and academic integrity. AI can assist in differentiating assessment types, designing real-world tasks, and drafting rubrics. The main topics to be covered here are:
 
-- Design formative and summative assessments aligned with the learning outcomes  
-- Create authentic tasks (e.g., Quiz, exams, case studies, real-world problems, AI-assisted projects)
-- Create rubrics to define performance expectations  
-- Ensure accessibility and academic integrity  
+1. Design formative and summative assessments aligned with the learning outcomes  
+2. Create authentic tasks (e.g., Quiz, exams, case studies, real-world problems, AI-assisted projects)
+3. Create rubrics to define performance expectations  
+4. Ensure accessibility and academic integrity  
 
 ## 4.1 Design Formative and Summative Assessments Aligned with Learning Outcomes
 
