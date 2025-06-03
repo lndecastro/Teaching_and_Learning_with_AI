@@ -25,7 +25,7 @@ Suggest three active learning strategies that leverage generative AI for a cours
 ## 5.2 Use Storytelling, Examples, Demonstrations, and Socratic Questioning
 
 **Task:**
-Deliver compelling instruction using narrative, examples, and critical questioning with AI support.
+Use GenAI to create open-ended questions that will allow you to deliver compelling instruction using narrative, examples, and critical questioning.
 
 *Role-Based Prompt*
 ```
