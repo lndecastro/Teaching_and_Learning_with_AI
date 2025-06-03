@@ -51,7 +51,7 @@ List five ways to use generative AI tools for content delivery in a teaching ses
 ### Tool 1: SciSpace
 **Use Case 1:** Using function **Chat with PDF** upload the paper about feedback in essay writing and start by asking the pre-defined general questions to the paper. Then evolve to some questions you may have around the topic. <br>
 
-**Use Case 2:** Using function "PDF to Video" in SciSpace, upload one of the the slide decks generated in _Topic 2.2 Class Design_ and let SciSpace generate a video presentation of your content. As soon as the video presentation is ready, play it to see what was created. <br> 
+**Use Case 2:** Using function **PDF to Video** in SciSpace, upload one of the the slide decks generated in _Topic 2.2 Class Design_ and let SciSpace generate a video presentation of your content. As soon as the video presentation is ready, play it to see what was created. <br> 
 
 **Use Case 3:** Now test functions **Find Topics**, **Citation generator**, and **Extract data**.
 
