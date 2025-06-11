@@ -2,14 +2,9 @@
 
 This training focuses on integrating generative AI into the Teaching and Learning (TaL) process. It covers a comprehensive framework for TaL with AI, moving from strategic planning through delivery, assessment, support, and reflection. A key component is prompt engineering, the practice of crafting effective inputs for AI models. The training emphasizes strategic communication with AI systems to produce accurate, relevant, and useful outputs for educational purposes.
 
-## 1. About the Instructor and Teaching Assistants
+## 1. About the Instructor
 
 Dr. Leandro Nunes de Castro (AI and Data Science Professor & Dendritic Program Director) <br>
-Jeremy Martin (BS Software Engineering) <br>
-John Peller (BS Software Engineering) <br>
-Marcelo Amorim (BS Software Engineering) <br>
-Timothy Meinert (BS Software Engineering)
-
 Dendritic: A Human-Centered Artificial Intelligence and Data Science Institute <br>
 U.A. Whitaker College of Engineering<br>
 Florida Gulf Coast University
