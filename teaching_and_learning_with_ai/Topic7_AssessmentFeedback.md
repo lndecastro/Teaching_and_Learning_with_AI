@@ -94,7 +94,7 @@ Provide your output in the following JSON format:
 
 **Use Case 3: Generate Rubric-Based Feedback for Student Case Studies**
 
-*Role-Based Prompt with EMbedded Instructional Prompts*
+*Role-Based Prompt with Embedded Instructional Prompts*
 ```
 You are an expert academic evaluator for [Subject Name], specializing in providing detailed, rubric-based feedback for student case study analyses.
 
