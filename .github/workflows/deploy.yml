@@ -3,7 +3,7 @@ name: Deploy Jupyter Book to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change if your default branch is different
+      - main
 
 jobs:
   build-deploy:
@@ -21,12 +21,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install jupyter-book ghp-import
+          pip install -r requirements.txt
+
+      - name: Clean previous Book builds
+        run: jupyter-book clean TaLwAI --all || true
 
       - name: Build Jupyter Book
-        run: |
-          jupyter-book build teaching_and_learning_with_ai
+        run: jupyter-book build TaLwAI
 
       - name: Deploy to GitHub Pages
-        run: |
-          ghp-import -n -p -f teaching_and_learning_with_ai/_build/html
+        run: ghp-import -n -p -f TaLwAI/_build/html
