@@ -1,81 +1,242 @@
-# 1. Teaching and Learning Framework and Prompt Engineering
+# 1. The Teaching with AI Framework
 
-This introductory section lays the groundwork for integrating AI into education by presenting a comprehensive teaching and learning process framework. It also introduces the fundamental concepts of prompt engineering, explaining what it is, why it matters, and its core components. Understanding this practice of crafting effective inputs for AI is crucial for guiding large language models to produce accurate, relevant, and useful outputs. This section also includes basic exercises to help you deconstruct and compare different prompt types.
+The **Teaching with AI Framework** provides a structured, operational view of how generative AI can be integrated into each phase of the teaching process. Rather than altering pedagogy, it highlights where AI can add efficiency, creativity, and support across planning, design, delivery, assessment, student support, and reflection.
 
-## The "AI Confession Booth"
+This module provides the foundation for the **instrumental** use of Generative AI (GenAI) across the **entire teaching workflow**.  
+It is built upon the background knowledge from the **AI Literacy Program** (Prompt Engineering, Context Engineering, and Foundational Models).  
 
-What’s the most surprising or creative way you have used AI in education or daily life? Connect words with underline*.
-Word Cloud: [https://www.menti.com/albnhdfn6ovk] or Join at menti.com with code 11193453
+Unlike pedagogical programs, this module focuses **not** on pedagogy or teaching theory, but on **how to operationally integrate GenAI tools** to plan, design, deliver, assess, support, and improve your course.
 
-## 1.1 Teaching and Learning Process Framework
+## Learning Objectives
+
+After completing this module, you will be able to:
+
+- Understand the **AI-Enhanced Teaching Workflow**, a practical framework for integrating GenAI throughout the instructional cycle.
+- Explain how AI tools support planning, design, delivery, assessment, student support, and reflection.
+- Create your **AI Workspace** using ChatGPT Projects, Claude Projects, Perplexity Spaces, or Gemini/NotebookLM equivalents.
+- Build your **AI Personalized Assistant** to serve as a course tutor or helper for your students.
+- Understand how foundational models and multimodal LLMs (ChatGPT, Claude, Gemini, Perplexity, etc.) shape what is possible in teaching.
+- Recognize where prompt engineering and context engineering (from AI Literacy) apply inside the teaching workflow.
+- Begin developing persistent GenAI tools that will grow with you throughout the program.
+
+## 1.1 The AI-Enhanced Teaching Process Framework
+
+*A practical, instrumental workflow for instructors*
+
+This framework structures classical phases of teaching into seven parts as **AI‑supported processes**, emphasizing the *operational* integration of GenAI at each step.
 
 ![TL_Process_Framework](./Data/TL_Process_Framework.png)
 
-### A. Pedagogical-Didactic Planning
+### A. AI‑Supported Teaching Planning
 *Strategic and intentional groundwork for teaching*
 
-1. Define course goals and learning outcomes  
-2. Identify audience and context 
-3. Select pedagogical approaches (e.g., active learning, inquiry-based, project-based)  
-4. Choose educational technologies and AI-enhanced tools  
-5. Align with institutional and ethical guidelines
-6. Create the course Syllabus
+1. Generate and refine course goals & learning outcomes  
+2. Analyze audience and course context using AI diagnostic prompts  
+3. Build syllabi drafts, calendars, and course structure templates  
+4. Identify instructional technologies and AI tools to support delivery  
+5. Align with institutional AI policies and responsible use guidelines  
+6. Produce syllabus variants (student-friendly, accessibility, condensed versions)
 
-### B. Class Design and Development
-*Structuring the learning experience for clarity, engagement, and progression*
+### B. AI-Assisted Class Design & Development
+*Operational creation of course materials*
 
-1. Break down content into modules or units  
-2. Design and create each class session (objectives, contents, materials)  
-3. Create learning strategies 
-4. Select and prepare learning materials 
-5. Integrate discussion and reflect elements 
-6. Create AI-Powered Class Summary Generator
-  
-### C. Preparation of Assignments and Exams
-*Creating opportunities for practice, application, and evaluation*
+1. Break content into modules and sessions using structured prompts  
+2. Generate outlines, objectives, slide decks, reading lists, datasets  
+3. Produce examples, cases, analogies, scenarios, and problem sets  
+4. Transform raw documents into polished class materials  
+5. Create quick AI-powered summaries and microcontent  
+6. Build a **Class Summary Generator** using AI templates
 
-1. Design formative and summative assessments aligned with learning objectives  
-2. Use rubrics to define performance expectations  
-3. Create authentic tasks (e.g., case studies, real-world problems, AI-assisted projects)  
-4. Balance low- and high-stakes activities  
-5. Ensure accessibility and academic integrity  
-6. Use AI to draft, refine, or personalize assignments and quizzes  
+### C. AI‑Enhanced Assignment & Exam Preparation  
+*Designing assessments with GenAI tools*
 
-### D. Teaching the Classes (Class Delivery)
-*Enacting the instructional plan with flexibility and engagement*
+1. Draft formative and summative assessments  
+2. Generate rubrics with performance descriptors  
+3. Produce authentic tasks (case studies, simulations, multi-step projects)  
+4. Use AI to differentiate difficulty levels  
+5. Ensure accessibility, academic integrity, and alignment  
+6. Generate quizzes, item banks, and alternative versions
 
-1. Facilitate active, student-centered learning (e.g., discussion, problem-solving)  
-2. Use storytelling, examples, demonstrations, and Socratic questioning  
-3. Employ tech and AI tools for content delivery (e.g., ChatGPT, simulations, visualizations)  
-4. Monitor engagement and comprehension in real time  
-5. Adapt pacing and methods responsively  
+### D. AI‑Enabled Class Delivery  
+*Supporting real-time instruction*
 
-### E. Student Support
-*Promoting academic success and well-being*
+1. Use AI to prepare demonstrations or simulations  
+2. Generate alternative explanations on-the-fly  
+3. Use AI as a co-presenter during live sessions (e.g., Q&A enhancer, podcasts)  
+4. Monitor engagement and comprehension through AI-created checks  
+5. Adjust pacing and scaffolding dynamically via AI suggestions
 
-1. Provide office hours and timely responses to inquiries  
-2. Offer guidance on assignments and study strategies  
-3. Monitor Student Success 
-4. Provide AI-curated resources (e.g., study guides, tutoring suggestions)  
-5. Encourage peer collaboration and support networks
-6. Introduce AI Tutors 
+### E. AI‑Powered Student Support  
+*Expanding availability and personalization*
 
-### F. Assessment and Feedback
-*Measuring learning and guiding improvement*
+1. Provide study guidance and assignment hints via AI tutors  
+2. Offer extended office-hour support using your Personalized Assistant  
+3. Generate AI-curated resources and reading pathways  
+4. Support early alerts and success monitoring  
+5. Promote peer collaboration supported by AI tools
 
-1. Conduct Assessments Using Existing Assignment Types  
-2. Generate Rubric-Based, Constructive Feedback  
-3. Use AI-Assisted Self- and Peer-Assessment  
-4. Use AI for Feedback, Grading, and Originality Verification 
+### F. AI in Assessment & Feedback  
+*Enhancing grading and review workflows*
 
-### G. Reflection and Improvement
+1. Automate feedback using rubric-based templates  
+2. Use AI graders (e.g., CoGrader, EssayGrader) as secondary reviewers  
+3. Facilitate AI-assisted self- and peer‑assessment  
+4. Conduct originality checks and reasoning consistency checks  
+5. Improve feedback quality using structured, multi-step AI prompts
+
+### G. AI‑Supported Reflection & Continuous Improvement
 *Closing the loop through critical self-analysis and iteration*
 
-1. Reflect on teaching effectiveness using student feedback, learning data, and peer observations  
-2. Identify what worked, what didn’t, and why  
-3. Revise materials, strategies, and assessments for future iterations  
-4. Stay engaged with research and innovations in pedagogy and educational technology  
-5. Share experiences with colleagues to foster a culture of reflective teaching  
+1. Summarize student feedback and course analytics with AI  
+2. Identify effective strategies and failure points  
+3. Revise materials and assessments iteratively  
+4. Use AI to keep up with research and innovations  
+5. Build a reflective practice notebook inside your AI Workspace  
+
+## 1.2 Foundational Knowledge for Teaching with AI  
+
+To use AI instrumentally in education, instructors must understand:
+
+### Prompt Engineering
+- Prompts = instructions to the model  
+- Structured prompting leads to predictable, high‑quality outputs  
+- Prompt patterns (e.g., instructional, role, chain-of-thought, few-shot)
+
+### Context Engineering 
+- Designing the *whole environment* around the prompt  
+- Roles, audience, tone, documents, constraints  
+- Retrieval-augmented workflows  
+- Essential for building AI Workspaces and Personalized Assistants
+
+### Foundational Models & LLM Ecosystems 
+- Multimodal LLMs, such as, ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok 
+- Understanding tool ecosystems determines what is possible in teaching  
+- Strengths, limitations, and best-fit teaching use cases
+
+You are strongly encouraged to have a look at our **AI Literacy program**, which will guide you through the basics of Prompt and Context Engineering, and also foundational models and LLM ecosystems. These will form the foundation necessary for a good understanding and development of AI-enhanced teaching.
+
+## 1.3 Creating Your AI Workspace  
+*A persistent, structured environment for your course*
+
+In this program, you will create a **Teaching with AI Workspace**, which will evolve across Modules 1–8. 
+
+> **Note**: If you prefer, you can create a workspace for one or more of your courses and use the framework presented here as your guide, replacing our context on Teaching with AI with your own course context.
+
+You may choose any platform, for example:
+
+- **ChatGPT Projects**  
+- **Claude Projects**  
+- **Perplexity Spaces**  
+- **Gemini + NotebookLM** hybrid workspace  
+- **Microsoft Copilot Pages**  
+- **xAI Grok Projects**
+
+### Purpose of the Workspace
+
+Your AI Workspace will:
+
+- Store all course files (e.g., syllabus, slides, assignments, datasets)  
+- Maintain persistent context across sessions  
+- Serve as a hub for multi-step workflows and collaboration 
+- Support course revision and continuous improvement  
+- Act as the design environment for your Personalized Assistant  
+
+### Step-by-Step: Create Your Workspace
+
+#### Step 1. Start a Project and define its name
+- In ChatGPT: Projects → New Project  
+- In Claude: Projects → New Project  
+- In Perplexity: Spaces → New Space  
+- In NotebookLM: Create Notebook  
+
+```
+Teaching with AI Workspace
+```
+
+#### Step 2: Define the project role
+```
+You are the **AI Teaching Workspace** for this course. Support the instructor in planning, designing, delivering, assessing, and improving the course using the knowledge base, uploaded files and structured workflows.
+```
+
+#### Step 3. Upload your course materials (knowledge base) 
+Examples:
+
+- Syllabus (even draft form)  
+- Course schedule  
+- Past lectures  
+- PDFs, datasets, rubrics, article links  
+
+#### Step 4. Set the Project instructions
+
+**Simple instruction**
+```
+This Workspace supports the design, delivery, assessment, and continuous improvement of my course on [course name or context].  
+Maintain coherence, track revisions, suggest improvements, and help generate consistent outputs.
+```
+
+**Comprehensive instructions**
+```
+Core Role: You are the workspace for the **Teaching with AI program**. Support the instructor in planning, designing, delivering, assessing, and improving the course using the knowledge base, uploaded files and structured workflows.
+
+Your Mission:
+- Organize and analyze all course materials (e.g., syllabus, slides, assignments, datasets).
+- Ensure consistency, alignment, and accuracy across outputs.
+- Help generate and refine teaching materials, assessments, improvements, and summaries.
+- Track revisions, identify gaps, and offer options for enhancement.
+- Ground responses in uploaded files; avoid adding unsupported facts.
+- Support creation of Personalized Assistant(s) for students.
+
+How You Work:
+- Use uploaded documents as primary sources; ask if needed.
+- Maintain consistent terminology, formatting, and alignment.
+- When generating content, provide variants when appropriate.
+- Flag inconsistencies, missing elements, or misalignments.
+- Summarize long text, map structures, and propose alternatives.
+- Apply principles from prompt engineering, context engineering, and foundational model literacy.
+
+Capabilities:
+- Course mapping: learning outcomes → modules → activities → assessments.
+- Material creation: outlines, slides, examples, cases, readings.
+- Assessment support: quizzes, rubrics, item banks, task variants.
+- Class design: lesson plans, engagement strategies, scaffolding sequences.
+- Feedback & analytics: summarize evaluations, extract insights, propose revisions.
+- Knowledge management: maintain internal memory of course files & updates.
+
+Behaviors:
+- Be clear, structured, accurate, and concise.
+- When uncertain, state it and request clarification.
+- Encourage responsible AI use and academic integrity.
+- Offer tables, bullet lists, checklists, and draft-ready text.
+- Provide revision logs and next-step recommendations.
+
+Generate:
+- Lesson plans, rubrics, assessments  
+- Tables, summaries, concept maps  
+- Revision memos, improvement suggestions  
+- Alternative versions (tone, difficulty, format)
+
+Safety & Ethics:
+- Avoid producing full solutions to graded assignments unless explicitly asked.
+- Prioritize transparency, citation of sources, and grounded reasoning.
+```
+
+#### Step 4. Begin using it as a persistent and collaborative environment
+Try prompts like:
+
+```
+Map the course outcomes to weekly modules.
+```
+```
+Generate three alternative syllabi structures.
+```
+```
+Identify missing assessment types in my draft schedule.
+```
+
+
+
+
+
 
 ## 1.2 Prompt Engineering Basics
 
