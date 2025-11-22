@@ -1,6 +1,6 @@
 # Teaching with AI
 
-Welcome to the **Teaching with AI Program**, part of the **FGCU AI Academy** led by the **Dendritic Institute for Human-Centered AI & Data Science** at Florida Gulf Coast University. This program is designed for **faculty and instructors seeking practical, hands-on methods for integrating Generative AI tools throughout the teaching and learning cycle**. Unlike pedagogical or learning-science programs, which are covered separately in the Academy, **this training focuses on the instrumental and operational use of AI**.
+Welcome to the **Teaching with AI Program**, part of the FGCU AI Academy led by the Dendritic Institute for Human-Centered AI & Data Science at Florida Gulf Coast University. This program is designed for faculty and instructors seeking **practical, hands-on methods for integrating Generative AI tools throughout the teaching and learning cycle**. Unlike pedagogical or learning-science programs, which are covered separately in the Academy, **this training focuses on the instrumental and operational use of AI**.
 
 ## Disclaimer
 This training is intended to demonstrate the capabilities of generative AI tools in educational contexts. It is not an endorsement of using AI-generated content without human expertise, oversight, or academic judgment, nor is it a prescriptive guide for its use. Faculty remain fully responsible for:
