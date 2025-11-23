@@ -3,8 +3,8 @@ format: jb-book
 root: intro.md
 
 chapters:
-  - file: Topic1_TLFramework.md
-    title: "Topic 1: Teaching and Learning with AI Framework"
+  - file: Module1_TLFramework.md
+    title: "Module 1: Teaching and Learning with AI Framework"
   - file: Topic2_PedagogicalPlanning.md
     title: "Topic 2: Pedagogical Planning"
   - file: Topic3_ClassDesign.md
