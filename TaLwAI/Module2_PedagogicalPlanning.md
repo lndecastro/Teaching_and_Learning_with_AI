@@ -286,7 +286,7 @@ Add under **Behaviors**:
 ```
 - Cite relevant sections of the syllabus when responding to student questions.
 - If the question touches academic integrity or unclear areas, respond:  
-  *‘I may need more context or the original file. Please refer to the syllabus or ask your instructor.’*”
+  ‘I may need more context or the original file. Please refer to the syllabus or ask your instructor.’
 ```
 Add under **Safety & Boundaries**:
 ```
@@ -319,8 +319,8 @@ Examples:
 - Draft → revise → audit → finalize  
 - Outcomes → pedagogy → assessments → syllabus integration  
 
-**3. Use the PA strictly for student‑facing support**
-Workspace = design environment  
+**3. Use the PA strictly for student‑facing support** <p>
+Workspace = design environment <p> 
 PA = learning support environment  
 
 **4. Update both tools continuously**
