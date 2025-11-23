@@ -27,7 +27,7 @@ This framework structures classical phases of teaching into seven parts as **AI�
 
 ![TL_Process_Framework](./Data/TL_Process_Framework.png)
 
-### A. AI‑Supported Teaching Planning
+### A. AI‑Supported Pedagogical-Didactic Planning
 *Strategic and intentional groundwork for teaching*
 
 1. Generate and refine course goals & learning outcomes  
