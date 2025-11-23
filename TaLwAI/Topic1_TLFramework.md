@@ -2,7 +2,7 @@
 
 The **Teaching with AI Framework** provides a structured, operational view of how generative AI can be integrated into each phase of the teaching process. Rather than altering pedagogy, it highlights where AI can add efficiency, creativity, and support across planning, design, delivery, assessment, student support, and reflection.
 
-This module provides the foundation for the **instrumental** use of Generative AI (GenAI) across the **entire teaching workflow**.  
+This module provides the foundation for the instrumental use of Generative AI (GenAI) across the entire teaching workflow.  
 It is built upon the background knowledge from the **AI Literacy Program** (Prompt Engineering, Context Engineering, and Foundational Models).  
 
 Unlike pedagogical programs, this module focuses **not** on pedagogy or teaching theory, but on **how to operationally integrate GenAI tools** to plan, design, deliver, assess, support, and improve your course.
@@ -11,10 +11,10 @@ Unlike pedagogical programs, this module focuses **not** on pedagogy or teaching
 
 After completing this module, you will be able to:
 
-- Understand the **AI-Enhanced Teaching Workflow**, a practical framework for integrating GenAI throughout the instructional cycle.
+- Understand the AI-Enhanced Teaching Workflow, a practical framework for integrating GenAI throughout the instructional cycle.
 - Explain how AI tools support planning, design, delivery, assessment, student support, and reflection.
-- Create your **AI Workspace** using ChatGPT Projects, Claude Projects, Perplexity Spaces, or Gemini/NotebookLM equivalents.
-- Build your **AI Personalized Assistant** to serve as a course tutor or helper for your students.
+- Create your AI Workspace using ChatGPT Projects, Claude Projects, Perplexity Spaces, or Gemini/NotebookLM equivalents.
+- Build your AI Personalized Assistant to serve as a course tutor or helper for your students.
 - Understand how foundational models and multimodal LLMs (ChatGPT, Claude, Gemini, Perplexity, etc.) shape what is possible in teaching.
 - Recognize where prompt engineering and context engineering (from AI Literacy) apply inside the teaching workflow.
 - Begin developing persistent GenAI tools that will grow with you throughout the program.
@@ -124,12 +124,12 @@ In this program, you will create a **Teaching with AI Workspace**, which will ev
 
 You may choose any platform, for example:
 
-- **ChatGPT Projects**  
-- **Claude Projects**  
-- **Perplexity Spaces**  
-- **Gemini + NotebookLM** hybrid workspace  
-- **Microsoft Copilot Pages**  
-- **xAI Grok Projects**
+- ChatGPT Projects  
+- Claude Projects  
+- Perplexity Spaces  
+- Gemini + NotebookLM hybrid workspace  
+- Microsoft Copilot Pages  
+- xAI Grok Projects
 
 ### Purpose of the Workspace
 
@@ -353,209 +353,42 @@ I am reviewing this week’s material. Please explain the main concepts at three
 Then give me two practice questions to check my understanding.
 ```
 
+## 1.5 Exercises
 
+### **Exercise 1 — Build Your AI Workspace**
 
+1. Choose a platform (e.g., ChatGPT, Claude, Perplexity, Gemini, NotebookLM).  
+2. Create a Workspace (Project).  
+3. Upload at least **three course files**.  
+4. Add a model instruction block.  
+5. Ask the Workspace to:  
+   - Map your course structure  
+   - Identify missing components  
+   - Propose alternative versions  
 
+### **Exercise 2 — Build Your Personalized Course Assistant**
 
-## 1.2 Prompt Engineering Basics
+1. Define a system role  
+2. Upload a syllabus or course overview  
+3. Add behavior instructions  
+4. Add conversation starters  
+5. Test using three prompts
 
-### A. Learning Objectives
-- Understand the purpose and scope of prompt engineering.
-- Identify the components that make up an effective prompt.
-- Identify and apply different types of prompt design patterns.
-- Compare how prompt structures influence AI outputs.
-- Practice prompt improvement through iteration.
+### **Exercise 3 — Analyze Where AI Fits in Your Teaching Cycle**
 
-### B. What is Prompt Engineering?
+Reflect on each phase (A–G):  
+Where does AI provide value? Where should humans lead?
 
-Prompt engineering is the practice of crafting effective inputs (prompts) for large language models (LLMs) to produce accurate, relevant, and useful outputs.
+## 1.6 Reflection
 
-Unlike traditional programming, where you write rigid code, prompt engineering is about **communicating naturally** with an AI system — and doing so **strategically**.
+- What parts of the teaching workflow could AI immediately streamline?  
+- Where do you feel hesitation about integrating AI?  
+- How might an AI Workspace improve your daily teaching tasks?  
+- What guardrails must be in place before students use your Personalized Assistant?
 
-### C. Anatomy of a Prompt
+## 📘 Further Reading
 
-A good prompt typically includes:
-
-1. **Instruction**: What you want the model to do.
-   - _e.g., "Summarize the text below in bullet points."_
-2. **Context** (optional): Background information or framing.
-   - _e.g., "You are a customer support agent."_
-3. **Input Data**: The text, question, or file the model will process.
-   - _e.g., "Customer review: The product broke in 2 days..."_
-4. **Output Format** (optional): Desired structure or style.
-   - _e.g., "Respond in JSON format with sentiment and category."_
-
-### D. Why Prompt Engineering Matters
-
-- It **boosts model performance** without changing the model itself.
-- It helps tailor responses to specific **tasks and audiences**.
-- It allows you to guide the model toward **more reliable, interpretable results**.
-
-**Example Prompt**
-```
-You are a scientific editor. Summarize the text below into 3 bullet points for a general audience.
-
-Text:
-Prompt engineering is the practice of crafting effective inputs (prompts) to guide generative AI models like ChatGPT, Claude, or Gemini toward producing accurate, relevant, and useful outputs. It involves understanding how AI interprets language and strategically structuring prompts to achieve specific goals, whether it is summarizing text, generating code, analyzing data, or creating content. Good prompt engineering can significantly enhance the quality of AI responses, making it a critical skill for maximizing productivity and creativity with AI tools.
-```
-
-**Exercise 1: Deconstruct This Prompt**
-
-Given the prompt below, identify its components:
-```
-You are a legal assistant. Given the client's message, extract the key legal issue and relevant date in bullet points.
-
-Message:
-I was evicted without notice on June 3rd even though I paid rent until July...
-```
-
-### E. Why Prompt Patterns Matter
-
-Prompt patterns are reusable structures that help you get consistent, high-quality results from language models. Understanding them empowers you to choose the right style for your goal.
-
-### F. Common Prompt Types
-
-**1. Instructional Prompts**
-Directly ask the model to perform a task, e.g.:
-```
-"Summarize the following article in three sentences."
-```
-**2. Role-Based Prompts**
-Assign the model a specific identity or role to guide tone and knowledge.
-```
-You are a career coach. Give me advice on how to negotiate a salary raise.
-```
-**3. Chain-of-Thought Prompts**
-Encourage step-by-step reasoning or breakdown of complex tasks.
-```
-What is the square root of 144? Explain the steps before giving the answer.
-```
-**4. Zero-Shot Prompts**
-Provide only the instruction and input — no examples.
-```
-Translate the following sentence into Portuguese: "How are you?"
-```
-**5. Few-Shot Prompts**
-Include examples of input/output pairs to guide the model.
-```
-Translate the following:
-English: Good morning → Portuguese: Bom dia
-English: Thank you → Portuguese: Obrigado
-English: I’m hungry → Portuguese:
-```
-### G. Prompt Comparison
-
-| Pattern           | Use Case                               | Example Role/Task                              |
-|------------------|----------------------------------------|------------------------------------------------|
-| Instructional     | Clear single-step tasks                 | “Summarize this paragraph.”                    |
-| Role-Based        | Tone/personality alignment              | “You are a financial advisor…”                |
-| Chain-of-Thought  | Complex reasoning, multi-step problems  | “Explain each step before giving the answer.”  |
-| Zero-Shot         | Fast and generic tasks                  | “Translate to Spanish…”                       |
-| Few-Shot          | Custom structure or format              | “English → French examples…”                  |
-
-**Exercise 2: Prompt Comparison Activity**
-
-Use the following task and try prompting it in three different styles.
-
-**Task**: Recommend three books for someone interested in artificial intelligence.
-
-### H. Why Iteration Matters
-
-Prompting is often **not a one-shot process**. Even good prompts may return incomplete, vague, or misleading results. The key is to **test, analyze, and refine**.
-
-Iteration helps you:
-- Clarify vague requests
-- Add or remove unnecessary detail
-- Adjust tone or output format
-- Explore different framing approaches
-
-### I. The Iterative Prompting Process
-
-1. **Draft the initial prompt**  
-   _Write a basic version of your request._
-
-2. **Review the output**  
-   _Is it accurate? Detailed enough? In the right tone or format?_
-
-3. **Refine the prompt**  
-   _Add missing instructions, clarify goals, or adjust roles._
-
-4. **Test again**  
-   _Compare outputs, note improvements, and repeat if needed._
-
-**Exercise 3: Prompt Iteration and Debugging Examples**
-
-**Poor Prompt:**
-```
-Explain climate change.
-```
-**Improved Prompt (Iteration 1):**
-```
-Explain climate change in simple terms for a high school student, using 3 key points.
-```
-**Improved Prompt (Iteration 2):**
-```
-Explain climate change in simple terms for a high school student. Use 3 bullet points and include one analogy related to daily life.
-```
-
-**Exercise 4: Prompt Experiment Classwork**
-
-*Microsoft Financial Sample Excel Workbook* <br>
-[Spreadsheet download](./Data/FinancialSample.xlsx) Available at: [https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download]
-
-```
-You support retail sales analysis at Contoso. The VP of Regional Sales needs an assessment to guide monthly discount strategies.
-Task: Compare net ‘ Sales’ for this observation to average for all ‘Product’ sold under this ‘Discount Band’, and ‘ Sales’ for this ‘Product’ in this ‘Month’.
-| Segment | Country | Product | Discount Band | Sales | Month | Year |
-| Government | United States of America | Montana | Medium | 178500.35 | October | 2014 |
-
-Step 1 – Chain-of-Thought (show your work):
-1. Compare Averages: Current vs average Sales with this Product and Discount Band, and vs average Sales with this Product and Month.
-2. Compare Segment: Calculate and compare this point to performance of this Product in each other Segment in this Country.
-3. Compare Country: Calculate and compare this point to all performance in the Country, and performance in all Countries.
-4. Compare Product: Calculate and compare this point to all performance of this Product, and performance of all Products.
-5. Compare and Discuss: Review this point in comparison to historical, country, and product performance, and infer overall performance.
-Step 2 – Analysis:
-Write a concise paragraph identifying trends and discussing likely drivers behind any variance.
-Step 3 – Prediction:
-Based on findings, advise whether Contoso should continue, adjust, or halt this Discount Band.
-```
-
-### J. Tips for Troubleshooting and Improving Prompts
-
-- If output is **too generic**: Add specific instructions or examples.
-- If output **hallucinates**: Ask the model to “only use provided information.”
-- If output **misses important parts**: Reframe the prompt with clearer structure.
-- If output is **inconsistent**: Use role and format specifications.
-
-**Hallucination** is when a model confidently outputs incorrect or invented information.
-  
-### K. Assessing Prompt Quality
-
-Five criteria to judge the effectiveness of a prompt-output pair:
-
-| Criterion         | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **Relevance**     | Is the response aligned with the prompt's intent?                          |
-| **Completeness**  | Does the answer cover all requested aspects?                               |
-| **Clarity**       | Is the response easy to understand and well-structured?                    |
-| **Factual Accuracy** | Are the claims and data points correct and verifiable?                 |
-| **Format**        | Does the output follow the requested format or style?                      |
-
-### L. Techniques to Reduce or Identify Hallucinations
-- Ask the model to **cite its sources** or say "Only use the provided text/file."
-- Clarify that the model should say **“I don't know”** if unsure.
-- Specify that the answer should be based **only on the uploaded file** or context.
-
-## 1.3 Ethical Considerations
-
-- Responsible use: data privacy, bias, hallucinations, transparency
-- Examples of misuse and how to avoid them
-- When *not* to use AI or when to rely on human judgment
-
-## 1.4 Wrap-Up Reflection
-
-- What did you learn about the teaching and learning framework that surprised you?
-- Which AI tasks are you most comfortable with?
-- What task in your work would you most like to streamline with AI?
-- What did you learn about prompt engineering?
+- FGCU AI Academy. *AI Literacy*. https://www.fgcu.edu/eng/dendritic-institute/.  
+- Mollick, E. & Mollick, L. R. (2024). *Co-Intelligence: Living and Working with AI*, Portfolio.
+- Anthropic (2025). *Effective context engineering for AI agents*. https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents 
+- OpenAI (2025). *Projects in ChatGPT*. https://help.openai.com/en/articles/10169521-projects-in-chatgpt.
