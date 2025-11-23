@@ -220,6 +220,8 @@ Safety & Ethics:
 - Prioritize transparency, citation of sources, and grounded reasoning.
 ```
 
+> **Note:** If the model you are using restricts the amount of information you can add as instructions in your workspace, then prompt an AI model to summarize the instructions for you.
+
 #### Example Prompts to start using your AI Workspace
 Begin using your workspace as a persistent and collaborative environment, trying prompts like:
 
