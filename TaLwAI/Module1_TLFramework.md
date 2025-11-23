@@ -5,7 +5,7 @@ The **Teaching with AI Framework** provides a structured, operational view of ho
 This module provides the foundation for the instrumental use of Generative AI (GenAI) across the entire teaching workflow.  
 It is built upon the background knowledge from the **AI Literacy Program** (Prompt Engineering, Context Engineering, and Foundational Models).  
 
-Unlike pedagogical programs, this module focuses **not** on pedagogy or teaching theory, but on **how to operationally integrate GenAI tools** to plan, design, deliver, assess, support, and improve your course.
+Unlike pedagogical programs, this module focuses **not** on pedagogy or teaching theory, but on **how to operationally integrate GenAI tools** to plan, design, deliver, assess, support, and improve your course. In this module you will create your course workspace and personalized assistant.
 
 ## Learning Objectives
 
@@ -220,8 +220,8 @@ Safety & Ethics:
 - Prioritize transparency, citation of sources, and grounded reasoning.
 ```
 
-#### Step 5. Begin using it as a persistent and collaborative environment
-Try prompts like:
+#### Example Prompts to start using your AI Workspace
+Begin using your workspace as a persistent and collaborative environment, trying prompts like:
 
 ```
 Map the course outcomes to weekly modules.
