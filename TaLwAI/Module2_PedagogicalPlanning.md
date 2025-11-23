@@ -3,7 +3,7 @@
 
 This module focuses on the strategic and intentional groundwork for teaching. It involves defining course goals and learning outcomes, identifying the audience and context, selecting appropriate pedagogical approaches, choosing educational technologies and AI-enhanced tools, aligning with institutional and ethical guidelines, and creating the course syllabus. You will explore how generative AI can assist with tasks like drafting learning outcomes using frameworks such as Bloom's Taxonomy and generating draft policies. <p>
 
-> **Note**: All prompts that you use from this module onwards should be made within your AI Workspace, because this will ensure that you build upon the project you created and all developments are consistent with the instructions provided and knowledge base uploaded.
+> **Note:** All prompts that you use from this module onwards should be made within your AI Workspace, because this will ensure that you build upon the project you created and all developments are consistent with the instructions provided and knowledge base uploaded.
 
 ## Learning Objectives
 After completing this module, participants will be able to:
@@ -82,7 +82,7 @@ and give two examples of how AI can enhance activities in that model.
 [Paste the learning outcomes and profile here]
 ```
 
-## Additional Prompt Variant — Activity Generator
+### Additional Prompt Variant — Activity Generator
 ```
 Generate 4 AI-enhanced sample activities using the selected pedagogical model.
 Include Bloom level, estimated time, and resources needed.
@@ -90,33 +90,29 @@ Include Bloom level, estimated time, and resources needed.
 
 ## 2.4 Choose Tools and Technologies
 
-## Purpose
+### Purpose
 AI helps instructors curate tools aligned with course goals and teaching modality.
 
-## Prompt Template — Zero-Shot
+### Prompt Template — Zero-Shot
 ```
-List 5 generative AI tools most suitable for teaching the course "[Course Title]". 
+List 5 generative AI tools most suitable for teaching the course [Course Title]. 
 For each, describe one educational use and one limitation or risk.
 Present results in a table.
 ```
 
-## Additional Prompt Variant — Matching Tools to Activities
+### Additional Prompt Variant — Matching Tools to Activities
 ```
 Given these planned learning activities [paste],
-suggest the best AI tools and justify how each tool supports the task.
-```
-
-**Task:**
-Identify generative AI tools and explain their educational uses.
-
-*Zero-Shot Prompt*
-```
-List 5 generative AI tools suitable for a course on teaching with AI. For each tool, describe its main use in teaching or learning, and mention one risk or limitation.
+suggest the best AI tool for each one of them and explain how each tool supports the task.
 ```
 
 ## 2.5 Align with Institutional and Ethical Guidelines
-**Task:**
-Draft ethical and policy-aligned foundations for AI use by the students. The general FGCU AI use policies are available at the link below: 
+
+### Purpose
+AI assists in drafting course policies grounded in the institutional regulations.
+
+### Institutional Policies
+The general FGCU AI use policies are available at the link below: 
 https://www.fgcu.edu/about/leadership/officeoftheprovost/generative-ai
 
 The following files contain the general FGCU policies for GenAI use. Download them and use as the institutional policies for GenAI use. <br>
@@ -124,144 +120,105 @@ The following files contain the general FGCU policies for GenAI use. Download th
 [General_FGCU_GenAI_Policies](./Data/GenerativeAIandFGCUTeachingandLearning.pdf) <br>
 [Core_Syllabus_Policies_Statements](./Data/CoreSyllabusPolicyStatements.pdf) <br>
 
-*Few-Shot Prompt*
-```
-Below are examples of AI use policies for learning:
+> **Note:** These documents should be added to the course personalized assistant and workspace (project) so that they become part of the knowledge base to be used in future interactions and developments.
 
+### Prompt Template — Few-Shot + Document Grounding
+```
+Using the AI use policy examples below and the institutional policy documents attached,
+draft an “AI Use Policy” for the course [Course Title] that incorporates transparency, accountability, and fairness.
+
+Examples of AI use policies for learning:
 1. Submitting the work of another person or entity as your own is not permitted. “Entity” includes Generative AI tools such as ChatGPT.
 2. Receiving assistance that has not been authorized by the course instructor is not permitted. This includes assistance from Generative AI tools.
-3. Students should not use of sources that go beyond those authorized by the instructor. This includes using Generative AI tools as a source.
+3. Students should not use sources that go beyond those authorized by the instructor. This includes using Generative AI tools as a source.
 
-Based on these and the attached files with the university policies, generate a draft of an AI use policy for a course on [Course Name/Info] that incorporates transparency, accountability, and fairness.
-The "AI Use Policies" must contain: an introductory paragraph that explain what is AI and contextualize it for the course; a description of what is acceptable and unacceptable in terms of AI use for the course; citation requirements and procedures; list of prompts used; a summary table of all uses of AI in the course.
+Include:
+1. Intro paragraph explaining what AI is and contextualizing its use.
+2. Acceptable uses.
+3. Unacceptable uses.
+4. Citation requirements and examples.
+5. Requirement to list prompts used.
+6. Summary table of allowed / restricted / prohibited uses.
+```
+
+### Additional Prompt Variant — Student-Friendly Version
+```
+Rewrite the AI Use Policy above in student-friendly language at a 9th-grade readability level.
 ```
 
 ## 2.6 Create the Course Syllabus
-**Task:**
-Based on a pre-specified syllabus format, let the AI model create a syllabus for our course.
-> Note that the prompt below may contain sections that were previously prompted, e.g. Learning Objectives, and AI Use Policies. You can also attach your previous syllabus or the structure of your desired syllabus and prompt the model to use it as template.
 
-*Instructional Prompt*
+### Purpose
+Leverage AI to generate a complete syllabus or alternative syllabus versions.
+
+### Prompt Template 1 — Instructional with syllabus template attached
 ```
-# Syllabus Generator Prompt
+Using the structure of the provided syllabus template, generate a complete syllabus 
+for [Course Title]. Maintain all required sections and ensure alignment 
+with the institutional policy documents. Include a detailed weekly schedule.
+```
 
-Please provide the following details to generate a syllabus for your course.
+### Prompt Template 2 — Instructional with syllabus included in the prompt
+
+> **Note:** To run the prompt below you will have to add the specific information of your course. Part of the information can be added as background knowledge to your AI workspace, for example, your professional data.
+
+```
 Use the structure and style of the provided example syllabus, including sections for course information, professor information, course description, course program, bibliography, student learning outcomes, instructional method, evaluation and grade assignments, assignments, final exam, attendance policy, student contact information, notes, core syllabus policies, and a tentative weekly schedule.
 Fill in the placeholders with the relevant information for your course.
 
-## Course Information
+1. Course Information
 - Course Number: [Enter course number]
 - Course Title: [Enter course title]
-- Semester/Year: [Enter semester and year, e.g., Spring/2025]
-- Offering College/Department: [Enter college and department, e.g., U.A. Whitaker College of Engineering/Department of Computing and Software Engineering]
-- Credit Hours: [Enter credit hours, e.g., 3]
-- Meeting Times/Location: [Enter meeting times and location, e.g., M/W 13h30 - 14h45, Holmes Engineering 202]
+- Semester/Year: [Enter semester and year]
+- Offering College/Department: [Enter college and department]
+- Credit Hours: [Enter credit hours]
+- Meeting Times/Location: [Enter meeting times and location, e.g., M/W 13h30 - 14h45, HE 202]
 - Method of Delivery: [Enter delivery method, e.g., Face-to-face class]
-- Course URL: [Enter course URL, e.g., http://canvas.fgcu.edu]
+- Course URL: [Enter course URL]
 - Prerequisites: [Enter prerequisites, e.g., Not applicable]
 
-## Professor Information
-- Instructor: [Enter instructor name and title, e.g., Leandro Nunes de Castro, Ph.D., Professor, Department of Computing and Software Engineering at WCOE]
-- Office Address: [Enter office address, e.g., Holmes Hall 126D]
-- Office Phone: [Enter office phone, e.g., 239-590-1362]
-- E-mail Address: [Enter email address, e.g., ldecastrosilva@fgcu.edu]
-- Office Hours: [Enter office hours, e.g., MO WE 15:00-17:00]
+2. Professor Information
+- Instructor: [Enter instructor name and title]
+- Office Address: [Enter office address]
+- Office Phone: [Enter office phone]
+- E-mail Address: [Enter email address]
+- Office Hours: [Enter office hours]
 
-## Mandatory Confirmation of Attendance
-[Describe the attendance confirmation policy, e.g., All faculty members are required to use Canvas to confirm a student's attendance for each course by the end of the first week of classes. Failure to do so will result in a delay in the disbursement of your financial aid. The confirmation of attendance is required for all students, not only those receiving financial aid. Every student must complete a mandatory activity in Canvas during the first week.]
+3. Course Description
+Provide a brief description of the course.
 
-## Course Description
-[Provide a brief description of the course.]
+4. Course Program
+List the main topics or modules.
 
-## Course Program
-[List the main topics or modules, e.g.,
-1. Fundamentals of [Course Topic]
-   - [Subtopic 1]
-   - [Subtopic 2]
-2. [Topic 2]
-   - [Subtopic 1]
-   - [Subtopic 2]
-3. [Topic 3]
-   - [Subtopic 1]
-   - [Subtopic 2]
-4. [Topic 4]
-   - [Subtopic 1]
-   - [Subtopic 2]
-5. [Topic 5]
-   - [Subtopic 1]
-   - [Subtopic 2]]
+5. Bibliography
+List recommended or required texts in the format [Author], [Title], [Edition], [Publisher], [Year].
 
-## Bibliography
-[List recommended or required texts, e.g.,
-1. [Author], [Title], [Edition], [Publisher], [Year].
-2. [Author], [Title], [Edition], [Publisher], [Year].
-3. [Author], [Title], [Publisher], [Year].
-4. [Author], [Title], [Publisher], [Year].
-5. Texts provided by the teacher.]
+6. Student Learning Outcomes
+Specify learning outcomes, e.g., Upon successful completion of this course, the student will be able to:
 
-## Student Learning Outcomes
-[Specify outcomes, e.g., Upon successful completion of this course, the student will be able to:
-1. [Outcome 1]
-2. [Outcome 2]
-3. [Outcome 3]
-4. [Outcome 4]]
+7. Instructional Method
+Describe the teaching approach.
 
-## Instructional Method
-[Describe the teaching approach]
+8. Evaluation and Grade Assignments
+Describe assessment instruments and grading policy.
 
-## Evaluation and Grade Assignments
-[Describe assessment instruments and grading policy, e.g.,
-The following instruments will be used:
-- IA: An individual assessment of the weekly lessons, which may consist of a quiz, a summary, a pre-class assessment or a problem/project-based participation assessment.
-- SE: Presentation of seminars (projects). The themes of the seminars will be defined based on the contents covered in the course.
-- PR: Final project.
-- EX: One or more individual exams.
+9. Assignments
+Describe assignment policies.
 
-The grade and concept of the course will be defined from the following scheme:
+10. Final Exam
+Describe final exam policy.
 
-| Grading Policy | % |
-|--------------------|-----|
-| Individual Assessments | 20 |
-| Seminars | 20 |
-| Project | 40 |
-| Exams | 20 |
-| Total | 100 |
+11. Attendance Policy
+Describe attendance policy.
 
-| If | Grade |
-|--------|-------|
-| 93 ≤ Total ≤ 100 | A |
-| 90 ≤ Total < 93 | A- |
-| 87 ≤ Total < 90 | B+ |
-| 83 ≤ Total < 87 | B |
-| 80 ≤ Total < 83 | B- |
-| 77 ≤ Total < 80 | C+ |
-| 73 ≤ Total < 77 | C |
-| <73 | F |]
+12. Student Contact Information
+Describe communication policy.
 
-## Assignments
-[Describe assignment policies]
+13. GenAI Use Policies
+Taking into account the institutional AI Policies uploaded in the project workspace, propose core GenAI use policies adequate for this course.
 
-## Final Exam
-[Describe final exam policy]
-
-## Attendance Policy
-[Describe attendance policy]
-
-## Student Contact Information
-[Describe communication policy]
-
-## Notes
-[Include additional notes, e.g.,
-1. [Note 1]
-2. [Note 2]
-3. [Note 3]
-4. [Note 4]]
-
-## GenAI Use Policies
-[Include core policies]
-
-## Tentative Weekly Schedule
-[Provide a tentative schedule, e.g.,
+14. Tentative Weekly Schedule
+Provide a tentative schedule, e.g.,
 | Week | Date | Topic | Chapter |
 |------|------|-------|---------|
 | 1 | [Date 1, Date 2] | [Topic 1] | [Chapter 1] |
@@ -269,10 +226,223 @@ The grade and concept of the course will be defined from the following scheme:
 | 3 | [Date 1] | [Topic 3] | [Chapter 3] |
 | ... | ... | ... | ... |
 | 16 | [Date] | [Topic 16] | [Chapter 16] |
-
-* Subject to change with notice.]
 ```
 
+### Additional Prompt Variant — Alternative Formats
+```
+Generate three syllabus variants: 
+1) detailed instructor version, 
+2) one-page quick student guide, 
+3) accessibility-friendly version (WCAG).
+```
+
+---
+
+## 2.7 Updates to Your AI Workspace and Personalized Assistant
+
+This section summarizes the main updates to your **AI Workspace (Project)** and **Course Personalized Assistant (PA)** to ensure both tools evolve consistently as you progress in this program.
+
+### A. Updates to Your AI Workspace (Project)
+
+Your Workspace is the persistent memory environment that stores course materials, policies, templates, prompts, and all artifacts created during this program. After completing Module 2, apply the updates below.
+
+1. **Upload New Files to the Workspace Knowledge Base**: institutional AI policies, course syllabus, optional additional materials (e.g., accreditation requirements, reading lists, etc.)
+2. **Update Workspace Instructions:** modify the Project’s instruction block to reflect new responsibilities.
+
+Add under **How You Work**:
+- Use uploaded institutional GenAI policies as primary references for all policy‑related outputs.
+- Ensure alignment between learning outcomes, activities, pedagogical approaches, and assessments.
+- Audit syllabi for internal consistency across dates, expectations, and learning outcomes.
+
+Add under **Capabilities**:
+- Learning outcome alignment checks
+- Pedagogical model recommendations
+- Syllabus generation, auditing, and refinement
+- Policy drafting grounded in institutional documents
+- Mapping outcomes → activities → assessments
+
+Add under **Behaviors**:
+- Flag inconsistencies or missing elements and suggest revisions.
+- Reflect FGCU GenAI policies when generating or updating course materials.
+---
+
+### **3. Recommended Workspace Memory Enhancements**
+
+Enhance the Workspace by adding structured metadata, such as:
+- Preferred pedagogical approaches  
+- Assessment philosophy  
+- Discipline‑specific terminology  
+- Information about typical student population  
+
+This improves coherence and reduces repetitive prompting.
+
+---
+
+## **B. Updates to Your Course Personalized Assistant (PA)**
+
+Your PA becomes a more accurate and responsible tutor by integrating new materials and constraints.
+
+### **1. Upload New Files to the PA Knowledge Base**
+
+Add:
+- Syllabus drafts (when available)
+- Approved GenAI Use Policy (strict/moderate/flexible)
+- Course learning outcomes
+- Weekly schedule (draft acceptable)
+- Institutional GenAI policy documents
+
+---
+
+### **2. Update PA Instructions**
+
+Add under **Core Role / Mission**:
+- “Use only uploaded course materials when answering student questions.”
+- “Reference the GenAI Use Policy whenever students ask about AI usage.”
+
+Add under **Behaviors**:
+- “Cite relevant sections of the syllabus when responding to student questions.”
+- “If the question touches academic integrity or unclear areas, respond:  
+  *‘I may need more context or the original file. Please refer to the syllabus or ask your instructor.’*”
+
+Add under **Safety & Boundaries**:
+- “Never provide answers to graded assignments or exams.”
+- “Redirect users to the instructor if they seek prohibited support.”
+
+---
+
+### **3. Add Conversation Starters for Students**
+
+Add prompts such as:
+- “Explain the learning outcomes of this course at beginner and advanced levels.”
+- “Summarize the policies on how AI may be used in this course.”
+- “Help me understand the weekly schedule.”
+- “How do the learning outcomes connect to our assignments?”
+
+These guide students toward appropriate and responsible interactions.
+
+---
+
+## **C. Workflow Adjustments Going Forward**
+
+### **1. All Module 2+ prompts must be issued inside the Workspace**
+To ensure:
+- Document grounding  
+- Consistency across versions  
+- Accurate policy integration  
+- Alignment across modules  
+
+### **2. Build incremental outputs instead of isolated chats**
+Examples:
+- Draft → revise → audit → finalize  
+- Outcomes → pedagogy → assessments → syllabus integration  
+
+### **3. Use the PA strictly for student‑facing support**
+Workspace = design environment  
+PA = learning support environment  
+
+### **4. Update both tools continuously**
+As you progress through Modules 3–8, upload:
+- Slides  
+- Assignments  
+- Activity plans  
+- Updated schedules  
+- Assessment rubrics  
+- Course feedback summaries  
+
+---
+
+## **D. Summary Table of Required Updates**
+
+| Component | Required Update | Purpose |
+|----------|----------------|---------|
+| **Workspace Knowledge Base** | Upload policies, syllabus drafts, LOs, learner profiles, pedagogical mappings | Grounded, consistent outputs |
+| **Workspace Instructions** | Add alignment, auditing, and policy‑compliance behaviors | Improve quality and coherence |
+| **PA Knowledge Base** | Add syllabus, policies, LOs, schedule | Accurate student guidance |
+| **PA Instructions** | Add boundaries, policy references | Responsible and safe use |
+| **Conversation Starters** | Add LO, policy, and schedule prompts | Direct student guidance |
+| **Workflow** | Use Workspace for all prompts | Preserve continuity and alignment |
+
+---
+
+*End of Section 2.3*
 
 
+## 2.4 Exercises
 
+### Exercise 1 — Generate and Map Learning Outcomes
+
+**Goal:** Use AI to create measurable, aligned learning outcomes.
+
+**Steps:**
+1. Paste your course description.
+2. Use the LO generation prompt.
+3. Choose the best outcomes.
+4. Ask AI to map each outcome to:
+   - activities  
+   - assessments  
+   - Bloom level  
+
+**Prompt:**
+```
+Map each of the following learning outcomes to: 
+1) teaching activities, 2) assessment examples, 3) Bloom level. 
+Present results in a table.
+```
+
+### Exercise 2 — Create a Learner Profile
+
+**Goal:** Develop an AI-assisted learner persona.
+
+**Steps:**
+1. Paste course context.
+2. Use the profile prompt.
+3. Request two persona variants.
+4. Compare adaptations needed.
+
+### Exercise 3 — Select Pedagogical Models
+
+**Goal:** Identify pedagogical models aligned with outcomes and audience.
+
+**Steps:**
+1. Provide learning outcomes and personas.
+2. Use the chain-of-thought prompt.
+3. Select one model and refine it with:
+```
+Generate 3 learning activities aligned with this model and the outcomes.
+```
+
+### Exercise 4 — Draft AI Use Policies
+
+**Goal:** Produce a policy aligned with the institution guidelines.
+
+**Steps:**
+1. Load the institution policy documents.
+2. Use the few-shot policy prompt.
+3. Request:
+   - strict version  
+   - moderate version  
+   - flexible version  
+4. Choose one to include in syllabus.
+
+### Exercise 5 — Produce a Syllabus Draft
+
+**Goal:** Create a complete syllabus using the course template.
+
+**Steps:**
+1. Paste the long syllabus prompt.
+2. Provide course-specific information.
+3. Request:
+   - full syllabus  
+   - 1-page summary  
+   - weekly schedule  
+4. Run consistency audit:
+```
+Audit this syllabus for inconsistencies, missing elements, 
+and misaligned learning outcomes.
+```
+
+## 2.5 Reflection Questions
+- Which planning tasks benefited most from AI?
+- Where was human expertise essential?
+- Did AI propose improvements you had not considered?
+- How will this module influence your next course redesign?
