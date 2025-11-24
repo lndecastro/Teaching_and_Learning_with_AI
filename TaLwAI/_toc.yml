@@ -7,8 +7,8 @@ chapters:
     title: "Module 1: Teaching and Learning with AI Framework"
   - file: Module2_PedagogicalPlanning.md
     title: "Module 2: Pedagogical Planning"
-  - file: Topic3_ClassDesign.md
-    title: "Topic 3: Class Design and Development"
+  - file: Module3_ClassDesign.md
+    title: "Module 3: Class Design and Development"
   - file: Topic4_Assignments.md
     title: "Topic 4: Preparation of Assignments and Exams"
   - file: Topic5_ClassDelivery.md
