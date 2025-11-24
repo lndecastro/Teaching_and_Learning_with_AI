@@ -55,7 +55,7 @@ Design a 90-minute session for [Course Title] on the topic [Topic Name]. Include
 
 ### B. Prompting the AI Slide Generator 
 **Task:**
-Accelerate production of professional-quality presentations and supporting visuals. Directly prompt the slides' generator, e.g. **Gamma.app, Canva, PowerPoint+Copilot, Claude**, check and refine the presentation produced.
+Accelerate production of professional-quality presentations and supporting visuals. Directly prompt the slides' generator, e.g. **Gamma.app, Canva, PowerPoint+Copilot, Scispace, Claude**, check and refine the presentation produced.
 
 **Prompt Template — Slide Generator (Gamma, Canva, PPT+Copilot)**
 ```
@@ -74,15 +74,98 @@ Create an interactive artifact.
 
 > **Note:** In Claude.ai you could have chosen *Artifact -> New Artifact* and selected one specific type, for example, *Apps and websites* to have an online presentation available for the students.
 
-### C. Finding Current Scientific Literature
+### C. Integrating Scientific Literature
 **Task:**
-Search the scientific literature for content related with the class subject. Use **SciSpace.com** menu *Literature Review* (https://scispace.com/search), or **Perplexity.ai** menu *Academic* (https://www.perplexity.ai/academic), to perform your search and analyze the content retrieved.
+Ground class content in peer‑reviewed research and provide academically reliable framing. Specific tools to be used:
+- **SciSpace Literature Review** (https://scispace.com/search)
+- **Perplexity Academic** (https://www.perplexity.ai/academic)
+- **Consensus.app** (https://consensus.app/)
+- **Google Scholar Labs** (https://scholar.google.com/scholar_labs)
 
-*Zero-Shot Prompt*
+> **Note:** There are various search engines focused on technical or scientific content, such as **Semantic Scholar** and the standard **Google Scholar**, which are useful but do not offer the AI prompt capabilities of the tools presented above.
+
+**C.1 SciSpace — Literature Review Mode**
+SciSpace works best with short, topic‑driven prompts and automatically generates summaries and many other information, including results, methods, limitations, objectives, datasets, and more.
+
+**Prompt — Topic Overview**
 ```
-AI for assessment and feedback.
+For the topic on [Topic Name]: summarize the state of the literature, identify leading authors, and list the five most cited papers.
 ```
-> **Note:** The tools generate a brief summary of the topic with academic citations. Save some of the papers retrieved as a literature review material.
+
+**C.2 Perplexity — Academic Mode**
+Perplexity Academic produces fully cited syntheses and is strong for deep, research‑grade output.
+
+**Prompt 1 — Literature Synthesis**
+```
+Synthesize the peer-reviewed literature on [Topic Name]. Include citations and identify the most robust evidence.
+```
+
+**Prompt 2 — Annotated Bibliography**
+```
+Create an annotated bibliography of the 10 most relevant academic papers on [Topic Name]. Include summaries, strengths, limitations, and relevance for class design.
+```
+
+**Prompt 3 — Research Gaps**
+```
+Identify three major gaps in the literature on [Topic Name].
+```
+
+**Prompt 4 — Teaching Application Extraction**
+```
+From the best available research, extract practical teaching applications of [Topic Name], including activity examples and risks instructors should consider.
+```
+
+**C.3 Consensus.app — Research Summaries**
+Consensus is a research engine that generates synthesized, evidence-based answers directly from peer-reviewed papers. It can also perform deep search, draft an outline, and create a table.
+
+**Prompt 1 — Summary**
+```
+What does the research say about [Topic Name]?
+```
+
+**Prompt 2 — Extract Conclusions**
+```
+Summarize the strongest conclusions from peer-reviewed studies on [Topic Name].
+```
+
+**Prompt 3 — Compare Outcomes**
+```
+Compare learning outcomes reported in studies using [Topic Name].
+```
+
+**Prompt 4 — Practical Implications**
+```
+Using research findings, list the practical implications of [Topic Name].
+```
+
+**C.4 Google Scholar Labs — Research Overview**
+Google Scholar Labs is ideal for fast, concise academic summaries and trend detection.
+
+**Prompt 1 — Quick Overview**
+```
+Provide a concise overview of the academic literature on [Topic Name].
+```
+
+**Prompt 2 — Key Papers Summary**
+```
+List the foundational papers on [Topic Name] and explain the contribution of each in one sentence.
+```
+
+**Prompt 3 — Trend Identification**
+```
+Identify recent trends in [Topic Name] based on highly cited papers since 2020.
+```
+
+**Prompt 4 — Rapid Instructor Summary**
+```
+Summarize what instructors should know about [Topic Name], grounded in recent academic research.
+```
+
+
+
+
+
+
 
 ### D. Generating Content from Given External Sources
 **Task:**
