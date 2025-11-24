@@ -32,7 +32,7 @@ I am creating a modular course called [Course Title] for higher education studen
 Propose a structure with a title and description for each module, progressing from foundations to application and reflection.
 ```
 
-## 3.2 Design and Create a Single Class Session (Objectives, Contents, Materials)
+## 3.2 Design and Create a Class Session (Objectives, Contents, Materials)
 
 ### Purpose
 Develop structured, high‑quality class plans supported by AI: objectives, content, teaching strategies, timing, and required materials.
@@ -84,7 +84,7 @@ Ground class content in peer‑reviewed research and provide academically reliab
 
 > **Note:** There are various search engines focused on technical or scientific content, such as **Semantic Scholar** and the standard **Google Scholar**, which are useful but do not offer the AI prompt capabilities of the tools presented above.
 
-**C.1 SciSpace — Literature Review Mode**
+**C.1 SciSpace — Literature Review Mode** <p>
 SciSpace works best with short, topic‑driven prompts and automatically generates summaries and many other information, including results, methods, limitations, objectives, datasets, and more.
 
 **Prompt — Topic Overview**
@@ -92,7 +92,7 @@ SciSpace works best with short, topic‑driven prompts and automatically generat
 For the topic on [Topic Name]: summarize the state of the literature, identify leading authors, and list the five most cited papers.
 ```
 
-**C.2 Perplexity — Academic Mode**
+**C.2 Perplexity — Academic Mode** <p>
 Perplexity Academic produces fully cited syntheses and is strong for deep, research‑grade output.
 
 **Prompt 1 — Literature Synthesis**
@@ -115,7 +115,7 @@ Identify three major gaps in the literature on [Topic Name].
 From the best available research, extract practical teaching applications of [Topic Name], including activity examples and risks instructors should consider.
 ```
 
-**C.3 Consensus.app — Research Summaries**
+**C.3 Consensus.app — Research Summaries** <p>
 Consensus is a research engine that generates synthesized, evidence-based answers directly from peer-reviewed papers. It can also perform deep search, draft an outline, and create a table.
 
 **Prompt 1 — Summary**
@@ -138,7 +138,7 @@ Compare learning outcomes reported in studies using [Topic Name].
 Using research findings, list the practical implications of [Topic Name].
 ```
 
-**C.4 Google Scholar Labs — Research Overview**
+**C.4 Google Scholar Labs — Research Overview** <p>
 Google Scholar Labs is ideal for fast, concise academic summaries and trend detection.
 
 **Prompt 1 — Quick Overview**
@@ -161,45 +161,82 @@ Identify recent trends in [Topic Name] based on highly cited papers since 2020.
 Summarize what instructors should know about [Topic Name], grounded in recent academic research.
 ```
 
+### Cross-Tool Prompt
+A universal prompt usable across tools:
+
+```
+Using current peer-reviewed research, explain how [Topic Name] can be integrated into a 90-minute higher education class session.
+Include: summary, benefits, risks, best practices, and citation-backed recommendations.
+```
+
+### Comparative Table of AI Literature Tools
+
+| Tool | Type | Best For | Strengths | Limitations | Ideal Use in Module 3 |
+|------|------|----------|-----------|-------------|------------------------|
+| **SciSpace** | AI literature analysis | Literature reviews & concept mapping | Visual concept maps, citation tracing, theme extraction | Needs short, topic-based queries | Building conceptual diagrams & evidence maps |
+| **Perplexity Academic** | LLM + search | Deep research synthesis | Cited responses, robust summaries, strong reasoning | May over‑aggregate sources | Generating lecture content grounded in research |
+| **Consensus.app** | Evidence summarizer | Quick synthesis of research findings | Direct conclusions from papers, comparisons, consistency analysis | Limited to indexed papers | Rapid evidence summaries for teaching decisions |
+| **Google Scholar Labs** | Search + AI summaries | Rapid literature overview | Fast topic summaries, trend detection | Less detailed synthesis | Quick background reading & preparation |
 
 
-
-
-
-
-### D. Generating Content from Given External Sources
+### D. Generating Content from External Sources
 **Task:**
-Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze some pre-selected sources of reference and create content from them. Use the papers available below as your source material if needed or some of the papers you saved from your previous search. <br>
+Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze some pre-selected sources of reference and create content from them. As example, you can use the papers below as your source material if needed or some of the papers you saved from your previous searches. <br>
 
-*Step 1:* Create a new Space in Perplexity, Notebook in NotebookLM, or Library/Notebook in SciSpace and title it "AI for Assessment and Feedback". <br>
-*Step 2:* Upload your sources of reference (see files below) into the LLM. <br>
-*Step 3:* Prompt the LLM. <br>
-
-*Chain-of-Thought Prompt:*
-```
-Using the attached material, design a 90-minute session for the course "Teaching and Learning with AI". The topic is "AI for Assessment and Feedback". Include session objectives, sequence of activities with time estimates, main contents, and how generative AI will be used in the session.
-```
+Example contents (papers) for a [Course on Taching with AI] and the topic of [AI for Assessment and Feedback]:
 [Paper_1:](./Data/AIforAssessmentandFeedback.pdf) Artificial intelligence for assessment and feedback to enhance student success in higher education <br>
 [Paper_2:](./Data/Feedbacksourcesinessaywriting.pdf) Feedback sources in essay writing: peer-generated or AI-generated feedback? <br>
 [Paper_3:](./Data/Assessingstudentperceptions.pdf) Assessing student perceptions and use of instructor versus AI‐generated feedback <br>
 
-> **Note:** After generating your content from your sources, you can use it to create the slides using Power Point, Gamma.app, Copilot, Claude.ai, or any other slide creator.
+*Step 1:* Create a new Space in Perplexity, Notebook in NotebookLM, or Library in SciSpace and title it "AI for Assessment and Feedback". <br>
+*Step 2:* Upload your sources of reference (see files below) into the LLM. <br>
+*Step 3:* Prompt the LLM. <br>
 
-**Sample illustration:** Class session storyboard: Welcome → Demo → Activity → Discussion → Reflection
+**Prompt Template - Instructional**
+```
+Using the attached material, design a 90-minute session for the course [Course Name].
+The topic is [Topic Name].
+Include session objectives and sequence of activities with time estimates and main contents.
+```
+
+> **Note:** After generating your content from your sources, you can use it to create the slides as explained previously.
 
 ## 3.3 Create Learning Activities
 
-**Task:**
-Use GenAI to develop participatory activities involving real use of generative AI for teaching and learning.
+### Purpose
+Use AI to design active learning activities that promote practical engagement with generative AI tools.
 
-*Role-Based Prompt*
+### Prompt Template — Instructional + Role-Based
 ```
-You are a faculty developer facilitating an AI training session on teaching and learning with AI. Suggest three active learning activities that help participants understand how generative AI can support the teaching and learning processes. Include instructions and necessary tools.
+You are a faculty developer facilitating a session on [Topic Name]. 
+Suggest three learning activities that help participants understand this topic.
+Include instructions, timing, and required tools.
 ```
 
-**Sample illustration:** Activity icons (e.g., pair-share, AI roleplay, guided prompt lab) linked to learning goals
+> **Note 1:** If you already know the learning activities you are going to use, you can always employ an LLM to check, improve, provide ideas and create specific activities for you.
+
+> **Note 2:** Some LLMs offer features and artifacts that can be directly used to create learning activities. For example, Claude.ai allows you to create (interactive) artifacts (e.g., apps and websites, documents and templates, games, creative projects, quiz or survey) that can be used as learning activities by the students. 
 
 ## 3.4 Select and Prepare Learning Materials
+
+### Purpose
+Identify, generate, transform, and validate materials needed for class delivery.
+
+### Task 1: Search for and generate new learning materials
+
+**Prompt Template**
+```
+Suggest a list of materials for a class on [Class Topic]: 
+Include 1 reading, 1 hands-on tool, 1 AI-generated example, 
+and 1 multimodal artifact.
+```
+
+### Task 2: Select and validate content and sources
+
+From all the materials generated in the previous steps, identify and validate those that can be used as part of your teaching component. 
+
+> **Note:** The GenAI models should be used as assistants to support you in the process of planning, designing, and creating your course, but you must ensure everything is accurate and ready to be presented in class.
+
 
 **Task 1:** 
 Use GenAI to search for and generate new learning materials.
