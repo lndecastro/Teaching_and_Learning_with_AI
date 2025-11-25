@@ -16,7 +16,7 @@ After completing this module, participants will be able to:
 - Use AI to draft, audit, and refine complete syllabus documents.
 - Integrate prompt engineering and context engineering in planning workflows.
 
-![AI-Enhanced Process](.Data/pPlanningProcess.png)
+![AI-Enhanced Process](./Data/PlanningProcess.png)
 
 ## 2.1 Define Course Goals and Learning Outcomes
 
