@@ -178,18 +178,17 @@ Include: summary, benefits, risks, best practices, and citation-backed recommend
 | **Consensus.app** | Evidence summarizer | Quick synthesis of research findings | Direct conclusions from papers, comparisons, consistency analysis | Limited to indexed papers | Rapid evidence summaries for teaching decisions |
 | **Google Scholar Labs** | Search + AI summaries | Rapid literature overview | Fast topic summaries, trend detection | Less detailed synthesis | Quick background reading & preparation |
 
-
 ### D. Generating Content from External Sources
 **Task:**
 Use a generative model like **Perplexity, NotebookLM, or SciSpace**, to analyze some pre-selected sources of reference and create content from them. As example, you can use the papers below as your source material if needed or some of the papers you saved from your previous searches. <br>
 
-Example contents (papers) for a [Course on Taching with AI] and the topic of [AI for Assessment and Feedback]:
-[Paper_1:](./Data/AIforAssessmentandFeedback.pdf) Artificial intelligence for assessment and feedback to enhance student success in higher education <br>
+Example contents (papers) for a [Course on Teaching with AI] and the topic of [AI for Assessment and Feedback]: <p>
+[Paper_1:](./Data/AIforAssessmentandFeedback.pdf) Artificial intelligence for assessment and feedback to enhance student success in higher education. <br>
 [Paper_2:](./Data/Feedbacksourcesinessaywriting.pdf) Feedback sources in essay writing: peer-generated or AI-generated feedback? <br>
-[Paper_3:](./Data/Assessingstudentperceptions.pdf) Assessing student perceptions and use of instructor versus AI‐generated feedback <br>
+[Paper_3:](./Data/Assessingstudentperceptions.pdf) Assessing student perceptions and use of instructor versus AI‐generated feedback. <br>
 
 *Step 1:* Create a new Space in Perplexity, Notebook in NotebookLM, or Library in SciSpace and title it "AI for Assessment and Feedback". <br>
-*Step 2:* Upload your sources of reference (see files below) into the LLM. <br>
+*Step 2:* Upload your sources of reference (see files above) into the LLM. <br>
 *Step 3:* Prompt the LLM. <br>
 
 **Prompt Template - Instructional**
@@ -237,47 +236,133 @@ From all the materials generated in the previous steps, identify and validate th
 
 > **Note:** The GenAI models should be used as assistants to support you in the process of planning, designing, and creating your course, but you must ensure everything is accurate and ready to be presented in class.
 
-
-**Task 1:** 
-Use GenAI to search for and generate new learning materials.
-
-*Zero-Shot Prompt*
-```
-Suggest a list of materials and resources to support a session on using generative AI for teaching, focusing on the topic "AI for Assessment and Feedback". Include at least one reading, one hands-on tool, and one illustrative example of AI-generated content.
-```
-
-**Task 2:** 
-Select and validate content and sources.
-
-From all the materials generated in the previous items, identify and validate those that can be used as part of your teaching component. 
-> **Note:** The GenAI models should be used as assistants to support you in the process of planning, designing, and creating your course, but you must ensure everything is accurate and ready to be presented in class.
-
-**Sample illustration:** Visual toolkit of PDFs, URLs, AI screenshots
-
 ## 3.5 Integrate Discussion and Reflection Elements
 
-**Task:**
-Use GenAI to generate discussion questions or reflection points that encourage dialogue and deeper thinking about AI in education.
+### Purpose
+Use AI to generate reflective questions and discussion points that deepen understanding.
 
-*Few-Shot Prompt*
+### Prompt Template — Few Shot
 ```
 Examples of reflective questions:
-1. What are the potential benefits and risks of using AI-generated assessments and feedback?
+1. What are the potential benefits and risks of using AI-generated feedback?
 2. How would you explain the role of AI to your students?
 
-Now generate 3 more reflection or discussion questions that promote critical thinking about AI in the classroom.
+Generate 3 reflection questions that promote critical thinking about [Course Topic].
 ```
-
-**Sample illustration:** Prompt card layout: front = question; back = AI teaching insight
 
 ## 3.6 Create an AI-Powered Class Summary Generator
 
-**Task:**
-Use LLMs to create a prompt to summarize the lesson automatically using AI.
+## Purpose
+Automate class closing reflections using AI-generated summaries.
 
-*Instructional Prompt*
+### Prompt Template — Instructional
 ```
-Write a prompt I can give to an LLM at the end of each class to generate a 1-paragraph summary of key takeaways based on notes or transcripts from a session on [SESSION TOPIC].
+Write a 1-paragraph summary of key takeaways from today's class using the notes or transcript provided.
+Include the main concepts, examples, tools used, and next steps for students.
 ```
 
-**Sample illustration:** Before/after comparison of raw transcript → polished AI-generated summary
+### Meta-Prompting
+```
+Write a prompt I can give to an LLM at the end of each class to generate a 1-paragraph summary of key takeaways based on notes or transcripts from a session on [Course Topic].
+```
+
+## 3.7 Updates to Your AI Workspace and Personalized Assistant
+This section summarizes the main updates to your AI Workspace (Project) and Course Personalized Assistant (PA) to ensure both tools evolve consistently as you progress in this program.
+
+### A. Updates to Your AI Workspace (Project)
+
+1. **Upload New Files to the Workspace Knowledge Base:** all materials (e.g., modules, class sessions, slides) generated or selected in this module.
+2. **Update Workspace Instructions:** modify the Project’s instruction block to reflect new responsibilities.
+
+Add under **Capabilities**:
+```
+- Structured session plan generation  
+- Learning material creation  
+- Multimodal artifact generation  
+- Literature-grounded content synthesis  
+```
+
+Add under **Behaviors**:
+```
+- Validate accuracy of AI-generated materials  
+- Flag inconsistencies or missing content  
+```
+
+### B. Updates to Your Course Personalized Assistant (PA)
+
+1. **Upload New Files to the PA Knowledge Base:** all content and learning materials generated or selected in this module.
+2. **Update PA Instructions:**
+
+Add under **Capabilities**:
+```
+- Explain class concepts at multiple difficulty levels  
+- Generate practice questions based on session materials  
+```
+
+Add under **Safety & Boundaries**:
+```
+- Avoid generating full solutions for graded assignments  
+```
+
+> **Note:** Have a look at Section 2.7C for instructions on workflow adjustments going forward each module.
+
+## 3.8 Exercises
+
+### Exercise 1 — Break Down Your Course Into Modules
+**Goal:** Structure your course into modules or sessions.
+
+**Steps:**
+1. Paste your syllabus or course description into the Workspace.
+2. Use the module‑creation prompt.
+3. Review the proposed modules.
+4. Request alternative versions (basic, standard, advanced).
+
+**Prompt:**
+```
+Break the course into modules with titles, descriptions, and key concepts.
+```
+
+### Exercise 2 — Design a Complete 90-Minute Class Session
+**Goal:** Produce a structured lesson plan using generative AI.
+
+**Steps:**
+1. Select one module from Exercise 1.
+2. Use the session‑design prompt.
+3. Request two more variants (online, hybrid).
+4. Ask the model to create a slide deck outline.
+
+**Prompt:**
+```
+Design a 90-minute class session with objectives, activities, and materials.
+```
+
+### Exercise 3 — Generate Learning Activities
+**Goal:** Create AI-supported activity plans that promote active learning.
+
+**Steps:**
+1. Choose a class topic.
+2. Use the activity-generation prompt.
+3. Request variations for different complexity levels.
+
+### Exercise 4 — Generate and Validate Learning Materials
+**Goal:** Use AI to produce readings, examples, tools, and teaching aids.
+
+**Steps:**
+1. Run the materials prompt.
+2. Request multiple formats (summary, table, example, visual).
+3. Validate outputs manually for accuracy.
+
+### Exercise 5 — Create a Class Summary Generator
+**Goal:** Build a reusable summary generator prompt.
+
+**Steps:**
+1. Copy the summary prompt.
+2. Run it on an example transcript or your own notes.
+3. Ask for three versions: bullet list, student-friendly, expert-level.
+
+# 3.9 Reflection Questions
+- Which class-design tasks benefited most from AI?
+- Where did human oversight become essential?
+- How could multimodal AI tools enrich the learning experience?
+- What tasks should remain strictly human-led?
+
