@@ -82,7 +82,8 @@ Ground class content in peer‑reviewed research and provide academically reliab
 - **Consensus.app** (https://consensus.app/)
 - **Google Scholar Labs** (https://scholar.google.com/scholar_labs)
 
-> **Note:** There are various search engines focused on technical or scientific content, such as **Semantic Scholar** and the standard **Google Scholar**, which are useful but do not offer the AI prompt capabilities of the tools presented above.
+> **Note 1:** Other relevant tools for this task include Elicit (elicit.com), Scite (scite.ai), and Research Rabbit (researchrabitt.ai). <p>
+> **Note 2:** There are various search engines focused on technical or scientific content, such as **Semantic Scholar** and the standard **Google Scholar**, which are useful but do not offer the AI prompt capabilities of the tools presented above.
 
 **C.1 SciSpace — Literature Review Mode** <p>
 SciSpace works best with short, topic‑driven prompts and automatically generates summaries and many other information, including results, methods, limitations, objectives, datasets, and more.
