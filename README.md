@@ -1,5 +1,5 @@
-# Teaching and Learning with AI
-*Jupyter-Book created for the AI Literacy program.*
+# Teaching with AI
+*Jupyter-Book created for the Teaching with AI program.*
 
 **You can view the live book here:**
 
