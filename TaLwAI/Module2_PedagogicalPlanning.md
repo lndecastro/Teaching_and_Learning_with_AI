@@ -187,34 +187,34 @@ Fill in the placeholders with the relevant information for your course.
 - Office Hours: [Enter office hours]
 
 3. Course Description
-Provide a brief description of the course.
+[Provide a brief description of the course.]
 
 4. Course Program
-List the main topics or modules.
+[List the main topics or modules.]
 
 5. Bibliography
-List recommended or required texts in the format [Author], [Title], [Edition], [Publisher], [Year].
+[List recommended or required texts in the format [Author], [Title], [Edition], [Publisher], [Year].]
 
 6. Student Learning Outcomes
-Specify learning outcomes, e.g., Upon successful completion of this course, the student will be able to:
+[Specify learning outcomes, e.g., Upon successful completion of this course, the student will be able to:]
 
 7. Instructional Method
-Describe the teaching approach.
+[Describe the teaching approach.]
 
 8. Evaluation and Grade Assignments
-Describe assessment instruments and grading policy.
+[Describe assessment instruments and grading policy.]
 
 9. Assignments
-Describe assignment policies.
+[Describe assignment policies.]
 
 10. Final Exam
-Describe final exam policy.
+[Describe final exam policy.]
 
 11. Attendance Policy
-Describe attendance policy.
+[Describe attendance policy.]
 
 12. Student Contact Information
-Describe communication policy.
+[Describe communication policy.]
 
 13. GenAI Use Policies
 Taking into account the institutional AI Policies uploaded in the project workspace, propose core GenAI use policies adequate for this course.
