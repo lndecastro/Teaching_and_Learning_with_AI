@@ -419,7 +419,7 @@ Audit this syllabus for inconsistencies, missing elements,
 and misaligned learning outcomes.
 ```
 
-## 2.5 Reflection Questions
+## 2.5 Reflection
 - Which planning tasks benefited most from AI?
 - Where was human expertise essential?
 - Did AI propose improvements you had not considered?
