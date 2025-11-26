@@ -1,4 +1,4 @@
-# 3. AI-Enhanced Class Design and Development
+# 3. AI-Assisted Class Design and Development
 *Designing individual class sessions that align with course goals and engage participants with AI-enhanced learning experiences.*
 
 This phase is about structuring the learning experience for clarity, engagement, and progression. It involves breaking down content into modules or units, designing individual class sessions with defined objectives, contents, and materials, creating learning strategies, selecting and preparing learning materials, and integrating discussion and reflection elements. AI can be used here to help design session elements, find relevant scientific literature, generate content from sources, and create learning activities and materials. 
