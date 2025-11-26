@@ -34,12 +34,10 @@ Based on the learning outcomes presented below, suggest one formative and one su
 
 ## 4.2 Create Authentic Tasks (Quizzes, Exams, Case Studies, Projects)
 
-STOPPED HERE
-
 ### Purpose  
 Generate real‑world, meaningful tasks that reflect authentic professional or academic scenarios enhanced with GenAI.
 
-### Example Prompt — Role‑Based
+### Prompt Template — Role‑Based + Instructional
 ```
 You are an instructional designer creating a real-world, authentic task for a course on [Course Title/Topic].
 Create an assignment where the students must use generative AI whilst still acquiring the required knowledge,
@@ -47,58 +45,71 @@ skills and critical thinking associated with the topic.
 Include a rationale for how AI enhances learning.
 ```
 
-### Example Prompt — Zero‑Shot
+### Additional Prompt Variant — Zero‑Shot
 ```
-Give three examples of authentic, real-world assignments for a course on teaching with AI.
-Include one quiz with 5 questions, one AI-supported case study, and one project-based task. Provide correct answers.
-```
-
-### Recommended GenAI Tools  
-- **ChatGPT / Claude / Gemini / Perplexity** — generate quiz items, scenarios, variants  
-- **Gamma / Napkin / Canva** — convert tasks into visuals or interactive formats  
-- **SciSpace / ExplainPaper** — create tasks based on academic articles  
-- **NotebookLM** — case study generation grounded in provided documents  
-
-
-**Task:** 
-Design assignments that reflect real-world work or AI-enhanced practices in education.
-
-*Role-Based Prompt*
-```
-You are an instructional designer creating a real-world, authentic task for a faculty up-skill course on the use of GenAI in education. Create an assignment where faculty must design a teaching activity using generative AI and include a rationale for how AI enhances learning.
+Give three examples of authentic, real-world assignments for a course on [Course Title/Topic].
+Include one quiz with 5 questions, one AI-supported case study, and one project-based task.
+Provide correct answers.
 ```
 
-*Zero-Shot Prompt*
+> **Note:** Some foundational models and general-purpose LLMs contain features and tools that allow you to create specific types of assignments, such as *Artifacts -> Quiz* in Claude.ai. There are also AI tools designed exclusively to support teaching and learning activities, such as Eduaide (eduaide.ai) and Khanmigo (khanmigo.ai), that can support the development of assignments.
+
+## 4.3 Create Rubrics with GenAI
+
+### Purpose  
+Develop clear, consistent rubrics using structured prompting, ensuring transparency and alignment with learning outcomes.
+
+### Prompt Template — Instructional
 ```
-Give three examples of authentic, real-world assignments for a course on teaching with AI. Include one quiz with 5 questions, one AI-supported case study, and one project-based task. For all of them, provide correct answers.
-```
+Create a rubric for the following assignment:
+[Paste the assignment here or upload it in the prompt]
 
-**Sample illustration:** Infographic showing assignment types with AI-enhancement icons (quiz, case, project).
+Use the following criteria:
+[Criterion 1, Criterion 2, ..., Criterion N]
 
-## 4.3 Create Rubrics to Define Performance Expectations
-
-**Task:**
-Use GenAI to draft clear rubrics to ensure transparency and consistency in grading.
-
-*Instructional Prompt*
-```
-Create a rubric for the following assignment: 
-"Design a lesson plan that incorporates generative AI tools to enhance student learning." 
-Use three criteria: Pedagogical soundness, Effective AI integration, and Clarity of design. For each criteria you must add ratings and points.
-Assume the ratings follow a Likert Scale from 1 (lowest) to 5 (highest), and the total points per assignment is 10.
+Create a 1–5 Likert scale and ensure the total points equal 10.
 ```
 
-*Few-Shot Prompt*
+### Additional Prompt Variant — Role-Based + Chain-of-Thought
 ```
-Example of rubric criteria for evaluating a faculty AI teaching activity:
-1. Alignment with learning outcomes
-2. Use of AI supports instructional purpose
-3. Ethical considerations are addressed
+You are an assessment specialist on [Course Name/Topic]. Create a detailed analytic rubric for the assignment below.
+Include 4 criteria, each with 4 performance levels, and point values that total 100 points.
+[Paste assignment description here]
 
-Now generate a full 3-level rubric (Excellent, Satisfactory, Needs Improvement) based on these.
+Explain your reasoning step-by-step as you generate a rubric for this assignment.
+Identify the core skills being assessed, justify each criterion, and then produce the final rubric table.
 ```
 
-**Sample illustration:** Rubric grid with sample criteria and rating scales.
+### Rubric Audit Prompt 
+```
+Audit the rubric below for clarity, comprehensiveness, redundancy, and misalignment with the assignment.
+Suggest revisions and then provide an improved version.
+[Paste rubric]
+```
+
+### Rubric Difficulty Leveling
+```
+Generate three rubric versions for the same assignment:
+- Introductory level  
+- Intermediate level  
+- Advanced level  
+
+Each version should reflect increasing expectations in cognitive demand.
+```
+
+### Rubric for Multimodal Deliverables
+```
+Create a rubric for an assignment where students submit two deliverables:
+1) A written report  
+2) An AI-generated multimodal asset (e.g., image, podcast script, or diagram)
+
+The rubric should evaluate both independently and their integration.
+```
+
+### Rubric for Partial AI Use Transparency
+```
+Create a rubric that includes a specific criterion assessing transparency in how students used AI during the assignment (e.g., listing prompts, describing AI contributions).
+```
 
 ## 4.4 Ensure Accessibility and Academic Integrity
 
