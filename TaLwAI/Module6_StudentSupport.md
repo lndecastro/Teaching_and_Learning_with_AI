@@ -1,8 +1,8 @@
 # 6. AI‑Powered Student Support  
-*Promoting academic success and well-being*
+*Centering the Personalized Assistant (PA) as the Core Student Support Tool*
 
-This module focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention. This includes using AI to supplement office hours with FAQs, offering guidance on assignments and study strategies, monitoring student success through data, providing AI-curated resources like study guides, encouraging peer collaboration, and exploring the use of AI tutors. 
-
+Generative AI enables instructors to expand availability, personalize guidance, and deliver timely academic support. In this module, the **Course Personalized Assistant (PA)**, built progressively from Module 1 onward, becomes the central hub of all student support workflows. The PA supplements office hours, answers questions, provides study strategies, generates resources, supports peer collaboration, offers early alerts, and interacts multimodally. Other AI tools remain valuable, but the PA becomes the *student-facing anchor* that integrates them into a coherent support ecosystem.
+ 
 ## Learning Objectives
 After completing this module, participants will be able to:
 - Supplement office hours with AI-generated FAQs and persistent support channels.
@@ -12,13 +12,44 @@ After completing this module, participants will be able to:
 - Facilitate peer collaboration and social learning through AI‑supported workflows.
 - Explore AI tutors, including real‑time camera- and screen‑aware AI agents.
 
-## 6.1 Provide Office Hours and Timely Responses to Inquiries
+## 6.1 The Course Personalized Assistant as the Core Support Hub
 
 ### Purpose
-Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions and create AI tutors (personalized assistants).
+Place the **Course PA** at the center of support:  
+A consistent, persistent tutor accessible 24/7, deeply grounded in course files, policies, learning outcomes, assignments, and weekly materials.
 
-### Tool 1: General-Purpose LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
-Upload your course material and prompt the LLMs to generate an FAQ.
+### What the PA Can Do (Student-Facing)
+- Provide multiple level explanations  
+- Clarify assignments and expectations (without completing graded work)  
+- Offer study plans, study strategies, revision pathways  
+- Produce summaries, flashcards, diagrams, examples  
+- Suggest peer collaboration strategies  
+- Provide responsible-AI reminders  
+- Offer nudges, pacing suggestions, and self-assessment tools  
+
+### What the PA Should Not Do
+- Provide answers or solutions to graded work  
+- Misrepresent institutional or syllabus policies  
+- Override instructor judgment  
+- Replace office hours or interpersonal communication  
+
+### Updates to the PA
+Where necessary, update your existing PA by adding:
+- New core responsibilities for student support
+- New behaviors and capabilities for study guidance, early alerts, and collaboration
+- Tightened safety & boundary rules for academic integrity
+- New conversation starters
+- Uploading all course materials created since Module 1
+
+> **Note:** Test if your PA refuses to complete graded work by prompting it to do so. If it does not, then you should revise the *core role* or the *safety & boundary* section within the instructions. 
+
+## 6.2 Extend Office Hours and Provide Timely Responses
+
+### Purpose
+Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions. Although multiple tools (e.g., ChatGPT, Claude, Gemini, NotebookLM, Perplexity) can generate FAQs or office-hour support, the PA becomes the official student-facing channel.
+
+### Alternative Tool 1: General-Purpose LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
+Upload your course material and prompt the LLM to generate an FAQ.
 
 ### Prompt-Template - Instructional
 ```
@@ -26,8 +57,10 @@ Read the attached PDF file(s) and generate a structured FAQ section that summari
 Ensure each FAQ includes a clear question and a concise, informative answer, grouped into thematic categories.
 ```
 
-### Tool 2: NotebookLM
-Create a *Notebook* with your course material and use button **Flashcards** to generate active recall, in flashcards' format, of individual definitions or concepts. 
+> **Note:** If you are working within your AI workspace, then the course material will already be uploaded in the model and you only need to prompt it to generate the FAQ. Also, in Module 5 you may have created FAQs, and these will serve as student support.
+
+### Alternative Tool 2: NotebookLM
+Create a *Notebook* with your course material and use button **Flashcards** to generate active recall, in flashcard format, of individual definitions or concepts. 
 
 
 
