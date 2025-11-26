@@ -137,7 +137,7 @@ Include:
 | **Audio/Podcasts** | NotebookLM, ElevenLabs, Murf.ai, Play.ht, Resemble AI, Speechify, Wondercraft, Copilot |
 | **Dashboards/Data** | ChatGPT Code Interpreter, Gemini Advanced + Sheets, Observable, Julius AI, DataChat AI |
 
-> **Note:** Some foundational models and general-purpose LLMs contain features and tools that allow you to create specific types of assignments, such as *Artifacts -> Quiz* in Claude.ai. There are also AI tools designed exclusively to support teaching and learning activities, such as Eduaide (eduaide.ai) and Khanmigo (khanmigo.ai), that can support the development of assignments.
+> **Note:** Some foundational models and general-purpose LLMs contain features and tools that allow you to create specific types of assignments, such as *Artifacts -> Quiz* in Claude.ai and *Quiz* in NotebookLM. There are also AI tools designed exclusively to support teaching and learning activities, such as Eduaide (eduaide.ai) and Khanmigo (khanmigo.ai), that can support the development of assignments.
 
 ## 4.3 Create Rubrics with GenAI
 
