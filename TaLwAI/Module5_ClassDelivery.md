@@ -780,4 +780,9 @@ A short reflective statement for inclusion in your AI workspace or teaching phil
 **Extension:**  
 Generate a version written **for students**, explaining your approach to AI in the classroom.
 
-
+## 5.8 Reflection
+- How did AI tools support your ability to deliver instruction dynamically and responsively during class?
+- Which aspects of real-time engagement (polls, summaries, adaptive questioning) benefited most from AI assistance—and which still require human facilitation?
+- How did AI-generated stories, examples, demonstrations, or Socratic questions influence student understanding or participation?
+- What opportunities do you see for integrating multimodal content (audio, diagrams, videos, slides) into your class delivery moving forward?
+- Where will you intentionally limit AI use during live teaching to preserve human connection, nuance, or classroom presence?
