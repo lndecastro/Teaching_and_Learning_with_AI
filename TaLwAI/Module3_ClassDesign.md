@@ -363,7 +363,7 @@ Design a 90-minute class session with objectives, activities, and materials.
 2. Run it on an example transcript or your own notes.
 3. Ask for three versions: bullet list, student-friendly, expert-level.
 
-# 3.9 Reflection
+## 3.9 Reflection
 - Which class-design tasks benefited most from AI?
 - Where did human oversight become essential?
 - How could multimodal AI tools enrich the learning experience?
