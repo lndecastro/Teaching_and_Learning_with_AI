@@ -1,36 +1,35 @@
+# 6. AI‑Powered Student Support  
+*Promoting academic success and well-being*
 
-# 6. Student Support  
-_Promoting academic success and well-being_
+This module focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention. This includes using AI to supplement office hours with FAQs, offering guidance on assignments and study strategies, monitoring student success through data, providing AI-curated resources like study guides, encouraging peer collaboration, and exploring the use of AI tutors. 
 
-This phase focuses on using generative AI to enhance the support structures available to learners, fostering inclusivity, personalization, and early intervention. This includes using AI to supplement office hours with FAQs, offering guidance on assignments and study strategies, monitoring student success through data, providing AI-curated resources like study guides, encouraging peer collaboration, and exploring the use of AI tutors. This stage includes:
-
-1. Provide Office Hours and Timely Responses to Inquiries
-2. Offer Guidance on Assignments and Study Strategies
-3. Monitor Student Success
-4. Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
-5. Encourage Peer Collaboration and Support Networks
+## Learning Objectives
+After completing this module, participants will be able to:
+- Supplement office hours with AI-generated FAQs and persistent support channels.
+- Offer personalized assignment guidance and study strategies using AI.
+- Monitor student success using structured analytics and AI‑assisted early alerts.
+- Generate AI‑curated study resources, tutoring suggestions, and multimodal aids.
+- Facilitate peer collaboration and social learning through AI‑supported workflows.
+- Explore AI tutors, including real‑time camera- and screen‑aware AI agents.
 
 ## 6.1 Provide Office Hours and Timely Responses to Inquiries
 
-**Task:** 
-In addition to your office hours, use generative AI to supplement your availability and provide consistent, supportive responses to common student queries (FAQ).
+### Purpose
+Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions and create AI tutors (personalized assistants).
 
-### Tool 1: General LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
+### Tool 1: General-Purpose LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
 Upload your course material and prompt the LLMs to generate an FAQ.
 
-*Instructional Prompt*
+### Prompt-Template - Instructional
 ```
 Read the attached PDF file(s) and generate a structured FAQ section that summarizes the key aspects of the material. 
-Ensure each FAQ includes a clear question and a concise, informative answer, and group the FAQs into thematic categories.
+Ensure each FAQ includes a clear question and a concise, informative answer, grouped into thematic categories.
 ```
 
-### Tool 2: Perplexity
-Create a *Space* with your course material and prompt the LLMs to generate an FAQ. Use the same *instructional prompt* presented above.
+### Tool 2: NotebookLM
+Create a *Notebook* with your course material and use button **Flashcards** to generate active recall, in flashcards' format, of individual definitions or concepts. 
 
-### Tool 3: NotebookLM
-Create a *Notebook* with your course material and use button **FAQ** to generate the FAQ. 
 
-**Sample illustration** Inbox of AI-generated response examples, labeled by type.
 
 ## 6.2 Offer Guidance on Assignments and Study Strategies
 
