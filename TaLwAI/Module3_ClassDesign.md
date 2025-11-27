@@ -19,7 +19,7 @@ After completing this module, participants will be able to:
 ### Purpose
 Translate course-level goals and outcomes into a usable modular structure that drives session planning, scaffolding, and pacing.
 
-### Prompt Template — Instructional + Role-Based
+**Prompt Template — Instructional + Role-Based**
 ```
 You are an instructional designer working inside the [Workspace/Project Name]. 
 Break down the course [Course Title] into modules or class sessions. 
@@ -28,7 +28,7 @@ For each module, provide: 1) title, 2) description, 3) key concepts,
 Ground your proposal in the uploaded syllabus and course outcomes.
 ```
 
-### Additional Prompt Variant — Instructional
+**Additional Prompt Variant — Instructional**
 ```
 I am creating a modular course called [Course Title] for higher education students.
 Propose a structure with a title and description for each module, progressing from foundations to application and reflection.
@@ -208,7 +208,7 @@ Include session objectives and sequence of activities with time estimates and ma
 ### Purpose
 Use AI to design active learning activities that promote practical engagement with generative AI tools.
 
-### Prompt Template — Instructional + Role-Based
+**Prompt Template — Instructional + Role-Based**
 ```
 You are a faculty developer facilitating a session on [Topic Name]. 
 Suggest three learning activities that help participants understand this topic.
@@ -244,7 +244,7 @@ From all the materials generated in the previous steps, identify and validate th
 ### Purpose
 Use AI to generate reflective questions and discussion points that deepen understanding.
 
-### Prompt Template — Few Shot
+**Prompt Template — Few Shot**
 ```
 Examples of reflective questions:
 1. What are the potential benefits and risks of using AI-generated feedback?
@@ -258,13 +258,13 @@ Generate 3 reflection questions that promote critical thinking about [Course Top
 ## Purpose
 Automate class closing reflections using AI-generated summaries.
 
-### Prompt Template — Instructional
+**Prompt Template — Instructional**
 ```
 Write a 1-paragraph summary of key takeaways from today's class using the notes or transcript provided.
 Include the main concepts, examples, tools used, and next steps for students.
 ```
 
-### Meta-Prompting
+**Meta-Prompting**
 ```
 Write a prompt I can give to an LLM at the end of each class to generate a 1-paragraph summary of key takeaways based on notes or transcripts from a session on [Course Topic].
 ```
