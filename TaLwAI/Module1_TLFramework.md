@@ -93,6 +93,10 @@ This framework structures classical phases of teaching into seven parts as **AI�
 4. Use AI to keep up with research and innovations  
 5. Build a reflective practice notebook inside your AI Workspace  
 
+### Modules Overview
+
+The picture below was generated using NotebookLM. It contains a summary of the main modules of our framework and the respective tools and deliverables of each step. 
+
 ![Modules Overview](./Data/MMModulesContents.png)
 
 ## 1.2 Foundational Knowledge for Teaching with AI  
@@ -357,7 +361,13 @@ I am reviewing this week’s material. Please explain the main concepts at three
 Then give me two practice questions to check my understanding.
 ```
 
-## 1.5 Exercises
+## 1.5 Program Summary
+
+The Mind Map below was generated using NotebookLM and provides an overview of the Teaching with AI program. The program is broken down into seven sequential phases that structure how generative AI is applied across the entire teaching process. The other mind map branches detail the essential tools, foundational knowledge, and guiding principles that frame the entire AI-Integrated instructional cycle.
+
+![Program Overview](./Data/MM_Overview.png)
+
+## 1.6 Exercises
 
 ### **Exercise 1 — Build Your AI Workspace**
 
@@ -383,16 +393,12 @@ Then give me two practice questions to check my understanding.
 Reflect on each phase (A–G):  
 Where does AI provide value? Where should humans lead?
 
-## 1.6 Reflection
+## 1.7 Reflection
 
 - What parts of the teaching workflow could AI immediately streamline?  
 - Where do you feel hesitation about integrating AI?  
 - How might an AI Workspace improve your daily teaching tasks?  
 - What guardrails must be in place before students use your Personalized Assistant?
-
-## 1.7 Summary
-
-![Program Overview](./Data/MM_Overview.png)
 
 ## 📘 Further Reading
 
