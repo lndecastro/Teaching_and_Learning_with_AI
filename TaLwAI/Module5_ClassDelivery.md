@@ -17,7 +17,7 @@ After completing this module, participants will be able to:
 ### Purpose
 Use GenAI to design collaborative and interactive activities that foster engagement and critical thinking.
 
-### Prompt Template - Instructional
+**Prompt Template - Instructional**
 ```
 Suggest three learning strategies that leverage generative AI for a course on [Course Title].
 Explain how tools like ChatGPT, Claude or Perplexity support group work or collaborative tasks.
@@ -64,7 +64,7 @@ Students individually explore a question with an AI assistant, then pair to comp
 #### Overview
 Students debate an issue where the AI acts as a **role-based debating partner**, allowing students to practice argumentation, critique, and evidence use.
 
-#### Prompt for Students
+**Prompt for Students**
 ```
 You are an expert who argues *in favor* of the position:
 [Insert debate statement]
@@ -96,7 +96,7 @@ Students form groups of three:
 #### Overview
 Students analyze AI-generated mistakes to deepen understanding and improve critical evaluation. This is powerful for math, programming, statistics, logic, or technical writing.
 
-#### Instructor Preparation Prompt
+**Instructor Preparation Prompt**
 Use this to generate deliberate AI mistakes:
 ```
 Produce a partially incorrect explanation of [Topic].
@@ -170,7 +170,7 @@ AI accelerates the creation of these elements while allowing you to customize th
 
 Storytelling supports attention, memory, and emotional connection. AI enables you to generate rich, contextualized stories that illustrate course concepts.
 
-**Sample Tools for Storytelling**
+#### Sample Tools for Storytelling
 - **ChatGPT** – concise narratives, analogies, cross-cultural versions  
 - **Claude** – nuanced stories, role-play, ethical dilemmas, branching scenarios  
 - **Gemini** – multimodal stories (text + images + diagrams)  
@@ -195,7 +195,7 @@ Examples make abstract ideas actionable. AI helps produce:
 - multimodal examples  
 - incorrect examples for error analysis  
 
-**Sample Tools to Create Examples**
+#### Sample Tools to Create Examples
 - **ChatGPT** – code examples, logic examples, structured scenarios  
 - **Gemini** – diagrams, concept maps, multimodal examples  
 - **Claude** – written/narrative examples with strong coherence
@@ -217,7 +217,7 @@ Demonstrations show how something works. AI can support:
 - simplified vs. expanded demonstrations  
 - simulated reasoning processes  
 
-**Sample Tools to Create Demos**
+#### Sample Tools to Create Demos
 - **ChatGPT** – data, algorithms, math  
 - **Gemini** – visual demonstrations  
 - **Perplexity** – demonstrations grounded in current research  
@@ -237,13 +237,13 @@ AI allows you to generate:
 - misconception-focused questions  
 - document-grounded questions  
 
-### Sample Tools
+#### Sample Tools
 - **Claude** – natural Socratic style  
 - **ChatGPT** – adaptive questioning  
 - **NotebookLM** – grounded in your readings  
 - **Gemini** – image-based questioning  
 
-## Ready-to-Use Prompt
+**Ready-to-Use Prompt**
 ```
 Create a Socratic questioning sequence (8 questions) that helps a student uncover why [Misconception] is incorrect.
 Questions should increase in difficulty.
@@ -443,7 +443,7 @@ These strategies allow you to:
 - adapt pace and depth responsively  
 - enhance participation and inclusivity  
 
-### Prompt Template – Chain-of-Thought
+**Prompt Template – Chain-of-Thought**
 ```
 How can generative AI assist instructors in monitoring student comprehension during a class?
 Provide a step-by-step strategy, including at least one AI tool, one feedback mechanism, and one adaptation based on results.
@@ -557,7 +557,7 @@ Students post short reflections or questions. AI clusters themes and identifies 
 #### Overview
 Instructors use AI to generate a progressive question ladder that adapts based on student responses.
 
-#### Prompt
+**Prompt**
 ```
 Create a real-time adaptive questioning sequence (5–7 questions) that assesses comprehension of [Topic].
 Questions should progress from basic recall to applied reasoning.
@@ -581,12 +581,16 @@ Questions should progress from basic recall to applied reasoning.
 #### Overview
 AI transforms the classic “Minute Paper” into a structured, actionable feedback tool.
 
-#### Prompt (in class)
+**Prompt (in class)**
 Students answer:  
-- *What is the most important thing you learned today?*  
-- *What remains unclear?*
+```
+What is the most important thing you learned today?
+```
+```
+What remains unclear?
+```
 
-#### Instructor Step
+**Instructor Step**
 Paste student answers into the LLM:  
 ```
 Summarize key insights, identify top 3 areas of confusion, 
@@ -623,7 +627,7 @@ Instructor collects in-class responses (from chat, polls, activities) and asks A
 ### Purpose
 Use AI insights to adjust scaffolding, depth, and pacing on the fly.
 
-### Prompt Template
+**Prompt**
 ```
 Examples of adapting pace:
 1. Slowing down for misunderstood content
