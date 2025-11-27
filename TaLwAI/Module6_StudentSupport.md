@@ -41,51 +41,118 @@ Where necessary, update your existing PA by adding:
 - New conversation starters
 - Uploading all course materials created since Module 1
 
-> **Note:** Test if your PA refuses to complete graded work by prompting it to do so. If it does not, then you should revise the *core role* or the *safety & boundary* section within the instructions. 
+> **Note:** Test if your PA refuses to complete graded work by prompting it to do so. If it does not refuse, then you should revise the *core role* or the *safety & boundary* section within the instructions. 
 
 ## 6.2 Extend Office Hours and Provide Timely Responses
 
 ### Purpose
-Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions. Although multiple tools (e.g., ChatGPT, Claude, Gemini, NotebookLM, Perplexity) can generate FAQs or office-hour support, the PA becomes the official student-facing channel.
+Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions. Although multiple tools can generate FAQs or office-hour support, the PA is still the official student-facing channel.
 
-### Alternative Tool 1: General-Purpose LLMs (e.g. ChatGPT, Copilot, Gemini, Grok, etc.)
-Upload your course material and prompt the LLM to generate an FAQ.
+### Alternative Tool 1: General-Purpose LLMs (e.g., ChatGPT, Copilot, Gemini, Grok, etc.)
+Upload your course materials and prompt the LLM to generate an FAQ or any other support resources desired.
 
-### Prompt-Template - Instructional
+### Prompt Template - Instructional
 ```
 Read the attached PDF file(s) and generate a structured FAQ section that summarizes the key aspects of the material. 
 Ensure each FAQ includes a clear question and a concise, informative answer, grouped into thematic categories.
 ```
 
-> **Note:** If you are working within your AI workspace, then the course material will already be uploaded in the model and you only need to prompt it to generate the FAQ. Also, in Module 5 you may have created FAQs, and these will serve as student support.
+> **Note:** If you are working within your AI workspace, then the course material will already be uploaded in the model and you only need to prompt it to generate the new support material. Also, in Module 5 you may have created the materials, and these will serve as student support.
 
 ### Alternative Tool 2: NotebookLM
-Create a *Notebook* with your course material and use button **Flashcards** to generate active recall, in flashcard format, of individual definitions or concepts. 
+Create a *Notebook* with your course material and use button **Flashcards** or other tools to generate the desired support resources. 
 
+## 6.3 Assignment Guidance & Study Strategies
 
+### Purpose  
+Help students approach assignments with clarity, confidence, and strategy.  
+While generative AI tools can assist with assignment interpretation and study planning, **the Course Personalized Assistant (PA)** remains the *primary student-facing tool* for guiding academic tasks, providing structured breakdowns, study strategies, and self‑assessment prompts without completing graded work.
 
-## 6.2 Offer Guidance on Assignments and Study Strategies
+### Primary Tool: The Course Personalized Assistant
 
-**Task**
-Use AI to offer personalized academic coaching or scaffolded support on deliverables.
+Your PA is responsible for:
 
-*Zero-Shot Prompt*
+- Clarifying assignment descriptions and expectations (without producing solutions)  
+- Breaking down complex tasks into manageable steps  
+- Suggesting prerequisite knowledge or skills to review  
+- Providing study strategies tailored to the task type  
+- Offering revision pathways, self-check questions, and pacing guidance  
+- Helping students identify misconceptions or knowledge gaps  
+- Encouraging responsible AI use while working on assignments  
+
+Because the PA is grounded in the syllabus, assignments, rubrics, and course policies, its guidance is *contextualized*, *consistent*, and *aligned with your teaching intent*.
+
+### Sample PA Prompt for the Students
+Students may use this prompt directly with the PA:
 ```
-Provide five examples of how generative AI can help faculty learners in a course about AI pedagogy better understand and complete their assignments. Include study strategies and task breakdowns.
+Help me understand how to approach [Assignment Name]. 
+Explain the task in your own words, break it into clear steps, 
+suggest study strategies or prerequisite concepts I should review, 
+and provide 3–5 self-check questions to confirm my understanding.
+Do not give me any part of the solution.
 ```
 
-**Sample illustration** Flowchart: Assignment → AI Feedback → Strategy Suggestion → Revision
+### What the PA will generate:
+- A simplified explanation of the assignment  
+- A structured approach (step-by-step)  
+- A recommended study plan (daily/weekly)  
+- Suggested tools or resources (if allowed)  
+- A list of self-check or reflection questions  
+- A reminder about responsible AI use  
+- Warnings to avoid using AI to generate prohibited content  
 
-## 6.3 Monitor Student Success
+### When Should Students Use the PA for Assignments?
+Encourage students to contact the PA when they:
+- are unsure how to start an assignment  
+- need examples of *approach*, not *answers*  
+- want a study plan  
+- need help interpreting rubrics  
+- want help identifying what they already know vs. what they must review  
+- need guidance on preparing for group work or collaborative responsibilities  
 
-**Task:**
+### Alternative Tool 1: General-Purpose LLMs
+Instructors may use additional AI tools to produce resources to students.
+Use general LLMs to create:
+- reading summaries  
+- sample study plans  
+- diagrams or concept maps  
+- lists of common misconceptions  
+
+### Sample Instructor Prompt (Workspace or private LLM):
+```
+Based on the attached assignment and rubric, create a list of common misconceptions students may have and suggest study strategies for each.
+```
+
+### Alternative Tool 2: NotebookLM  
+NotebookLM can generate grounded resources that can be later distributed:
+- document-grounded summaries  
+- flashcards on assignment-relevant concepts  
+- video and/or audio explainers  
+- step‑by‑step walkthroughs of prerequisite topics
+- mindmaps
+
+> **Note:** Use NotebookLM to produce structured learning aids *based solely on your uploaded readings*, then make them available for student support.
+
+### Optional Add-On: PA‑Assisted Study Planning  
+Your PA can generate personalized study plans based on the course schedule.
+
+### Sample Prompt for the Students
+```
+Create a 7-day study plan to help me prepare for [Assignment Name], 
+considering the course pacing and major concepts we’ve covered. 
+Suggest checkpoints and ways to evaluate my progress.
+```
+
+## 6.4 Monitor Student Success
+
+### Purpose
 Use engagement data or AI-generated insights to detect patterns that indicate a need for support.
 
-*Chain-of-Thought Prompt: Tasking the LLM with the Table Design*
+### Prompt Template - Design a Student Success Table*
 ```
-I want to design a table to collect student information in a course. The goal is to use the data to calculate a "Student Success Score." 
+I want to design a table to collect student information in a course. The goal is to use the data to calculate a "Student Success Score". 
 
-1. Propose a matrix with at least 5 student variables (e.g., attendance, assignment completion, quiz scores, engagement, self-assessments).
+1. Propose a matrix with at least 5 student variables (e.g., attendance, assignment completion, grades, engagement, self-assessments).
 2. For each variable, define:
    - Data type (numeric, categorical)
    - Measurement method
@@ -96,23 +163,24 @@ I want to design a table to collect student information in a course. The goal is
 5. Save this matrix as a table in XLSX, CSV, or Google Spreadsheet format.
 ```
 
-*Instructional Prompt: Guiding the LLM with a Pre-Specified Score Matrix*
+### Additional Prompt Variant - Using a Pre-Specified Score Matrix
+Provide the following details to create a matrix or table for collecting student information and calculating a success score.
 ```
-# Prompt to Design a Student Success Score Matrix
+Create a table for calculating the students' success score.
+The table should include relevant student data points, and a success score will be calculated using a weighted equation.
+Use a clear, structured table format, and ensure the success score equation is included with explanations of each component.
 
-Please provide the following details to create a matrix or table for collecting student information and calculating a success score. The matrix should include relevant student data points, and a success score will be calculated using a weighted equation. Use a clear, structured table format, and ensure the success score equation is included with explanations of each component.
-
-## Student Information to Collect
-[List the data points you want to collect for each student. Examples include:
-- Student Name: [Text input, e.g., John Doe]
-- Attendance Rate: [Percentage, e.g., 95%]
-- Assignment Completion Rate: [Percentage, e.g., 90%]
-- Quiz Average Score: [Percentage, e.g., 85%]
-- Discussion Participation: [Number of posts, e.g., 5]
-- Time Spent on LMS: [Hours per week, e.g., 10 hours]
+Student Information to Collect:
+[List or upload the data points you want to collect for each student. Examples include:
+- Student Name: 
+- Attendance Rate: 
+- Assignment Completion Rate: 
+- Quiz Average Score: 
+- Discussion Participation: 
+- Time Spent on LMS: 
 Add or modify data points as needed.]
 
-## Table Structure
+Table Structure:
 [Design a table to collect the data. Example structure:
 | Student Name | Attendance Rate (%) | Assignment Completion Rate (%) | Quiz Average Score (%) | Discussion Participation (Posts) | Time Spent on LMS (Hours/Week) | Success Score |
 |--------------|---------------------|-------------------------------|-----------------------|---------------------------------|-------------------------------|---------------|
@@ -137,12 +205,12 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 
 Modify weights or add/remove components as needed.]
 
-## Additional Notes
+Additional Notes:
 - Ensure all percentages are on a 0-100 scale for consistency.
 - The Success Score should range from 0 to 100, with higher scores indicating greater likelihood of success.
 - Include a brief explanation of how to interpret the score (e.g., “Scores above 80 indicate strong performance, 60-80 suggest moderate success with room for improvement, below 60 indicate a need for intervention”).
 
-## Output 
+Output: 
 [Generate the final table and equation in a clear format, e.g.:
 **Student Success Score Matrix**
 
@@ -161,11 +229,11 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 ]
 
 **Output file and graphs**
-- Save the generated table in an xlsx or csv spreadsheet file.
+- Save the generated table in an XLSX or CSV spreadsheet file.
 - Generate a bar graph for each student with the values in each criteria normalized in the 0-100 interval. The success score bar should have different colors for each of the three interpretations.
 ```
 
-**Sample illustration** Early alert system diagram with AI dashboard and action paths.
+
 
 ## 6.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
 
