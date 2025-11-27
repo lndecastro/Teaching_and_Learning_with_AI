@@ -1,7 +1,7 @@
 # 6. AI‑Powered Student Support  
 *Centering the Personalized Assistant (PA) as the Core Student Support Tool*
 
-Generative AI enables instructors to expand availability, personalize guidance, and deliver timely academic support. In this module, the **Course Personalized Assistant (PA)**, built progressively from Module 1 onward, becomes the central hub of all student support workflows. The PA supplements office hours, answers questions, provides study strategies, generates resources, supports peer collaboration, offers early alerts, and interacts multimodally. Other AI tools remain valuable, but the PA becomes the *student-facing anchor* that integrates them into a coherent support ecosystem.
+Generative AI enables instructors to expand availability, personalize guidance, and deliver timely academic support. In this module, the **Course Personalized Assistant (PA)**, built progressively from the start of this program, becomes the central hub of all student support workflows. The PA supplements office hours, answers questions, provides study strategies, generates resources, supports peer collaboration, offers early alerts, and interacts multimodally. Other AI tools remain valuable, but the PA becomes the *student-facing anchor* that integrates them into a coherent support ecosystem.
  
 ## Learning Objectives
 After completing this module, participants will be able to:
@@ -15,8 +15,7 @@ After completing this module, participants will be able to:
 ## 6.1 The Course Personalized Assistant as the Core Support Hub
 
 ### Purpose
-Place the **Course PA** at the center of support:  
-A consistent, persistent tutor accessible 24/7, deeply grounded in course files, policies, learning outcomes, assignments, and weekly materials.
+Place the **Course PA** at the center of support: a consistent, persistent tutor accessible 24/7, deeply grounded in course files, policies, learning outcomes, assignments, and weekly materials.
 
 ### What the PA Can Do (Student-Facing)
 - Provide multiple level explanations  
@@ -39,14 +38,14 @@ Where necessary, update your existing PA by adding:
 - New behaviors and capabilities for study guidance, early alerts, and collaboration
 - Tightened safety & boundary rules for academic integrity
 - New conversation starters
-- Uploading all course materials created since Module 1
+- Uploading all student-oriented course materials created since Module 1
 
 > **Note:** Test if your PA refuses to complete graded work by prompting it to do so. If it does not refuse, then you should revise the *core role* or the *safety & boundary* section within the instructions. 
 
 ## 6.2 Extend Office Hours and Provide Timely Responses
 
 ### Purpose
-Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions. Although multiple tools can generate FAQs or office-hour support, the PA is still the official student-facing channel.
+Extend the instructor’s presence beyond scheduled hours by using AI to generate consistent, accurate responses to common student questions. Although multiple tools can generate FAQs or office-hour support, the PA is still the official 24/7 student-facing channel.
 
 ### Alternative Tool 1: General-Purpose LLMs (e.g., ChatGPT, Copilot, Gemini, Grok, etc.)
 Upload your course materials and prompt the LLM to generate an FAQ or any other support resources desired.
@@ -57,15 +56,87 @@ Read the attached PDF file(s) and generate a structured FAQ section that summari
 Ensure each FAQ includes a clear question and a concise, informative answer, grouped into thematic categories.
 ```
 
-> **Note:** If you are working within your AI workspace, then the course material will already be uploaded in the model and you only need to prompt it to generate the new support material. Also, in Module 5 you may have created the materials, and these will serve as student support.
+> **Note:** If you are working within your AI workspace, then the course material will already be uploaded in the model and you only need to prompt it to generate the new support material. Also, in Module 5 you created various course materials which may serve as student support.
 
 ### Alternative Tool 2: NotebookLM
-Create a *Notebook* with your course material and use button **Flashcards** or other tools to generate the desired support resources. 
+The goal here is to create a shared, student-facing Notebook for course study support. 
+
+NotebookLM can serve as a powerful **secondary support tool** for students, complementing the PA. The instructor creates a **shared NotebookLM workspace** by uploading *only student-facing materials* and granting students access to explore the full range of NotebookLM features.
+
+Unlike the PA—which offers structured, policy-aligned guidance, NotebookLM empowers students to explore course materials independently through grounded, multimodal interactions.
+
+#### How to Use NotebookLM as a Student Support Tool
+
+1. **Create a new NotebookLM** dedicated to the course.  
+2. **Upload only materials intended for students**, such as:  
+   - syllabus  
+   - lecture slides or summaries  
+   - weekly notes  
+   - assignment instructions (without solutions)  
+   - public readings or open-access articles  
+   - videos, URLs, transcripts, and multimedia resources  
+3. Because NotebookLM shares all uploaded materials with its users, **do NOT upload any instructor-only content**, including:  
+   - grading rubrics with detailed criteria  
+   - answer keys or model solutions  
+   - teaching notes or internal planning  
+   - test/question banks  
+4. Share the NotebookLM link with students so they can freely explore every feature.
+
+#### Benefits of NotebookLM for Student Learning
+
+NotebookLM supports learning through **multimodal, source-grounded interactions**:
+
+- **Document-based accuracy** — All answers come only from uploaded course materials.  
+- **Multimodal sources** — Students learn from text, PDFs, images, URLs, and video content.  
+- **Flashcards** — Automatic retrieval practice for key concepts.  
+- **Study guides** — Summaries generated from selected documents.  
+- **Audio podcasts** — AI-generated audio explanations students can listen to.
+- **Video Overviews** — Narrated AI-generated presentations students can watch.
+- **Mind maps** — Visual connections extracted across multiple documents.  
+- **Comparative synthesis** — Helps students relate ideas from different sources.
+
+This creates a transparent, student-owned workspace for meaningful engagement with the course content.
+
+#### Prompt Templates for Students Using NotebookLM
+
+Give these prompt templates to students within the shared Notebook:
+
+**1. Understanding Assignments**
+```
+Explain the assignment on [Assignment Name] using only the materials uploaded here.
+Summarize its purpose, main tasks, and key concepts.
+Do not produce the solution.
+```
+
+**2. Study Guide Generation**
+```
+Create a study guide for [Topic] using the resources in this notebook.
+Include key ideas, definitions, diagrams, examples, and a short self-check quiz.
+```
+
+**3. Video or Multimedia Summary**
+```
+Summarize the key points from the video or multimedia source titled “[Title]”
+using bullet points and a short paragraph explanation.
+```
+
+**4. Comparing Sources**
+```
+Compare how [Topic] is presented across the documents uploaded here.
+Highlight similarities, differences, and important insights.
+```
+
+**5. Pre‑Class Preparation**
+```
+Generate a pre-class preparation guide for this week’s materials.
+List what I should read, watch, or review.
+```
 
 ## 6.3 Assignment Guidance & Study Strategies
 
 ### Purpose  
-Help students approach assignments with clarity, confidence, and strategy.  
+Help students approach assignments with clarity, confidence, and strategy. 
+
 While generative AI tools can assist with assignment interpretation and study planning, **the Course Personalized Assistant (PA)** remains the *primary student-facing tool* for guiding academic tasks, providing structured breakdowns, study strategies, and self‑assessment prompts without completing graded work.
 
 ### Primary Tool: The Course Personalized Assistant
@@ -110,6 +181,16 @@ Encourage students to contact the PA when they:
 - want help identifying what they already know vs. what they must review  
 - need guidance on preparing for group work or collaborative responsibilities  
 
+### Optional Add-On: PA‑Assisted Study Planning  
+Your PA can generate personalized study plans based on the course schedule.
+
+### Sample Prompt for the Students
+```
+Create a 7-day study plan to help me prepare for [Assignment Name], 
+considering the course pacing and major concepts we’ve covered. 
+Suggest checkpoints and ways to evaluate my progress.
+```
+
 ### Alternative Tool 1: General-Purpose LLMs
 Instructors may use additional AI tools to produce resources to students.
 Use general LLMs to create:
@@ -131,17 +212,8 @@ NotebookLM can generate grounded resources that can be later distributed:
 - step‑by‑step walkthroughs of prerequisite topics
 - mindmaps
 
-> **Note:** Use NotebookLM to produce structured learning aids *based solely on your uploaded readings*, then make them available for student support.
-
-### Optional Add-On: PA‑Assisted Study Planning  
-Your PA can generate personalized study plans based on the course schedule.
-
-### Sample Prompt for the Students
-```
-Create a 7-day study plan to help me prepare for [Assignment Name], 
-considering the course pacing and major concepts we’ve covered. 
-Suggest checkpoints and ways to evaluate my progress.
-```
+> **Note 1:** Use NotebookLM to produce structured learning aids *based solely on your uploaded readings*, then make them available for student support.
+> **Note 2:** If you have created the shared Student Notebook, then the students will be able to use it also as their **assignment assistant environment**.
 
 ## 6.4 Monitor Student Success
 
