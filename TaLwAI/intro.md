@@ -3,12 +3,20 @@
 Welcome to the **Teaching with AI Program**, part of the FGCU AI Academy led by the Dendritic Institute for Human-Centered AI & Data Science at Florida Gulf Coast University. This program is designed for faculty and instructors seeking **practical, hands-on methods for integrating Generative AI tools throughout the teaching and learning cycle**. Unlike pedagogical or learning-science programs, which are covered separately in the Academy, **this training focuses on the instrumental and operational use of AI**.
 
 ## Disclaimer
-This training is intended to demonstrate the capabilities of generative AI tools in educational contexts. It is not an endorsement of using AI-generated content without human expertise, oversight, or academic judgment, nor is it a prescriptive guide for its use. Faculty remain fully responsible for:
+This training is intended to demonstrate the capabilities of generative AI tools in educational contexts. It is not an endorsement of using AI-generated content without human expertise, oversight, or academic judgment, nor is it a prescriptive guide for its use. Instructors remain fully responsible for:
 - Curating and validating instructional content
 - Disclosing when and how AI tools are used
+- Choosing the specific tools and models they want to use
 - Ensuring the ethical, responsible, and context-appropriate integration of AI into teaching and learning
 
 Academic content must always be aligned with the subject matter, learning objectives, institutional context and policies, and professional standards. While AI can assist in content creation and instructional design (AI-assisted), it should not replace the critical role of educators (not AI-driven).
+
+**Model and Tool Neutrality**
+
+Throughout this program, we present a variety of foundational models, general-purpose LLMs, and specialized AI tools designed to support teaching and learning.
+We do not endorse or receive sponsorship from any of the vendors, platforms, or products mentioned. Our emphasis on foundational and general-purpose models is intentional: it ensures that instructors develop transferable skills and learn how to use AI for teaching independently of any specific vendor, interface, or model-specific feature.
+
+Participants are free and encouraged to use any AI model or tool of their preference, including alternatives not mentioned here, so long as they meet instructional needs and comply with institutional policies.
 
 For current FGCU policies on generative AI, please refer to:
 🔗 https://www.fgcu.edu/about/leadership/officeoftheprovost/generative-ai
