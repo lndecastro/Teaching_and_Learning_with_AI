@@ -659,7 +659,7 @@ Generate an AI-assisted strategy for adapting pace during class.
 - Never provide answers to graded in-class activities  
 - Encourage self-assessment before requesting simplified explanations  
 
-## 5.7 Exercises — AI‑Enabled Class Delivery  
+## 5.7 Exercises  
 
 ### Exercise 1 — Design an AI‑Augmented Active Learning Activity
 **Objective:** Apply Section 5.1 by designing an active‑learning strategy enhanced with generative AI.
