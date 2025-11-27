@@ -16,14 +16,14 @@ After completing this module, participants will be able to:
 ### Purpose  
 Use GenAI to understand and design assessments that track learning progress (formative) and evaluate mastery (summative), ensuring alignment with the course learning outcomes.
 
-### Prompt — Instructional
+**Prompt — Instructional**
 ```
 Explain the difference between formative and summative assessments in the context of learning.
 Provide technical or scientific references from the literature about these two types of assessments.
 Then generate an example of each for a course on [Course Title/Topic].
 ```
 
-### Course-Tailored Prompt — Instructional
+**Course-Tailored Prompt — Instructional**
 ```
 Based on the learning outcomes presented below, suggest one formative and one summative assessment aligned with them.
 [Learning Outcomes]
@@ -37,7 +37,7 @@ Based on the learning outcomes presented below, suggest one formative and one su
 ### Purpose  
 Design authentic assessments—textual, computational, creative, and multimodal—that mirror real-world professional tasks while leveraging GenAI tools to improve relevance, engagement, and depth of learning.
 
-### Prompt Template — Role‑Based + Instructional
+**Prompt Template — Role‑Based + Instructional**
 ```
 You are an instructional designer creating a real-world, authentic task for a course on [Course Title/Topic].
 Create an assignment where the students must use generative AI whilst still acquiring the required knowledge,
@@ -45,7 +45,7 @@ skills and critical thinking associated with the topic.
 Include a rationale for how AI enhances learning.
 ```
 
-### Prompt Template — Role‑Based + Instructional (Multimodal Version)
+**Prompt Template — Role‑Based + Instructional (Multimodal Version)**
 ```
 You are an instructional designer creating an authentic, multimodal assignment for a course on [Course Title/Topic].
 
@@ -62,14 +62,14 @@ Include:
 - rationale for pedagogical value
 ```
 
-### Additional Prompt Variant — Zero‑Shot
+**Additional Prompt Variant — Zero‑Shot**
 ```
 Give three examples of authentic, real-world assignments for a course on [Course Title/Topic].
 Include one quiz with 5 questions, one AI-supported case study, and one project-based task.
 Provide correct answers.
 ```
 
-### Additional Prompt Variant — Zero‑Shot (Multimodal Version)
+**Additional Prompt Variant — Zero‑Shot (Multimodal Version)**
 ```
 Provide four examples of multimodal, real-world assignments for a course on [Course Title/Topic]:
 
@@ -81,7 +81,7 @@ Provide four examples of multimodal, real-world assignments for a course on [Cou
 For each, include correct answers or evaluation notes.
 ```
 
-### Multimodal Assignment Prompt — Simulation-Based Task
+**Multimodal Assignment Prompt — Simulation-Based Task**
 ```
 Create a scenario-based assignment modeled after real-world practice on [Course Title/Topic].
 Use generative AI to produce a visual, chart, or infographic that students must analyze.
@@ -92,7 +92,7 @@ Task requirements:
 - Explain the expected student responses.
 ```
 
-### Multimodal Assignment Prompt — Diagram or Concept Map
+**Multimodal Assignment Prompt — Diagram or Concept Map**
 ```
 Generate an assignment requiring students to create a concept map or diagram using an AI visual tool (e.g., Napkin, Figma AI, Canva Magic Design).
 Include:
@@ -101,7 +101,7 @@ Include:
 - a follow-up written explanation students must complete
 ```
 
-### Multimodal Assignment Prompt — Audio/Podcast
+**Multimodal Assignment Prompt — Audio/Podcast**
 ```
 Create an assignment requiring students to generate a short AI-assisted podcast episode explaining a key course concept.
 Include:
@@ -110,7 +110,7 @@ Include:
 - reflection questions about AI's role in preparing the episode
 ```
 
-### Multimodal Assignment Prompt — Video Explainer
+**Multimodal Assignment Prompt — Video Explainer**
 ```
 Design an assignment in which students produce a 2–3 minute AI-assisted explainer video on a selected topic.
 Students must script the video with GenAI, validate the content manually, and cite their AI prompts.
@@ -119,7 +119,7 @@ Include:
 - accuracy and integrity expectations
 ```
 
-### Multimodal Assignment Prompt — Data + Image + Text Integration
+**Multimodal Assignment Prompt — Data + Image + Text Integration**
 ```
 Create an assignment where students must analyze a dataset, interpret AI-generated visualizations, and write a short analytical report.
 Include:
@@ -128,7 +128,7 @@ Include:
 - expected reasoning steps
 ```
 
-### **Sample Tools to Support Multimodal Assignments**
+### Sample Tools to Support Multimodal Assignments
 | Category | Tools |
 |---------|-------|
 | **Diagrams** | Canva Magic Studio, Napkin, Figma AI, DALL·E |
@@ -144,7 +144,7 @@ Include:
 ### Purpose  
 Develop clear, consistent rubrics using structured prompting, ensuring transparency and alignment with learning outcomes.
 
-### Prompt Template — Instructional
+**Prompt Template — Instructional**
 ```
 Create a rubric for the following assignment:
 [Paste the assignment here or upload it in the prompt]
@@ -155,7 +155,7 @@ Use the following criteria:
 Create a 1–5 Likert scale and ensure the total points equal 10.
 ```
 
-### Additional Prompt Variant — Role-Based + Chain-of-Thought
+**Additional Prompt Variant — Role-Based + Chain-of-Thought**
 ```
 You are an assessment specialist on [Course Name/Topic]. Create a detailed analytic rubric for the assignment below.
 Include 4 criteria, each with 4 performance levels, and point values that total 100 points.
@@ -165,14 +165,14 @@ Explain your reasoning step-by-step as you generate a rubric for this assignment
 Identify the core skills being assessed, justify each criterion, and then produce the final rubric table.
 ```
 
-### Rubric Audit Prompt 
+**Rubric Audit Prompt**
 ```
 Audit the rubric below for clarity, comprehensiveness, redundancy, and misalignment with the assignment.
 Suggest revisions and then provide an improved version.
 [Paste rubric]
 ```
 
-### Rubric Difficulty Leveling
+**Rubric Difficulty Leveling Prompt**
 ```
 Generate three rubric versions for the same assignment:
 - Introductory level  
@@ -182,7 +182,7 @@ Generate three rubric versions for the same assignment:
 Each version should reflect increasing expectations in cognitive demand.
 ```
 
-### Rubric for Multimodal Deliverables
+**Rubric for Multimodal Deliverables**
 ```
 Create a rubric for an assignment where students submit two deliverables:
 1) A written report  
@@ -191,7 +191,7 @@ Create a rubric for an assignment where students submit two deliverables:
 The rubric should evaluate both independently and their integration.
 ```
 
-### Rubric for Partial AI Use Transparency
+**Rubric for Partial AI Use Transparency**
 ```
 Create a rubric that includes a specific criterion assessing transparency in how students used AI during the assignment (e.g., listing prompts, describing AI contributions).
 ```
@@ -201,14 +201,14 @@ Create a rubric that includes a specific criterion assessing transparency in how
 ### Purpose  
 Ensure equitable access for all learners and minimize misuse of generative tools.
 
-### Prompt Template — Role‑Based (Accessibility)
+**Prompt Template — Role‑Based (Accessibility)**
 ```
 You are an educator designing an inclusive assignment using GenAI.
 List principles that ensure accessibility for neurodiverse, multilingual, or disabled learners.
 Include examples of modifications.
 ```
 
-### Additional Prompt Variant — Instructional (Integrity)
+**Additional Prompt Variant — Instructional (Integrity)**
 ```
 Suggest five ways to promote academic integrity in AI-assisted assignments.
 For each, include a strategy to monitor or mitigate misuse.
