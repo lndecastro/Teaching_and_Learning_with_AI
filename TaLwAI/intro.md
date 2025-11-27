@@ -48,15 +48,21 @@ By the end of this program, participants should be able to:
 - **Utilize generative AI for reflection and continuous improvement** of teaching practices, including identifying effective elements, revising materials and strategies, staying engaged with research, sharing experiences, and analyzing student feedback and data.
 
 ## 3. Structure and Approach
+*A multi-layered, workflow-driven program for operational AI integration in higher education*  
 
-Each session is structured around a short introduction, hands-on activities, and a reflection period. You will be encouraged to:
+The **Teaching with AI Program** is built as a *practical, operational, and iterative system* for integrating generative AI into every phase of the teaching and learning cycle. Unlike pedagogical theory–oriented programs, this course focuses on how instructors actually use AI tools systematically, responsibly, and efficiently within real teaching workflows.
 
-- Experiment with AI prompts and structures tailored to your professional context
-- Compare outputs across different tools
-- Share findings and discuss best practices
-- Develop your own AI-enhanced components
+Across eight modules, instructors progressively build two persistent tools:
 
-## 4. Program Journey
+- **The AI Workspace (Project)** – your *design and development environment* for planning, creating, auditing, and improving course materials.
+- **The Course Personalized Assistant (PA)** – your *student-facing AI tutor* for explanations, study support, and assignment clarification (without solving graded tasks).
+
+The entire program is structured as a **guided transformation of your teaching practice**, with each module updating, refining, and expanding these tools.
+
+### 3.1 A Process-Based, End-to-End Framework
+
+The program is structured around the **AI-Enhanced Teaching Workflow** containing seven phases, enabling instructors to gradually integrate AI across the entire course cycle while maintaining pedagogical integrity and institutional alignment.
+
 | Module | Theme | Focus |
 | --- | --- | --- |
 | 1 | Introduction to Teaching with AI | Framework, responsible use, FGCU policies |
@@ -69,25 +75,197 @@ Each session is structured around a short introduction, hands-on activities, and
 | 8 | Reflection & Improvement | Analytics, feedback patterns, course redesign |
 | 9 | GenAI Tools for Teaching | Overview of all tools used in the program |
 
-## 5. How to Use This Jupyter Book
-- Navigate modules using the sidebar.
-- Download pages as `.md` or `.pdf` for reuse.
-- Look for **Examples**, **Hands-On Activities**, and **Further Reading**.
-- Many pages include ready-to-copy prompts for different models.
+### 3.2 A Multimodal, Multi-Tool Ecosystem Approach  
 
-## 6. Human-Centered Teaching with AI
+Throughout the program, participants develop fluency with multiple LLM ecosystems, including ChatGPT, Claude, Gemini, Perplexity, NotebookLM, SciSpace, Gamma, Canva, Grok, and much more.  
+
+The logic behind this approach is:
+
+- Different tools have different strengths (e.g., Claude for artifacts, Gemini for images, Perplexity for cited research, NotebookLM for grounded synthesis).
+- Instructors learn to select suitable tools for each stage of their teaching workflow.
+- The program models a platform-agnostic AI practice, reflecting real academic and industry environments.
+
+In each module, tool usage is contextualized:
+
+- Design/development tasks occur in the Workspace.  
+- Student explanations and scaffolding occur through the PA.  
+- Research synthesis is handled by tools like Perplexity Academic, Consensus, SciSpace.  
+- Multimodal production uses tools like Gamma, Canva Magic Studio, or Claude Artifacts.
+
+### 3.3 Progressive Building of Two Core AI Systems  
+#### **A. The AI Workspace (Project)**  
+A persistent, memory-enabled environment that stores:
+
+- syllabus, schedule, policies  
+- assignments, rubrics, templates  
+- slides, notes, readings  
+- datasets and sample materials  
+
+It becomes the *hub* for:
+
+- consistent document-grounded content creation  
+- mapping learning outcomes to activities and assessments  
+- generating variants, versions, improvements  
+- auditing alignment, accessibility, and integrity  
+- tracking revisions across course iterations  
+
+#### **B. The Personalized Assistant (PA)**  
+Your course’s “AI tutor”, designed with:
+
+- explicit safety and academic integrity rules  
+- multi-level explanation capabilities  
+- ability to reference syllabus and course files  
+- structured guidance for assignments, without completing them  
+- weekly study plans, flashcards, glossaries, FAQs, diagrams  
+
+The PA grows each module as student-facing materials are created.
+
+### 3.4 The Program’s Instructional Approach  
+
+**1. Short theory → hands-on practice**  
+Each module begins with a concise conceptual introduction, followed by intensive practice using real course materials.
+
+**2. Prompt Templates, Patterns & Meta-Prompting**  
+Each module offers different types of prompt engineering techniques, enabling instructors to adapt workflows to various LLMs.
+
+**3. Cross-Model Comparison & Verification**  
+Participants:
+- compare AI outputs from multiple tools  
+- annotate differences  
+- use Workspace or PA to diagnose errors  
+- refine outputs with iterative prompting  
+
+This builds *critical AI literacy*, not just production skills.
+
+**4. Authentic, Product-Oriented Workflows**  
+Each module ends with concrete artifacts, such as syllabi, class plans, slide decks, assessments and rubrics, study guides, reflective memos, SPoI instruments, and improvement dashboards. These can be deployed directly in the participants’ actual courses.
+
+### 3.5 Ethical, Responsible, and Human-Centered Integration
+
+The program ensures that AI outputs are always:
+
+- aligned with institutional policies and student code of conduct
+- used with transparency and citation  
+- designed to *support*, not replace, human expertise  
+- compliant with integrity and accessibility requirements  
+
+Every workflow explicitly distinguishes between:
+
+- Instructor tools (Workspace)  
+- Student tools (PA, NotebookLM)  
+- Prohibited uses (grading keys, exam answers, private notes in PA)  
+
+### 3.6 Continuous Improvement & Versioning
+
+A distinctive component of the program is **longitudinal improvement**, supported through AI:
+
+- Every version of the course is recorded in the Workspace.  
+- AI identifies recurring issues or patterns.  
+- Revised assessments, slides, and policies are iteratively generated.  
+- A reflective practice notebook grows over time.  
+
+This enables sustained teaching innovation, not just a one-time redesign.
+
+### 3.7 What Makes This Program Unique?
+
+- End-to-end workflow integration (planning → improvement)  
+- Two persistent AI systems built step-by-step  
+- Cross-tool literacy rather than platform dependence  
+- Multimodal content generation across the curriculum  
+- Evidence-based and research-aligned AI practices  
+- Real teaching artifacts produced in every module  
+- Explicit guardrails for academic integrity and responsible AI use
+
+This program is not a typical “how to use AI” workshop. It is a complete transformation of your teaching ecosystem, powered by structured, responsible, and human-centered AI.
+
+### 3.8 Operational Integration
+
+The concept map below was generated with NotebookLM and contains an overview of the seven steps of the teaching framework, the core operational tools proposed (AI Workspace and Course Personalized Assistant), the foundational knowledge necessary to navigate the course, and the program principles. 
+
+![Program Operational Integration](./Data/MM_Overview.png)
+
+## 4. How to Use This Jupyter Book
+*A workflow-oriented guide for navigating the Teaching with AI program*
+
+This Jupyter Book is designed not as a linear textbook, but as an **interactive, modular, and artifact-generating environment** that accompanies the Teaching with AI program. It functions as your reference manual, prompt library, workspace guide, and teaching-development companion throughout Modules 1–8.
+
+To help you get the most out of it, this section explains how to navigate the book, how to integrate it with your AI Workspace and Personalized Assistant, and how to use it as part of your ongoing teaching practice.
+
+### 4.1 The Jupyter Book as a Living Reference  
+This book is intentionally structured to be:
+
+- **Modular** – each chapter (module) mirrors one phase of the AI-Enhanced Teaching Process Framework.  
+- **Prompt-rich** – every section includes ready-to-use prompt templates tailored to higher education.  
+- **Tool-agnostic** – prompts and workflows are compatible with various foundational and general-purpose models.  
+- **Cross-referenced** – prompts and workflows point back to earlier modules, ensuring continuity.  
+- **Evolving** – you can export, copy, remix, or upload content to your AI Workspace over time.
+
+Each module includes:
+
+- Conceptual overview  
+- Prompt templates 
+- Tool demonstrations  
+- Updates to your AI Workspace and PA  
+- Exercises  
+- Reflection questions  
+
+This allows you to move seamlessly from **learning → doing → integrating → improving**.
+
+### 4.2 How to Navigate the Book  
+Use the **sidebar** to jump between modules:
+
+- **Modules 1–8** cover the core workflow (planning to reflection).  
+- **Tools & References sections** list multimodal GenAI tools with use cases.  
+- **Examples and activities** give you ready-to-use teaching components.  
+
+At the top of each page, look for:
+
+- **Download options** → export to `.md`, `.pdf`, or copy text into your Workspace.  
+- **Section headings** → each major workflow task is marked with a clear subsection.  
+- **Prompt Blocks** → all prompts are copy-ready for use in any LLM.  
+
+### 4.3 How to Integrate the Book With Your AI Workspace and PA 
+The Jupyter Book works best when paired with your **AI Workspace (Project)** to be created in Module 1. The book contains numerous **student-facing prompts** designed specifically for your PA. Whenever you see simplified rubrics, assignment explanations, study strategies, self-assessment checklists, flashcards, and FAQs, these can be copy-pasted into your PA’s instruction block or provided directly to students.
+
+**Important:**  
+Workspace = instructor-facing design space  
+PA = student-facing guidance tool  
+Never upload instructor-only materials into the PA. The Jupyter Book points out exactly which components can safely be shared with students.
+
+### 4.4 Using the Prompts Effectively  
+Each module includes a set of prompts which requires some best practices:
+
+- Always adapt placeholders (e.g., [Course Title], [Topic], [Paste Assignment]).  
+- When possible, ground prompts in uploaded files.  
+- Ask for variations to compare outputs.  
+- Use revision loops: draft → audit → improve → finalize.
+
+### 4.5 Using the Exercises as Production Tasks  
+Every module ends with production-oriented exercises. These are not generic activities—they are **designed to produce real components** for your actual course.
+
+Examples:
+
+- Module 2 → generate learning outcomes and a syllabus draft  
+- Module 3 → produce a 90-minute class plan and slide deck  
+- Module 4 → create a case study, rubric, and multimodal assignment  
+- Module 5 → build active-learning activities with AI augmentation  
+- Module 6 → design study guides and PA workflows  
+- Module 7 → generate rubric-based assessments and feedback  
+- Module 8 → design SPoI forms and reflective improvement plans  
+
+## 5. Human-Centered Teaching with AI
 
 > AI supports teaching, it does not replace teachers.
 
 Educators maintain responsibility for content validity, rigor, transparency, and ethics.
 
-## 7. GenAI Tools to be Studied
+## 6. GenAI Tools to be Studied
 
 ### ChatGPT
 ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
 Access ChatGPT here: [https://chat.openai.com/]
 
-### Claude.ai
+### Claude
 Claude.ai is an AI assistant with strong natural language processing capabilities and expanding tools for data analysis. It supports data uploads and can process data using JavaScript within its Analysis Tool. Claude.ai can perform complex calculations, data manipulation, and create visualizations through its Analysis Tool and Artifacts feature. It primarily analyzes uploaded data and does not rely on real-time web browsing.
 Access Claude.ai here: [https://claude.ai/]
 
@@ -124,15 +302,76 @@ Google AI Studio is a development platform for building with Gemini, Google’s 
 SciSpace is an AI research assistant tailored for academic reading, comprehension, and exploration of scientific literature. It allows users to upload PDFs of scholarly articles and interact with them through a chat-based interface that explains complex concepts, defines technical terms, and summarizes content section-by-section. SciSpace is particularly strong in STEM fields and integrates citation tracing, question generation, and concept mapping. It is ideal for literature review, paper comprehension, and academic study.
 Access SciSpace here: [https://scispace.com/]
 
-### CoGrader.com
+### CoGrader
 CoGrader.com is an AI-powered grading assistant designed to streamline the evaluation of student work, especially in assignments requiring written or rubric-based feedback. Educators can upload student responses along with custom rubrics, and CoGrader generates consistent, criterion-based scores and feedback. It supports batch processing of submissions and exports results in spreadsheet-friendly formats. CoGrader is ideal for scaling assessment in large classes while maintaining feedback quality.
 Access CoGrader here: [https://www.cograder.com]
 
-### EssayGrader.ai
+### EssayGrader
 EssayGrader.ai is an AI tool focused on evaluating academic writing and generating detailed, rubric-aligned feedback. Users can paste essays or upload files, define assessment criteria, and receive structured evaluations across areas such as organization, argument quality, grammar, and originality. EssayGrader.ai aims to support formative feedback and can assist in both summative grading and student revision. It emphasizes clarity, consistency, and transparency in AI-assisted writing assessment.
 Access EssayGrader.ai here: [https://www.essaygrader.ai]
 
-## 8. About the Instructor – Dr. Leandro Nunes de Castro
+### Gradescope
+Gradescope is an AI-enhanced grading platform designed to streamline assessment workflows for assignments, quizzes, exams, and coding tasks. It supports handwritten submissions, scanned PDFs, code files, and digital assignments. Gradescope uses AI-assisted grouping to cluster similar student answers, enabling faster and more consistent grading of open-response questions. Rubrics can be modified on the fly, with changes automatically propagating to all graded submissions.
+Access Gradescope here: [https://www.gradescope.com/]
+
+### Turnitin
+Turnitin is an academic integrity and originality-checking system widely used in higher education. It analyzes uploaded student work against a massive corpus of academic publications, internet sources, prior submissions, and commercial databases. Turnitin includes advanced AI-writing detection indicators, similarity scoring, and detailed originality reports highlighting matches and potential plagiarism risks. It integrates seamlessly with major LMS platforms.
+Access Turnitin here: [https://www.turnitin.com/]
+
+### Stargrader
+Stargrader is an AI-powered auto-grading platform designed primarily for structured, rubric-based evaluations, especially in computer science, engineering, and math. It supports automated grading of coding assignments, proofs, quantitative exercises, and short structured answers. Stargrader can generate consistency checks, provide rubric-aligned feedback, and export grade data for LMS integration.
+Access Stargrader here: [https://stargrader.com/]
+
+### Canva Magic Studio
+Canva Magic Studio is an AI-enhanced design suite embedded within Canva that generates presentations, documents, posters, diagrams, and videos from natural language prompts. It supports Magic Design for layout generation, Magic Write for content drafting, and Magic Expand/Edit for image manipulation. Canva integrates text, images, icons, and audio seamlessly into high-quality visuals suitable for teaching materials.
+Access Canva Magic Studio here: [https://www.canva.com/magic-studio/]
+
+### ElevenLabs
+ElevenLabs is an advanced AI voice-generation and text-to-speech platform capable of producing natural-sounding narration in multiple languages. It supports voice cloning, custom voice creation, and high-fidelity audio suitable for lectures, podcasts, accessibility materials, and instructional videos. ElevenLabs excels in generating expressive, human-like voiceovers from scripts or uploaded text.
+Access ElevenLabs here: [https://elevenlabs.io/]
+
+### HeyGen
+HeyGen is an AI video generation platform that produces talking-head videos using realistic avatars. Users can create instructional videos by uploading a script or audio and selecting an AI presenter. HeyGen supports multilingual lip-syncing, custom avatars, screen recordings, and scenario-based video creation, making it ideal for course introductions, microlectures, and announcements.
+Access HeyGen here: [https://www.heygen.com/]
+
+### Synthesia
+Synthesia is an AI-powered video creation platform that generates professional-quality instructional videos using digital avatars and text-to-video workflows. It supports brand customization, multilingual narration, screen overlays, and template-based video structuring. Synthesia is particularly useful for creating microlearning modules, course introductions, training simulations, and consistent instructor videos at scale.
+Access Synthesia here: [https://www.synthesia.io/]
+
+### Consensus
+
+Consensus is an AI-based scientific search engine that synthesizes evidence directly from peer-reviewed research. Users ask natural-language questions, and the platform retrieves and summarizes findings from academic papers, highlighting areas of agreement, disagreement, and methodological strength. It is ideal for evidence-based teaching, literature reviews, and research-driven content creation.
+Access Consensus here: [https://consensus.app/]
+
+### Semantic Scholar AI
+Semantic Scholar AI is an academic search engine enhanced with AI-powered features such as citation tracing, topic mapping, and paper similarity analysis. While it provides highly accurate scientific search and metadata, it does not support prompt-based generative responses. Instead, it excels at identifying key papers, influential authors, and research trends across disciplines.
+Access Semantic Scholar AI here: [https://www.semanticscholar.org/]
+
+### ExplainPaper
+ExplainPaper is an AI tool designed to simplify and clarify complex research articles. Users upload a PDF, highlight challenging passages, and receive plain-language explanations grounded in the document. It is particularly useful for teaching students how to understand dense academic writing and for instructors preparing accessible summaries and examples.
+Access ExplainPaper here: [https://www.explainpaper.com/]
+
+### Eduaide
+Eduaide is an AI-powered teaching assistant designed specifically for educators. It generates lesson plans, worksheets, quizzes, rubrics, writing prompts, and differentiation strategies based on grade level and subject. Eduaide also supports accommodation-friendly versions of materials and integrates with multiple pedagogical approaches, including inquiry-based learning and Bloom’s Taxonomy.
+Access Eduaide here: [https://www.eduaide.ai/]
+
+### Khanmigo
+Khanmigo is Khan Academy’s AI tutor and teaching assistant built on top of GPT models. It offers guided problem-solving, Socratic questioning, and interactive tutoring experiences across K–12 and introductory college subjects. Khanmigo maintains strong controls for academic integrity and provides teacher dashboards for monitoring student progress.
+Access Khanmigo here: [https://www.khanacademy.org/khan-labs]
+
+### Elicit
+Elicit is an AI research assistant designed to support literature reviews and research synthesis. It identifies relevant academic papers, extracts key findings, produces summary tables, and supports comparison across studies. Elicit focuses on structured evidence extraction rather than general-purpose generation, making it valuable for preparing literature reviews and teaching research methods.
+Access Elicit here: [https://elicit.com/]
+
+### Scite
+Scite is an AI-enhanced citation analysis platform that classifies how scientific papers cite each other—as supporting, contrasting, or mentioning. It provides “Smart Citations” that reveal the context and sentiment behind citations, helping instructors and students evaluate the quality and reliability of research evidence.
+Access Scite here: [https://scite.ai/]
+
+### Research Rabbit
+Research Rabbit is a visual research discovery tool that maps relationships between papers, authors, and research clusters. It generates interactive citation networks, co-authorship graphs, and thematic maps, enabling users to explore scientific domains visually. It is particularly helpful for literature reviews, identifying research gaps, and building reading lists.
+Access Research Rabbit here: [https://www.researchrabbit.ai/]
+
+## 7. About the Instructor – Dr. Leandro Nunes de Castro
 
 - Professor in the **Department of Computing and Software Engineering**, U.A. Whitaker College of Engineering, FGCU.
 - Ph.D. in Computer Engineering with 30 years of experience in **Artificial Intelligence, Data Science, and Natural Computing**.
@@ -146,57 +385,3 @@ Access EssayGrader.ai here: [https://www.essaygrader.ai]
 Developed by **Dr. Leandro Nunes de Castro**©️ for the **Dendritic Institute for Human-Centered AI & Data Science**, within the **U.A. Whitaker College of Engineering at Florida Gulf Coast University**.
 
 Content curated by the team, with support from large language models such as ChatGPT, Claude, Gemini, Perplexity, Gamma.ai, Napkin, and CoPilot, following ethical and pedagogical review.
-
----
-
-```{note}
-*This Jupyter Book is part of the Dendritic AI Academy’s AI Literacy Track, aligning with FGCU’s AI-Aware Initiative to foster responsible, informed, and innovative engagement with artificial intelligence.*
-```
-
----
-
-## GenAI Tools for Teaching
-### Core Multimodal LLMs
-- **ChatGPT (OpenAI)**
-- **Claude.ai (Anthropic)**
-- **Gemini (Google)**
-- **Copilot (Microsoft)**
-- **Perplexity.ai**
-- **Meta AI (Llama 4)**
-- **Grok (xAI)**
-
-### Teaching-Specific Tools
-- **CoGrader.com** – AI-supported grading & rubrics  
-- **EssayGrader.ai** – academic writing evaluation  
-- **Gradescope AI** – structured assignment evaluation  
-- **Turnitin AI Detection + Similarity** – academic integrity  
-
-### Research & Reading Tools
-- **SciSpace** – academic reading and concept explanation  
-- **ExplainPaper** – PDF simplification  
-- **Semantic Scholar AI** – literature review  
-
-### Content & Course Material Tools
-- **NotebookLM** – grounded summarization & FAQ generation  
-- **Gamma.app** – slide and document creation  
-- **Canva AI / Magic Studio** – design, diagrams, slides  
-- **Napkin.ai** – diagrams and visual storytelling  
-- **Notion AI** – knowledge bases, lesson planning, organization  
-- **Miro AI** – whiteboarding, brainstorming  
-- **Figma AI** – interface and diagram design  
-
-### Coding & Data Tools for Teaching STEM
-- **Kaggle Notebooks AI** – code, data analysis, explanations  
-- **Replit AI** – code generation and debugging  
-- **Wolfram Alpha + LLMs** – symbolic math, STEM assistance  
-
----
-
-## 3. What You Will Learn
-
-You will learn how to incorporate AI into various stages of the teaching process, including planning, class design, preparing assignments and exams, class delivery, student support, assessment, and reflection. A significant portion of the training is dedicated to understanding and applying prompt engineering techniques to guide AI models effectively. You will learn about different types of tools, prompts, how to structure them, and how to improve AI outputs through iteration. 
-
-To start this discussion, let us have a look at Chegg's 2025 global student survey, which brings an overview of how college students across the globe are facing their academic life during this AI era.
-A Global Student Survey that includes GenAI: <br>
-https://claude.ai/public/artifacts/d8a00935-e738-481f-8102-2ee89ec12fa6
-
