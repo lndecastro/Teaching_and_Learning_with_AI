@@ -50,7 +50,7 @@ Extend the instructor’s presence beyond scheduled hours by using AI to generat
 ### Alternative Tool 1: General-Purpose LLMs (e.g., ChatGPT, Copilot, Gemini, Grok, etc.)
 Upload your course materials and prompt the LLM to generate an FAQ or any other support resources desired.
 
-### Prompt Template - Instructional
+**Prompt Template - Instructional**
 ```
 Read the attached PDF file(s) and generate a structured FAQ section that summarizes the key aspects of the material. 
 Ensure each FAQ includes a clear question and a concise, informative answer, grouped into thematic categories.
@@ -153,7 +153,7 @@ Your PA is responsible for:
 
 Because the PA is grounded in the syllabus, assignments, rubrics, and course policies, its guidance is *contextualized*, *consistent*, and *aligned with your teaching intent*.
 
-### Sample PA Prompt for the Students
+**Sample PA Prompt for the Students**
 Students may use this prompt directly with the PA:
 ```
 Help me understand how to approach [Assignment Name]. 
@@ -184,7 +184,7 @@ Encourage students to contact the PA when they:
 ### Optional Add-On: PA‑Assisted Study Planning  
 Your PA can generate personalized study plans based on the course schedule.
 
-### Sample Prompt for the Students
+**Sample Prompt for the Students**
 ```
 Create a 7-day study plan to help me prepare for [Assignment Name], 
 considering the course pacing and major concepts we’ve covered. 
@@ -199,7 +199,7 @@ Use general LLMs to create:
 - diagrams or concept maps  
 - lists of common misconceptions  
 
-### Sample Instructor Prompt (Workspace or private LLM):
+**Sample Instructor Prompt (Workspace or private LLM):**
 ```
 Based on the attached assignment and rubric, create a list of common misconceptions students may have and suggest study strategies for each.
 ```
@@ -220,9 +220,10 @@ NotebookLM can generate grounded resources that can be later distributed:
 ### Purpose
 Use engagement data or AI-generated insights to detect patterns that indicate a need for support.
 
-### Prompt Template - Design a Student Success Table*
+**Prompt Template - Design a Student Success Table**
 ```
-I want to design a table to collect student information in a course. The goal is to use the data to calculate a "Student Success Score". 
+I am the instructional designer of the course [Course Name] and want to design a table to collect student information in the course.
+The goal is to use the data to calculate a "Student Success Score". 
 
 1. Propose a matrix with at least 5 student variables (e.g., attendance, assignment completion, grades, engagement, self-assessments).
 2. For each variable, define:
@@ -235,7 +236,9 @@ I want to design a table to collect student information in a course. The goal is
 5. Save this matrix as a table in XLSX, CSV, or Google Spreadsheet format.
 ```
 
-### Additional Prompt Variant - Using a Pre-Specified Score Matrix
+> **Note:** Not all models will be able to generate the output in the specific format you prompted. In such cases, choose another format or try a different model.
+
+**Additional Prompt Variant - Using a Pre-Specified Score Matrix**
 Provide the following details to create a matrix or table for collecting student information and calculating a success score.
 ```
 Create a table for calculating the students' success score.
@@ -305,70 +308,96 @@ Success Score = (0.2 * Attendance Rate) + (0.3 * Assignment Completion Rate) + (
 - Generate a bar graph for each student with the values in each criteria normalized in the 0-100 interval. The success score bar should have different colors for each of the three interpretations.
 ```
 
+## 6.5 Provide AI-Curated Resources 
 
+### Purpose
+Integrate resources created accross modules, enabling students to access high-quality, consistent, and multimodal study resources. The PA continues to be the primary AI assistant and the shared NotebookLM operates as a complementary, student-facing workspace for resource sharing and exploration.
 
-## 6.4 Provide AI-Curated Resources (e.g., Study Guides, Tutoring Suggestions)
+### Using Resources Generated in Previous Modules
 
-**Task:**
-Curate and generate personalized learning resources using GenAI.
+Across the program modules, you created:  
+- FAQs and reading summaries  
+- Notes and concept explanations  
+- Scaffolded reasoning sequences  
+- Diagrams and conceptual maps  
+- Study guides, FAQs and flashcards  
+- Glossaries and micro‑lectures  
+- Case study materials  
+- Multimodal content (audio, images, diagrams, video scripts, etc.)  
 
-*Instructional Prompt*
-```
-Create a custom study guide using generative AI for learners struggling with [the ethical use of AI in education]. Include summaries, definitions, discussion questions, and one quiz.
-```
+If not yet, these can now be:
 
-**Sample illustration** Sample study guide layout with AI-generated components.
+1. **Uploaded into the PA** to anchor its support capabilities  
+2. **Included in NotebookLM** (student‑safe versions only)  
+3. **Distributed via the LMS** as downloadable study packs  
+4. **Used to generate new, updated resources** for students  
 
-## 6.5 Encourage Peer Collaboration and Support Networks
+This creates a unified and coherent study‑support ecosystem.
 
-**Task:**
+## 6.6 Encourage Peer Collaboration and Support Networks
+
+### Purpose
 Design AI-assisted prompts and activities that build peer learning environments.
 
-**Use Case 1: Initiating Collaboration & Group Formation**
+### Use Case 1: Initiating Collaboration & Group Formation
 Help students find common ground, form groups, and define initial collaborative tasks.
 
-*Role-Based Prompt*
+**Prompt Template — Role-Based**
 ```
-Act as a matchmaker. Given the following student responses about their biggest challenges in [Course Topic] and their areas of interest, suggest 3-5 potential peer learning groups. For each group, briefly explain the common thread that connects them and suggest an initial discussion topic.
+Act as a matchmaker.
+Given the following student responses about their biggest challenges in [Course Topic] and their areas of interest, suggest 3-5 potential peer learning groups.
+For each group, briefly explain the common thread that connects them and suggest an initial discussion topic.
 Student 1: [Input: 'Struggles with [Course Topic], interested in [Topic].']
 Student 2: [Input: 'Finds [Course Topic] confusing, good at explaining [Topic].']
 Student 3: [Input: 'Wants to apply [Course Topic] to real-world cases, enjoys problem-solving.']
 ```
 
-**Use Case 2: Collaborative Icebreaker & Goal Setting**
-Help students to feel comfortable with one another, the instructor, and the learning environment.
-
-*Instructional Prompt*
+**Additional Prompt Variant — Instructional**
 ```
-Generate an icebreaker activity for a new peer learning group in [Course Name]. The activity should encourage members to share a personal learning goal for the upcoming module and one strength they bring to the group. After the icebreaker, provide 3 guiding questions for them to collaboratively define their group's learning objectives for the week.
-```
-**Use Case 3: Scenario-Based Team Formation**
-Help students to build teams under a specific context (scenario).
-
-*Instructional Prompt*
-```
-You are designing a collaborative project for [Course Name] focusing on [Specific Topic]. Create 3-4 diverse roles within a team (e.g., 'Researcher,' 'Synthesizer,' 'Presenter,' 'Critique Editor'). For each role, describe the primary responsibilities and the type of skills that would be best suited for it. Then, generate a short 'team charter' template that groups can fill out to define their internal roles and communication norms.
+Given the following student self-descriptions, propose 3–5 learning groups 
+and explain the common thread connecting members.
 ```
 
-**Use Case 4: Fostering Support Networks & Reflection**
+### Use Case 2: Collaborative Icebreaker & Goal Setting
+Help students feel comfortable with one another, the instructor, and the learning environment.
+
+**Prompt Template — Instructional**
+```
+Generate an icebreaker activity for a new peer learning group in [Course Name].
+The activity should encourage members to share a personal learning goal for the upcoming module and one strength they bring to the group.
+After the icebreaker, provide 3 guiding questions for them to collaboratively define their group's learning objectives for the week.
+```
+
+### Use Case 3: Scenario-Based Team Formation
+Help students build teams under a specific context (scenario).
+
+**Prompt Template — Instructional**
+```
+You are designing a collaborative project for [Course Name] focusing on [Specific Topic].
+Create 3-4 diverse roles within a team.
+For each role, describe the primary responsibilities and the type of skills that would be best suited for it.
+Then, generate a short 'team charter' template that groups can fill out to define their internal roles and communication norms.
+```
+
+### Use Case 4: Fostering Support Networks & Reflection
 Encourage students to offer and seek help, reflect on the benefits of collaboration, and build a sense of community.
 
-*Role-Based Prompt*
+**Prompt Template — Role-Based Prompt**
 ```
-Imagine you are a student struggling with [Specific Skill/Concept]. Write 3 different ways to ask for help from a peer or a peer learning group, varying the level of detail or formality. Ensure the prompts are empathetic and clear about the challenge.
+Act as a student struggling with [Specific Skill/Concept].
+Write 3 different ways to ask for help from a peer or a peer learning group, varying the level of detail or formality.
+Ensure the prompts are empathetic and clear about the challenge.
 ```
 
-**Sample illustration** Collaboration map showing peers, prompts, and AI facilitation layers.
+## 6.7 Advanced PA Extensions: Real-Time & Multimodal AI Tutors
 
-## 6.6 Introduce AI Tutors
-
-**Task:**
-Explore the use of AI assistants in dynamic, real-world contexts using **Google AI Studio** with the **Stream function** enabled. The focus is on teaching AI to interact with **your environment** through a **background camera** or **screen capture**. This powerful setup brings AI into your personal or digital workspace, enhancing observation, navigation, and learning experience.
+### Purpose
+Explore the use of AI assistants in dynamic, real-world contexts using **Google AI Studio** with the **Live function** enabled. The focus is on interacting with your environment through a **background camera** or **screen capture**. This powerful setup brings AI into your personal or digital workspace, enhancing observation, navigation, and learning experience.
 
 ### Tools & Setup
 
-- **Platform**: Google AI Studio
-- **Key Feature**: Stream
+- **Platform**: Google AI Studio (https://aistudio.google.com/live)
+- **Key Feature**: Live Stream
 - **Capabilities Used**:
   - Background Camera
   - Screen Capture
@@ -376,30 +405,34 @@ Explore the use of AI assistants in dynamic, real-world contexts using **Google 
 
 > Ensure the **Stream** function is enabled and permissions for camera and screen sharing are granted.
 
-**Use Case 1:** Interacting with the Physical Environment
+### Use Case 1: Interacting with the Physical Environment
 
-*Scenario*: The participant activates their **background camera** and points it toward their environment (e.g., desk, classroom, lab, objects).
+#### Scenario 
+The participant activates their **background camera** and points it toward their environment (e.g., desk, classroom, lab, objects).
 
-*Instructional + Role-Based Interaction (**Voice Prompt**)*
+**Prompt Template — Instructional + Role-Based (Voice Prompt)**
 ```
-Observe my environment and describe what you see. Focus on identifying objects and their likely purpose or function. Then suggest one or two ideas for organizing or improving this workspace for productivity.
+Observe my environment and describe what you see.
+Focus on identifying objects and their likely purpose or function.
+Then suggest one or two ideas for organizing or improving this workspace for productivity.
 ```
 
-*Alternative **Voice Prompt** (Educational Context):*
+**Additional Prompt Variant — Instructional + Role-Based (Voice Prompt)**
 ```
 Act as a tutor. I am pointing my camera at an object. Explain what you are seeing.
-[SELECT THE OBJECT OR CONTEXT]
+[Select the object or context]
 ```
 
-**What students learn**:
+#### What students learn:
 - How to direct the AI’s visual attention
 - How to formulate prompts to extract meaningful insights from real-time observations
 
-**Use Case 2:** Navigating the Digital Workspace
+### Use Case 2: Navigating the Digital Workspace
 
-*Scenario*: The participant shares their **screen** (e.g., browser, application, workspace, spreadsheet), and the AI assistant provides support.
+#### Scenario 
+The participant shares their **screen** (e.g., browser, application, workspace, spreadsheet), and the AI assistant provides support.
 
-*Chain-of-Thought + Instructional **Voice Prompt***
+**Prompt Template — Chain-of-Thought + Instructional (Voice Prompt)**
 ```
 Watch my screen as I navigate my email inbox. Help me:
 1. Identify unread messages and group them by priority
@@ -407,10 +440,54 @@ Watch my screen as I navigate my email inbox. Help me:
 3. Create a task list based on action items in the emails
 ```
 
-*Instructional **Voice Prompt***
+**Additional Prompt Variant — Course-Focused Study Support (Voice Prompt)**
 ```
-I am going to open a website I am unfamiliar with. As I explore, please explain what each section seems to do, and guide me to locate the help center and pricing information.
+Watch my screen as I review materials for my course [Course Name] (syllabus, slides, LMS, notes). 
+Help me:
+1) Identify the most important topics I should focus on for this week,
+2) Suggest a 3–5 step study plan using these resources (including any AI tools or summaries we developed in this program),
+3) Generate 5 self-check questions to test my understanding of the key topics.
 ```
+
+## 6.8 Updates to Your AI Workspace & Personalized Assistant
+
+Only minimal updates are needed after completing this module. The primary change is to add any new student-facing resources generated here to both the Workspace and the PA (when appropriate).
+
+### Workspace Updates
+- Upload any new *student-safe* materials created in this module (study guides, summaries, diagrams, flashcards, FAQs).  
+- No structural or behavioral updates are required.
+
+### PA Updates
+- Add newly created student support materials to the PA’s knowledge base (if applicable).  
+- No changes are needed to the PA’s role, capabilities, or boundaries beyond what was already updated at the previous modules.
+
+## 6.9 Exercises
+
+### Exercise 1 — Centralize Student Support in Your PA
+Upload new assignment sheets and ask your PA to generate:
+- FAQs  
+- study strategies  
+- misconceptions list  
+
+### Exercise 2 — Early Alert Check-In
+Use the success-score matrix to design an AI-powered self-assessment check-in.
+
+### Exercise 3 — Build a Multimodal Study Guide
+Produce a study guide for a difficult topic using multimodal tools, then upload it to the PA.
+
+### Exercise 4 — Peer Collaboration Setup
+Give the PA a set of hypothetical student profiles; ask it to form groups.
+
+### Exercise 5 — Real-Time Tutoring Test
+Use Google AI Studio Stream to perform a live tutoring interaction.
+
+## 6.10 Reflection
+
+- How does placing the PA at the center of student support improve accessibility and consistency?  
+- Which tasks are best automated through the PA, and which require human oversight?  
+- How can the PA strengthen student autonomy, metacognition, and self-regulation?  
+- How will you refine your PA after real interactions with students?  
+
 
 
 
