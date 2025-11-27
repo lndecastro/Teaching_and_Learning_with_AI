@@ -93,6 +93,8 @@ This framework structures classical phases of teaching into seven parts as **AIâ
 4. Use AI to keep up with research and innovations  
 5. Build a reflective practice notebook inside your AI Workspace  
 
+![Modules Overview](./Data/MMModulesContents.png)
+
 ## 1.2 Foundational Knowledge for Teaching with AI  
 
 To use AI instrumentally in education, instructors must understand:
@@ -387,6 +389,10 @@ Where does AI provide value? Where should humans lead?
 - Where do you feel hesitation about integrating AI?  
 - How might an AI Workspace improve your daily teaching tasks?  
 - What guardrails must be in place before students use your Personalized Assistant?
+
+## 1.7 Summary
+
+![Program Overview](./Data/MM_Overview.png)
 
 ## ðŸ“˜ Further Reading
 
