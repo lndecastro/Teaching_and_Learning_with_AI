@@ -12,7 +12,7 @@ After completing this module, participants will be able to:
 - Facilitate peer collaboration and social learning through AI‑supported workflows.
 - Explore AI tutors, including real‑time camera- and screen‑aware AI agents.
 
-![Learning Objectives](./DataM6LO.png)
+![Learning Objectives](./Data/M6LO.png)
 
 ## 6.1 The Course Personalized Assistant as the Core Support Hub
 
