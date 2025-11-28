@@ -12,7 +12,7 @@ After completing this module, participants will be able to:
 - Integrate multimodal AI-generated diagrams and artifacts.
 - Create an AI-powered class summary generator.
 
-![Class Design and Development](./Data/ClassDesign.png)
+![Class Design and Development](./Data/M3LO.png)
 
 ## 3.1 Break Down Content Into Modules or Units
 
