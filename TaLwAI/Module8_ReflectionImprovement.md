@@ -15,6 +15,8 @@ After completing this module, participants will be able to:
 - Use AI to generate SPoI forms and analyze qualitative and quantitative student feedback.  
 - Update their AI Workspace and Personalized Assistant where appropriate.
 
+![Learning Objectives](./Data/M8LO.png)
+
 ## 8.1 Identify What Worked, What Did Not, and Why
 
 ### Purpose  
