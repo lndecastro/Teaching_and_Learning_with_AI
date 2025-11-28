@@ -47,6 +47,8 @@ By the end of this program, participants should be able to:
 - **Apply AI tools and techniques to assessment and feedback processes**, including conducting assessments with AI support, generating rubric-based constructive feedback, facilitating AI-assisted self- and peer-assessment, and exploring AI for grading and originality verification.
 - **Utilize generative AI for reflection and continuous improvement** of teaching practices, including identifying effective elements, revising materials and strategies, staying engaged with research, sharing experiences, and analyzing student feedback and data.
 
+![Teaching with AI Learning Objectives](./Data/TwAILO.png)
+
 ## 3. Structure and Approach
 *A multi-layered, workflow-driven program for operational AI integration in higher education*  
 
