@@ -18,6 +18,10 @@ We do not endorse or receive sponsorship from any of the vendors, platforms, or 
 
 Participants are free and encouraged to use any AI model or tool of their preference, including alternatives not mentioned here, so long as they meet instructional needs and comply with institutional policies.
 
+**How This Program and Jupyter Book Were Created**
+
+This program and Jupyter Book were created through a rigorous, human-led process in which generative AI served as an assistive tool for drafting, ideation, and organization. All content was curated, complemented, reviewed, revised, and validated by the instructor to ensure pedagogical integrity, accuracy, and alignment with institutional policies. This iterative co-development process models the responsible, transparent, and human-centered use of AI advocated throughout this training.
+
 For current FGCU policies on generative AI, please refer to:
 🔗 https://www.fgcu.edu/about/leadership/officeoftheprovost/generative-ai
 
