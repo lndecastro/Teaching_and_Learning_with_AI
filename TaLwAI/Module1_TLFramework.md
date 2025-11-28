@@ -19,6 +19,8 @@ After completing this module, you will be able to:
 - Recognize where prompt engineering and context engineering (from AI Literacy) apply inside the teaching workflow.
 - Begin developing persistent GenAI tools that will grow with you throughout the program.
 
+![Learning Objectives](./Data/M1LO.png)
+
 ## 1.1 The AI-Enhanced Teaching Process Framework
 
 *A practical, instrumental workflow for instructors*
