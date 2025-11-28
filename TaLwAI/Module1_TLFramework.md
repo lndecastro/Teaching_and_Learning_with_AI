@@ -101,7 +101,7 @@ The picture below was generated using NotebookLM. It contains a summary of the m
 
 ![Modules Overview](./Data/MMModulesContents.png)
 
-## 1.2 Foundational Knowledge for Teaching with AI  
+## 1.2 Background GenAI Knowledge for Teaching with AI  
 
 To use AI instrumentally in education, instructors must understand:
 
@@ -154,6 +154,7 @@ Your AI Workspace will:
 #### Step 1. Start a Project and define its name
 - In ChatGPT: Projects → New Project  
 - In Claude: Projects → New Project  
+- In Grok: Projects → Create Project  
 - In Perplexity: Spaces → New Space  
 - In NotebookLM: Create Notebook  
 
