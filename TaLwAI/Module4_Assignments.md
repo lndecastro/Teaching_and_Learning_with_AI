@@ -11,6 +11,8 @@ After completing this module, participants will be able to:
 - Develop clear, consistent, AI‑assisted rubrics.
 - Ensure accessibility and academic integrity in all AI‑supported assessments.
 
+![Learning Objectives](./Data/M4LO.png)
+
 ## 4.1 Design Formative and Summative Assessments Aligned with Learning Outcomes
 
 ### Purpose  
