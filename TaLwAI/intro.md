@@ -56,8 +56,10 @@ The **Teaching with AI Program** is built as a *practical, operational, and iter
 
 Across eight modules, instructors progressively build two persistent tools:
 
-- **The AI Workspace (Project)** – your *design and development environment* for planning, creating, auditing, and improving course materials.
-- **The Course Personalized Assistant (PA)** – your *student-facing AI tutor* for explanations, study support, and assignment clarification (without solving graded tasks).
+- **The AI Workspace (Project)** – your *design and development environment* for planning, creating, auditing, and improving course materials. The main platforms to be used to create AI workspaces are ChatGPT, Perplexity, Claude, and Grok).
+- **The Course Personalized Assistant (PA)** – your *student-facing AI tutor* for explanations, study support, and assignment clarification (without solving graded tasks). The main platforms to be used to create PAs are Custom GPTs, Claude Artifacts, Gemini Gems, and CoPilot Agents.
+
+![Core Operational Tools](./Data/MMCoreOperationalTools.png)
 
 The entire program is structured as a **guided transformation of your teaching practice**, with each module updating, refining, and expanding these tools.
 
