@@ -15,6 +15,7 @@ After completing this module, participants will be able to:
 - Integrate AI into formative analytics to detect patterns, misconceptions, and progress.
 - Update the AI Workspace and the Course Personalized Assistant to support ongoing assessment tasks.
 
+![Learning Objectives](./Data/M7LO.png)
 
 ## 7.1 Conduct Assessments Using Existing Assignment Types
 
