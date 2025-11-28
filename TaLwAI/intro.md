@@ -63,17 +63,16 @@ The entire program is structured as a **guided transformation of your teaching p
 
 The program is structured around the **AI-Enhanced Teaching Workflow** containing seven phases, enabling instructors to gradually integrate AI across the entire course cycle while maintaining pedagogical integrity and institutional alignment.
 
-| Module | Theme | Focus |
-| --- | --- | --- |
-| 1 | Introduction to Teaching with AI | Framework, responsible use, FGCU policies |
-| 2 | AI for Course & Class Planning | Syllabi, schedules, modularization, activity design |
-| 3 | AI-Enhanced Class Design | Slides, examples, multimodal content |
-| 4 | Assignments & Exams with AI | Quiz generation, cases, rubrics, accessibility |
-| 5 | AI-Supported Class Delivery | Live adaptation, engagement strategies |
-| 6 | Student Support with AI | Study guides, hints, peer collaboration |
-| 7 | Assessment & Feedback with AI | Rubrics, formative comments, originality checks |
-| 8 | Reflection & Improvement | Analytics, feedback patterns, course redesign |
-| 9 | GenAI Tools for Teaching | Overview of all tools used in the program |
+| Module | AI-Enhanced Teaching Phase | Main Instructional Focus | Core Artifacts Produced | Workspace / PA Updates | Key GenAI Tools |
+|--------|-----------------------------|---------------------------|--------------------------|------------------------|------------------|
+| **1. Introduction to Teaching with AI** | Foundations for AI-Enhanced Teaching | Framework, responsible use, institutional policies, prompt & context engineering | AI Workspace created; PA created; initial instructions & guardrails | Initialize Workspace/PA; upload policies; set core capabilities & boundaries | ChatGPT Projects, Claude Projects, Perplexity Spaces, NotebookLM, Gemini |
+| **2. AI-Enhanced Pedagogical & Didactic Planning** | **Phase A — Planning** | Learning outcomes, audience analysis, pedagogical models, syllabus creation, AI use policies | LO table, learner personas, pedagogy map, syllabus drafts, AI policy | Upload syllabus, policies, LO; add alignment & auditing behaviors | Perplexity Academic, Consensus, SciSpace, Google Scholar Labs, Elicit, Scite |
+| **3. AI-Assisted Class Design & Development** | **Phase B — Class Design** | Session planning, slide decks, examples, literature grounding, multimodal content | 90-min plans, slides, readings, activities, diagrams, concept maps | Upload class materials; add content-generation & literature-grounding capabilities | Gamma, Canva Magic Studio, Claude Artifacts, Napkin.ai, NotebookLM |
+| **4. AI-Enhanced Assignment & Exam Preparation** | **Phase C — Assignment Design** | Formative/summative assessments, multimodal tasks, rubrics, integrity & accessibility | Quizzes, case studies, projects, rubrics, assignment variants | Upload assessments; add rubric & integrity audit features | ChatGPT, Gemini, Synthesia, HeyGen, Canva, Eduaide |
+| **5. AI-Enabled Class Delivery** | **Phase D — Delivery** | Active learning with AI, storytelling, Socratic questioning, live adaptation | AI-augmented activities, polls, misconception probes, live summaries | Add real-time explanation & pacing support; upload teaching materials | Poll Everywhere + AI, Gamma, Claude Artifacts, ChatGPT |
+| **6. AI-Powered Student Support** | **Phase E — Student Support** | PA-guided study support, scaffolding, peer instruction, NotebookLM workspaces | Study guides, flashcards, FAQs, diagrams, peer-learning prompts | Add student-safe materials to PA; refine boundaries; expand explanation levels | Course PA, NotebookLM, ChatGPT, Gemini, Claude |
+| **7. AI in Assessment & Feedback** | **Phase F — Assessment & Feedback** | Rubric-based feedback, self/peer assessment, reasoning checks, academic integrity | Feedback templates, misconception matrices, checklists, grading matrices | Upload student-safe materials; integrate feedback behaviors | Gradescope, CoGrader, EssayGrader, Turnitin, Stargrader |
+| **8. AI-Supported Reflection & Improvement** | **Phase G — Reflection & Improvement** | Analytics, SPoI creation, feedback synthesis, course revision cycles | SPoI forms, dashboards, summaries, revision memos, next-iteration plan | Upload reflective artifacts; add version-tracking capabilities | Perplexity Academic, SciSpace, NotebookLM, ChatGPT |
 
 ### 3.2 A Multimodal, Multi-Tool Ecosystem Approach  
 
