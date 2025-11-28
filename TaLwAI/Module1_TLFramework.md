@@ -149,6 +149,8 @@ Your AI Workspace will:
 - Support course revision and continuous improvement  
 - Act as the design environment for your Personalized Assistant  
 
+![AI Workspace](./Data/AIWorkspace.png)
+
 ### Step-by-Step: Create Your Workspace
 
 #### Step 1. Start a Project and define its name
@@ -266,6 +268,8 @@ You may create it using:
 - Clarify assignments  
 - Offer responsible-use reminders  
 - Supplement office hours  
+
+![Personalized Assistant](./Data/PA.png)
 
 ### Steps to Create Your Personalized Assistant
 
