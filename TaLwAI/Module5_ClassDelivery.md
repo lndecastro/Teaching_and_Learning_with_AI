@@ -12,6 +12,8 @@ After completing this module, participants will be able to:
 - Adapt pacing, scaffolding, and teaching methods based on AI insights.
 - Integrate live co-teaching AI methods for enhanced delivery.
 
+![Learning Objectives](./Data/M5LO.png)
+
 ## 5.1 Facilitate Active, Student-Centered Learning
 
 ### Purpose
