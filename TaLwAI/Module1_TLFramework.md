@@ -97,9 +97,9 @@ This framework structures classical phases of teaching into seven parts as **AIâ
 
 ### Modules Overview
 
-The picture below was generated using NotebookLM. It contains a summary of the main modules of our framework and the respective tools and deliverables of each step. 
+The picture below contains a summary of the main modules of our framework and the main tools and deliverables of each step. 
 
-![Modules Overview](./Data/MMModulesContents.png)
+![Modules Overview](./Data/TeachingWorkflow.png)
 
 ## 1.2 Background GenAI Knowledge for Teaching with AI  
 
