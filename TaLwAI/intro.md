@@ -63,7 +63,7 @@ Across eight modules, instructors progressively build two persistent tools:
 - **The AI Workspace (Project)** – your *design and development environment* for planning, creating, auditing, and improving course materials. The main platforms to be used to create AI workspaces are ChatGPT, Perplexity, Claude, and Grok).
 - **The Course Personalized Assistant (PA)** – your *student-facing AI tutor* for explanations, study support, and assignment clarification (without solving graded tasks). The main platforms to be used to create PAs are Custom GPTs, Claude Artifacts, Gemini Gems, and CoPilot Agents.
 
-![Core Operational Tools](./Data/MMCoreOperationalTools.png)
+![Core Operational Tools](./Data/MM_Assets.png)
 
 The entire program is structured as a **guided transformation of your teaching practice**, with each module updating, refining, and expanding these tools.
 
@@ -187,9 +187,9 @@ This program is not a typical “how to use AI” workshop. It is a complete tra
 
 ### 3.8 Operational Integration
 
-The concept map below was generated with NotebookLM and contains an overview of the seven steps of the teaching framework, the core operational tools proposed (AI Workspace and Course Personalized Assistant), the foundational knowledge necessary to navigate the course, and the program principles. 
+The contents of the concept map below was generated with NotebookLM and contains an overview of the seven steps of the teaching framework, the core operational tools proposed (AI Workspace and Course Personalized Assistant), the foundational knowledge necessary to navigate the course, and the program principles. The final Mind Map was drawn using Napkin.ai. 
 
-![Program Operational Integration](./Data/MM_Overview.png)
+![Program Operational Integration](./Data/MM_OperationalIntegration.png)
 
 ## 4. How to Use This Jupyter Book
 *A workflow-oriented guide for navigating the Teaching with AI program*
